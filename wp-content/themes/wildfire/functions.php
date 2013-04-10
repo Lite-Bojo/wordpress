@@ -740,3 +740,33 @@ function populate_posts($form){
 
     	return $form;  
 }
+
+
+/*Fking do Checkout Firmu ICO a DIC */
+add_action('woocommerce_after_checkout_billing_form', 'my_custom_checkout_field');
+ 
+function my_custom_checkout_field( $checkout ) {
+	
+    echo '<p class="woocommerce_info"><a href="#" id="fir_udaje">Firemné údaje</a>(nepovinné)</p>       <div id="woocommerce-company" style="display: none;">';
+ 
+    woocommerce_form_field( 'company-name', array(
+        'type'          => 'text',
+        'class'         => array('form-row-wide'),
+        'label'         => __('Firma'),
+        'placeholder'       => __('Meno firmy'),
+        ), $checkout->get_value( 'company-name' ));
+		woocommerce_form_field( 'ICO', array(
+        'type'          => 'text',
+        'class'         => array('form-row-first'),
+        'label'         => __('IČO'),
+        ), $checkout->get_value( 'ICO' ));
+		woocommerce_form_field( 'DIC', array(
+        'type'          => 'text',
+        'class'         => array('form-row-last'),
+        'label'         => __('IČ DPH'),
+		'clear'     => true
+        ), $checkout->get_value( 'DIC' ));
+ 
+    echo '</div>';
+ 
+}
