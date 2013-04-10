@@ -1,0 +1,317 @@
+/* Simple CSS Reset and Print options
+------------------------------------------*/
+
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, table, ol, ul, dl, li, dt, dd {
+	border: 0 none;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Template Page Layout
+------------------------------------------*/
+
+
+/* Main Body */
+body {
+	background: #fff;
+	color: #000;
+	font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+	font-size: 0.875em;
+	line-height: 125%;
+}
+
+h1{
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 35px;
+	float: right;
+}
+
+h4{
+	font-weight: bold;
+	border-bottom: 1px solid black;
+	text-transform:uppercase;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+h2,
+h3 {
+	font-weight: bold;
+}
+
+li,
+ul {
+	margin-bottom: 1.25em;
+}
+
+p + p {
+	margin-top: 1.25em;
+}
+
+/* Basic Table Styling */
+table {
+	page-break-inside: auto;
+}
+
+tr {
+	border-top: 1px #999 solid;
+	border-bottom: 1px #999 solid;
+	page-break-inside: avoid;
+	page-break-after: auto;	
+}
+
+td,
+th {
+	border-left: 1px #999 solid;
+	border-right: 1px #999 solid;
+	padding: 0.375em;
+	vertical-align: middle;
+}
+
+th {
+	color: #000;
+	font-weight: bold;
+	text-align: left;
+}
+
+/* Special Margin & Overflow Stylings */
+#page {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: left;
+/* 	page-break-after: always;	 */
+}
+
+#letter-header,
+#order-items,
+#order-summary,
+#order-notes {
+	margin-bottom: 3em;
+}
+
+#order-info,
+#order-summary {
+	margin-bottom: 6em;
+}
+
+#page,
+#letter-header,
+#order-listing,
+#order-summary,
+#order-notes,
+#letter-footer {
+	overflow: hidden;
+}
+
+#order-items,
+#order-summary,
+#order-notes {
+	page-break-before: auto;
+	page-break-after: auto;
+}
+
+/* Delivery Notes Head */
+#letter-header .heading {
+	width: 100%;
+	font-weight: bold;
+	font-size: 2em;
+	line-height: 125%;
+	padding-bottom: 20px;
+}
+
+#letter-header .company-name {
+	font-weight: bold;
+}
+
+#letter-header .company-info {
+	float: right;
+	width: 50%;
+	margin-top: 0.45em;
+}
+
+/* Order Listing - #order-listing */
+#order-listing {
+	float: right;
+	width: 50%;
+}
+
+/* Order Info - #order-info */
+#order-info {
+	float: left;
+	width: 50%;
+}
+
+/* Order Items - #order-items */
+#order-items {
+	clear: both;
+}
+
+#order-items table {
+	width: 100%;
+}
+
+#order-items .description {
+	width: 50%;
+	font-weight: bold;
+}
+
+#order-items .price {
+	width: 25%;
+}
+
+#order-items dl {
+	display: inline;
+	margin-bottom: 0;
+	color: #666;
+}
+
+#order-items dt,
+#order-items dd {
+	display: inline;
+	margin-bottom: 0;
+	font-size: 0.75em;
+
+}
+#order-items dt {
+	color:black;
+	
+}
+
+#order-items dd {
+	margin-left: 0.2em;
+}
+
+/* Order Summary - #order-summary */
+#order-summary {
+	float: right;
+	width: 50%;
+}
+
+#order-summary table {
+	width: 100%;
+	page-break-inside: avoid;
+}
+
+#order-summary .price {
+	width: 50%;
+}
+
+#order-summary tr:last-child {
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	border-right: 2px solid #000;
+	border-left: 3px solid #000;
+	font-weight: bold;
+}
+
+#order-summary small,
+#order-summary .includes_tax {
+	font-size: 0.75em;
+	color: #666;
+}
+
+/* Order Notes - #order-notes */
+#order-notes {
+	clear: both;
+}
+#order-notes .notes-shipping {
+	float: left;
+	width: 50%;
+}
+#order-notes .notes-personal {
+	float: right;
+	width: 50%;
+	font-weight: bold;
+}
+
+/* Footer Imprint */
+#letter-footer {
+	border-top: 1px solid #999;
+	padding-top: 1em;
+	color: #666;
+	font-size: 0.75em;
+}
+
+#letter-footer p + p {
+	margin-top: 1em;
+}
+
+#letter-footer .policies,
+#letter-footer .imprint {
+	margin-bottom: 1em;
+}
+
+
+.adressy{
+
+	float: right;
+	padding-bottom: 20px;
+	width: 50%;
+}
+
+.celok{
+	position: relative;
+}
+.bold{
+	font-weight: bold;
+}
+
+
+
+#finfo tr th{
+text-align: center;
+}
+#finfo{
+	position: absolute;
+	top:20%;
+	border: 2px #000 solid;
+	page-break-inside: avoid;
+	page-break-after: auto;	
+}
+
+
+span dl dd:before{
+	content: "";
+
+}
+span dl dd:after{
+	content:"\a";
+    white-space: pre;
+
+}
+
+
+
+
+
+/* CSS Media Queries for Print
+------------------------------------------*/
+
+@media print {
+	body {
+		font-size: 8pt;
+	}
+}
