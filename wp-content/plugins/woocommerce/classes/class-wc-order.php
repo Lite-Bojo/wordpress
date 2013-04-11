@@ -651,7 +651,7 @@ class WC_Order {
 	 * @param mixed $item
 	 * @return string
 	 */
-	function get_formatted_line_subtotal( $item ) {
+	/*function get_formatted_line_subtotal( $item ) {
 		$subtotal = 0;
 
 		if (!isset($item['line_subtotal']) || !isset($item['line_subtotal_tax'])) return;
@@ -665,7 +665,26 @@ class WC_Order {
 
 		return apply_filters( 'woocommerce_order_formatted_line_subtotal', $subtotal, $item, $this );
 	}
+*/
+	/*Wao subtotal na order review zle zobrazenie zmena funkcie*/
+	public function get_formatted_line_subtotal( $item, $tax_display = '' ) {
 
+		if ( ! $tax_display )
+			$tax_display = $this->tax_display_cart;
+
+		$subtotal = 0;
+
+		if (!isset($item['line_subtotal']) || !isset($item['line_subtotal_tax'])) return;
+
+		if ( $tax_display == 'excl' ) {
+			if ( $this->prices_include_tax ) $ex_tax_label = 1; else $ex_tax_label = 0;
+			$subtotal = woocommerce_price( $this->get_line_subtotal( $item ), array( 'ex_tax_label' => $ex_tax_label ) );
+		} else {
+			$subtotal = woocommerce_price( $this->get_line_subtotal( $item, true ) );
+		}
+
+		return apply_filters( 'woocommerce_order_formatted_line_subtotal', $subtotal, $item, $this );
+	}
 
 	/**
 	 * Gets order total - formatted for display.
@@ -688,7 +707,7 @@ class WC_Order {
 	 * @param bool $compound (default: false)
 	 * @return string
 	 */
-	function get_subtotal_to_display( $compound = false ) {
+	/*function get_subtotal_to_display( $compound = false ) {
 		global $woocommerce;
 
 		$subtotal = 0;
@@ -743,7 +762,69 @@ class WC_Order {
 		endif;
 
 		return apply_filters( 'woocommerce_order_subtotal_to_display', $subtotal, $compound, $this );
+	}*/
+	/*Wao odstranenie starej funckie na kalkulaciu ceny subtotal kvôli zlemu zobrazeniu bez dph*/
+	public function get_subtotal_to_display( $compound = false, $tax_display = '' ) {
+		global $woocommerce;
+
+		if ( ! $tax_display )
+			$tax_display = $this->tax_display_cart;
+
+		$subtotal = 0;
+
+		if ( ! $compound ) {
+
+			foreach ( $this->get_items() as $item ) {
+
+				if ( ! isset( $item['line_subtotal'] ) || ! isset( $item['line_subtotal_tax'] ) ) return;
+
+				$subtotal += $this->get_line_subtotal( $item );
+
+				if ( $tax_display == 'incl' ) {
+					$subtotal += $item['line_subtotal_tax'];
+				}
+
+			}
+
+			$subtotal = woocommerce_price( $subtotal );
+
+			if ( $tax_display == 'excl' && $this->prices_include_tax )
+				$subtotal .= ' <small>' . $woocommerce->countries->ex_tax_or_vat() . '</small>';
+
+		} else {
+
+			if ( $tax_display == 'incl' )
+				return;
+
+			foreach ( $this->get_items() as $item ) {
+
+				$subtotal += $item['line_subtotal'];
+
+			}
+
+			// Add Shipping Costs
+			$subtotal += $this->get_shipping();
+
+			// Remove non-compound taxes
+			foreach ( $this->get_taxes() as $tax ) {
+
+				if ( ! empty( $tax['compound'] ) ) continue;
+
+				$subtotal = $subtotal + $tax['tax_amount'] + $tax['shipping_tax_amount'];
+
+			}
+
+			// Remove discounts
+			$subtotal = $subtotal - $this->get_cart_discount();
+
+			$subtotal = woocommerce_price( $subtotal );
+
+		}
+
+		return apply_filters( 'woocommerce_order_subtotal_to_display', $subtotal, $compound, $this );
 	}
+
+
 
 
 	/**

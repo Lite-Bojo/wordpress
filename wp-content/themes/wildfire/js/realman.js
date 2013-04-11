@@ -82,11 +82,11 @@ jQuery(document).ready(function($) {
       });
     });
 
-
+    /*ORANGE EYE PREVIEW SELECTED ITEM*/
 $('form.cart').find('select').on('change', function () {
   var identifikator = $(this).attr('name');
   var selected_name = $(this).find(":selected").text().replace(/\s+[-+]\$[0-9]+(\.[0-9]+)?/g,'');
-  var selected_id = $(this).find(":selected").attr('value').replace(/\|\d+/g,'');
+  var selected_id = $(this).find(":selected").data('id');
   $.ajax({
       url: 'http://192.168.0.127/wordpress/wp-admin/admin-ajax.php',
       type: 'post',
@@ -97,10 +97,7 @@ $('form.cart').find('select').on('change', function () {
       },
       success: function (data) {
 
-        $('div.'+identifikator).html('<a href="#" class="href_desc"></a><div class="product_tooltip"><div class="product_tooltip_image"><img src="'+data['obr']+'" alt=""></div><div class="product_tooltip_popis">'+data['popis']+'</div></div>')
-
-        console.log(selected_id);
-
+        $('div.'+identifikator).html('<a href="#" class="href_desc"></a><div class="product_tooltip"><div class="product_tooltip_image" data-power="'+data['Power']+'"><img src="'+data['Picture']+'" alt=""></div><div class="product_tooltip_popis">'+data['popis']+'</div></div>');
       }
     });
 });

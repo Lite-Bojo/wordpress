@@ -684,16 +684,12 @@ function description_part_function(){
 		echo json_encode($informacie);
 		die();
 	};
-	$img_productu = $wpdb->get_results("SELECT Picture FROM gpu WHERE ID=" . $id_productu . "", ARRAY_N);
-		foreach($img_productu as $v) {
-    		$img_link_productu = $v['0'];
+		$informacie = $wpdb->get_results("SELECT * FROM gpu WHERE ID=" . $id_productu . "", ARRAY_A);
+			foreach($informacie as $v) {
+    		$informacie2 = $v;
 		}
-	$popis_productu = $wpdb->get_results("SELECT popis FROM gpu WHERE ID=" . $id_productu . "", ARRAY_N);
-		foreach($popis_productu as $o) {
-    		$text_popis_productu = $o['0'];
-		}
-		$informacie = array('obr' => $img_link_productu, 'popis' => $text_popis_productu);
-		echo json_encode($informacie);
+
+		echo json_encode($informacie2);
 		die();
 }		
 add_action('wp_ajax_description_part', 'description_part_function');
@@ -723,15 +719,15 @@ function populate_posts($form){
     
     foreach($form['fields'] as &$field){
     	global $wpdb;
-        $part = $wpdb->get_results("SELECT Chipset, Price, ID FROM gpu", ARRAY_N);
+        $part = $wpdb->get_results("SELECT Chipset, Price, ID, Name FROM gpu", ARRAY_N);
 
         if($field['cssClass'] != 'grafina')
             continue;
 
-        $choices = array(array('text' => 'Žiadna Graficka karta', 'value' => ' ', 'price' =>'0'));
+        $choices = array(array('text' => 'Žiadna Graficka karta', 'value' => ' ', 'price' =>'0', 'ID' => ' ', 'Type'=>' '));
         
         foreach($part as $testing){
-      	$choices[] = array('text' => $testing['0'], 'value' => $testing['2'],  'price' => $testing['1']);
+      	$choices[] = array('text' => $testing['3'], 'value' => $testing['3'],  'price' => $testing['1'], 'ID' => $testing['2'], 'Type'=>$testing['0']);
         }
 
        	$field['choices'] = $choices;

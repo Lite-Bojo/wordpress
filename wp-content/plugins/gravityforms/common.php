@@ -1698,8 +1698,11 @@ class GFCommon{
 
         if(is_array(rgar($field, "choices"))){
             foreach($field["choices"] as $choice){
+				
 
-                //needed for users upgrading from 1.0
+                //needed for users upgrading from 1.0 choises display bojo
+				$field_data_id = !empty($choice["ID"]) ? $choice["ID"] : "";
+				$field_data_type = !empty($choice["Type"]) ? $choice["Type"] : "";
                 $field_value = !empty($choice["value"]) || rgget("enableChoiceValue", $field) ? $choice["value"] : $choice["text"];
                 if(rgget("enablePrice", $field))
                     $field_value .= "|" . GFCommon::to_number(rgar($choice,"price"));
@@ -1723,7 +1726,7 @@ class GFCommon{
                     }
                 }
 
-                $choices.= sprintf("<option value='%s' %s>%s</option>", esc_attr($field_value), $selected,  esc_html($choice["text"]));
+                $choices.= sprintf("<option data-type='%s' data-id='%s' value='%s' %s>%s</option>", $field_data_type, $field_data_id, esc_attr($field_value), $selected,  esc_html($choice["text"]));
             }
         }
         return $choices;
