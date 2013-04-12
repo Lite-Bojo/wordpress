@@ -719,7 +719,7 @@ function populate_posts($form){
     
     foreach($form['fields'] as &$field){
     	global $wpdb;
-        $part = $wpdb->get_results("SELECT Chipset, Price, ID, Name FROM gpu", ARRAY_N);
+        $part = $wpdb->get_results("SELECT Chipset, Price, ID, Name FROM gpu ORDER BY Chipset", ARRAY_N);
 
         if($field['cssClass'] != 'grafina')
             continue;
@@ -741,7 +741,8 @@ function populate_posts($form){
 /*Fking do Checkout Firmu ICO a DIC */
 add_action('woocommerce_after_checkout_billing_form', 'my_custom_checkout_field');
  
-function my_custom_checkout_field( $checkout ) {
+
+function my_custom_checkout_field( $fields ) {
 	
     echo '<p class="woocommerce_info"><a href="#" id="fir_udaje">Firemné údaje</a>(nepovinné)</p>       <div id="woocommerce-company" style="display: none;">';
  
@@ -750,19 +751,93 @@ function my_custom_checkout_field( $checkout ) {
         'class'         => array('form-row-wide'),
         'label'         => __('Firma'),
         'placeholder'       => __('Meno firmy'),
-        ), $checkout->get_value( 'company-name' ));
+        ), $fields->get_value( 'company-name' ));
 		woocommerce_form_field( 'ICO', array(
         'type'          => 'text',
         'class'         => array('form-row-first'),
         'label'         => __('IČO'),
-        ), $checkout->get_value( 'ICO' ));
+        ), $fields->get_value( 'ICO' ));
 		woocommerce_form_field( 'DIC', array(
         'type'          => 'text',
         'class'         => array('form-row-last'),
         'label'         => __('IČ DPH'),
 		'clear'     => true
-        ), $checkout->get_value( 'DIC' ));
+        ), $fields->get_value( 'DIC' ));
  
     echo '</div>';
- 
 }
+
+
+
+/**
+ * Update the user meta with field value
+ **/
+add_action('woocommerce_checkout_update_user_meta', 'my_custom_checkout_field_update_user_meta');
+ 
+function my_custom_checkout_field_update_user_meta( $user_id ) {
+	if ($user_id && $_POST['company-name']) update_user_meta( $user_id, 'company-name', esc_attr($_POST['company-name']) );
+	if ($user_id && $_POST['ICO']) update_user_meta( $user_id, 'ICO', esc_attr($_POST['ICO']) );
+	if ($user_id && $_POST['DIC']) update_user_meta( $user_id, 'DIC', esc_attr($_POST['DIC']) );
+}
+
+/**
+ * Update the order meta with field value
+ **/
+add_action('woocommerce_checkout_update_order_meta', 'my_custom_checkout_field_update_order_meta');
+ 
+function my_custom_checkout_field_update_order_meta( $order_id ) {
+    if ($_POST['company-name']) update_post_meta( $order_id, 'Meno Firmy', esc_attr($_POST['company-name']));
+	if ($_POST['ICO']) update_post_meta( $order_id, 'IČO', esc_attr($_POST['ICO']));
+	if ($_POST['DIC']) update_post_meta( $order_id, 'IČ DPH', esc_attr($_POST['DIC']));
+}
+ 
+/**
+ * Add the field to order emails
+ **/
+add_filter('woocommerce_email_order_meta_keys', 'my_custom_checkout_field_order_meta_keys1');
+ 
+function my_custom_checkout_field_order_meta_keys1( $keys ) {
+	$keys[] = 'Meno Firmy';
+	return $keys;
+}
+
+add_filter('woocommerce_email_order_meta_keys', 'my_custom_checkout_field_order_meta_keys2');
+ 
+function my_custom_checkout_field_order_meta_keys2( $keys ) {
+	$keys[] = 'IČO';
+	return $keys;
+}
+
+add_filter('woocommerce_email_order_meta_keys', 'my_custom_checkout_field_order_meta_keys3');
+ 
+function my_custom_checkout_field_order_meta_keys3( $keys ) {
+	$keys[] = 'IČ DPH';
+	return $keys;
+}
+
+
+
+
+
+
+
+/*Vymazanie "Nazov Spoločnosti" z chceckoutu aj editu*/
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+add_filter( 'woocommerce_billing_fields' , 'custom_override_billing_fields' );
+add_filter( 'woocommerce_shipping_fields' , 'custom_override_shipping_fields' );
+
+function custom_override_checkout_fields( $fields ) {
+unset($fields['billing']['billing_company']);
+  return $fields;
+}
+
+function custom_override_billing_fields( $fields ) {
+  unset($fields['billing_company']);
+  return $fields;
+}
+
+function custom_override_shipping_fields( $fields ) {
+  unset($fields['shipping_company']);
+  return $fields;
+}
+

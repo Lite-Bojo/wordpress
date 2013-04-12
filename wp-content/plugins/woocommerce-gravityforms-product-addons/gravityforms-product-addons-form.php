@@ -179,6 +179,18 @@ class woocommerce_gravityforms_product_form {
             }
                                                                                                                                                                                                                                                                                             
             jQuery(document).ready(function($) {
+                     // OPTION GROUPS
+                      var type=" ";
+                      $('form.cart').find('select option').each(function() {
+                        if (type!=$(this).data('type')) {
+                          type=$(this).data('type');
+                          $('form.cart').find('select option[data-type="'+type+'"]').wrapAll('<optgroup label="'+type+'" />');
+                        } else{};
+
+                      });
+                    $('select.gfield_select').chosen();
+
+                        //OPTION GROUPS
                 $("form.cart").attr('action', '');
                 
                 $('body').delegate('form.cart', 'found_variation', function(){

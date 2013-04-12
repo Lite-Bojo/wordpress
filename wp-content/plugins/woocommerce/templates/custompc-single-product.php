@@ -9,9 +9,9 @@
 
 get_header(); ?>   
 <script type='text/javascript' src='<?php echo home_url("/"); ?>wp-content/themes/wildfire/js/jquery.jqzoom-core.js'></script>
-<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
 <script type='text/javascript' src='<?php echo home_url("/"); ?>wp-content/themes/wildfire/js/bootstrap.min.js'></script>
 <script type='text/javascript' src='<?php echo home_url("/"); ?>wp-content/themes/wildfire/js/realman.js'></script>
+<script type='text/javascript' src='<?php echo home_url("/"); ?>wp-content/themes/wildfire/js/chosen.jquery.min.js'></script>
 <link rel="stylesheet" type="text/css" href="<?php echo home_url("/"); ?>wp-content/themes/wildfire/js/jquery.jqzoom.css">
 <link rel="stylesheet" type="text/css" href="<?php echo home_url("/"); ?>wp-content/themes/wildfire/js/bootstrap.min.css">
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css">

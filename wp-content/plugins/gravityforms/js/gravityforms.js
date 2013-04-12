@@ -237,12 +237,14 @@ function gformCalculateProductPrice(formId, productFieldId){
 
     var suffix = "_" + formId + "_" + productFieldId;
 
-    //Drop down auto-calculating labels
+    //Drop down auto-calculating labels SELECT SUFFIX PREFIX BOJO PRICE
     jQuery(".gfield_option" + suffix + " select, .gfield_shipping_" + formId + " select").each(function(){
         var selected_price = gformGetPrice(jQuery(this).val());
-        jQuery(this).children("option").each(function(){
+        jQuery(this).find("option").each(function(){ //.find zmenene na .find pretoze tam mam aj optgroups
+            
             var label = gformGetOptionLabel(this, jQuery(this).val(), selected_price);
             jQuery(this).html(label);
+             jQuery(this).trigger("liszt:updated"); //toto musim zavolat aby sa mi updatla choosen forma
         });
     });
 

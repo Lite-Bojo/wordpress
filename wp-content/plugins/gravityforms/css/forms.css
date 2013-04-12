@@ -110,7 +110,6 @@ html>body .entry ul,
 .gform_wrapper ul li:after,
 .gform_wrapper ul.gform_fields {
 	position: relative;
-	left: 0px;
 	padding: 0;
 	margin: 0;
 	overflow: visible
@@ -1426,7 +1425,7 @@ body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html dl dd {
 }
 .gform_wrapper .chzn-container .chzn-results .group-result {
 	cursor: default;
-	color: #999;
+	color: #e1af00;
 	font-weight: bold
 }
 .gform_wrapper .chzn-container .chzn-results .group-option {

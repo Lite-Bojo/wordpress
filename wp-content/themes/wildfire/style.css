@@ -1939,7 +1939,8 @@ div.ginput_container{
 	left: 0px;
 }
 .gform_wrapper li, .gform_wrapper form li{
-	overflow: hidden;
+	/*overflow: hidden; bojo zmena kvolu chosen pluginu*/
+	overflow: visible;
 
 }
 .gform_wrapper ul li:before,
@@ -1979,3 +1980,16 @@ div.product_tooltip_popis{
 	height: 32px;
 }
 /* Dropdow tooltips and preview END*/
+	/*optgroup style*/
+    div.gform_body select optgroup[label]{
+    color:#e1af00;
+    font-family: "Open Sans",Helvetica,Arial,Sans-Serif;
+    font-style: normal;
+	font-size: 12px;
+    }
+    div.gform_body select optgroup option{
+    color:#000000;
+    font-family: "Open Sans",Helvetica,Arial,Sans-Serif;
+    font-style: normal;
+    font-size: 10px;
+    }

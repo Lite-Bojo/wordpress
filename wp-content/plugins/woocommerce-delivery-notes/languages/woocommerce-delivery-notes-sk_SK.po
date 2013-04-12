@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce Print Invoices & Delivery Notes v2.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-04-09 12:20:19+0000\n"
+"PO-Revision-Date: 2013-04-12 08:16:01+0000\n"
 "Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -34,12 +34,12 @@ msgstr ""
 #: templates/print/print-delivery-note.php:44
 #@ woocommerce-delivery-notes
 msgid "Order Number"
-msgstr ""
+msgstr "Číslo objednávky"
 
 #: templates/print/print-delivery-note.php:48
 #@ woocommerce-delivery-notes
 msgid "Payment Method"
-msgstr ""
+msgstr "Spôsob úhrady"
 
 #: classes/class-wcdn-settings.php:144
 #@ woocommerce-delivery-notes
@@ -363,7 +363,7 @@ msgstr "Otvorte <a href=\"%1$s\"> WooCommerce> Objednávky </a> a na stránke n�
 #: templates/print/print-delivery-note.php:40
 #@ woocommerce-delivery-notes
 msgid "Order Date"
-msgstr ""
+msgstr "Dátum"
 
 #. translators: plugin header field 'Version'
 #: woocommerce-delivery-notes.php:0
