@@ -835,30 +835,6 @@ function my_custom_checkout_field_order_meta_keys4( $keys ) {
 }
 
 
-/*
-// Hook in
-add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields12' );
-
-// Our hooked in function - $fields is passed via the filter!
-function custom_override_checkout_fields12( $fields ) {
-     $fields['billing']['billing_ico'] = array(
-        'label'     => __('IČO', 'woocommerce'),
-    'required'  => false,
-    'class'     => array('form-row-first'),
-    'placeholder'       => __('IČO (nepovinné)'),
-     );
-          $fields['billing']['billing_dic'] = array(
-        'label'     => __('IČ DPH', 'woocommerce'),
-    'required'  => false,
-    'class'     => array('form-row-last'),
-    'clear'     => true,
-    'placeholder'       => __('IČ DPH (nepovinné)'),
-     );
-     return $fields;
-}
-
-
-*/
 
 
 
@@ -881,5 +857,21 @@ function custom_override_shipping_fields( $fields ) {
   unset($fields['shipping_company']);
   return $fields;
 }
+
+
+
+/*Wao zmena title na meno when loged in */
+function meno_the_title( $title ) {
+	global $woocommerce;
+	global $current_user;
+
+if ( is_user_logged_in() && $title == 'Môj účet') {
+    $title = $current_user->user_firstname . " " . $current_user->user_lastname;
+} else {
+   
+}
+return $title;
+}
+add_filter('the_title', 'meno_the_title');
 
 
