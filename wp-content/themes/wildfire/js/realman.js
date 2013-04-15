@@ -1,4 +1,9 @@
 jQuery(document).ready(function($) {
+
+  //skrinka select
+  $('li.skrinka').hide();
+  skrinka_select = $('div.gform_body > ul > li.skrinka > div.ginput_container > select');
+  skrinka_select.append('<option data-type="skrinka" data-id="0" value="Ziadna Skrinka|0" price="">Ziadna Skrinka</option>');
    $('div.product_desc').click(function (e) {
      e.preventDefault();
      var target = $(this).find('div.product_tooltip');
@@ -15,6 +20,7 @@ jQuery(document).ready(function($) {
       $('div.main_image').append('<div class="windows8"><div class="wBall" id="wBall_1"><div class="wInnerBall"></div></div><div class="wBall" id="wBall_2"><div class="wInnerBall"></div></div><div class="wBall" id="wBall_3"><div class="wInnerBall"></div></div><div class="wBall" id="wBall_4"><div class="wInnerBall"></div></div><div class="wBall" id="wBall_5"><div class="wInnerBall"></div></div></div>');
                   jQuery.ajax({
                     url: 'http://192.168.0.127/wordpress/wp-admin/admin-ajax.php', 
+                    dataType: 'json',
                     type: 'POST',
                     data: {
                         action: 'thumbnail_obr',
@@ -25,7 +31,8 @@ jQuery(document).ready(function($) {
                     success: function(data, textStatus, xhr) {
                     $('div.main_image, div.custom_images').empty();
                     $('div.animation_icon').remove();
-                    $('div.custom_images').append(data);
+                    $('div.custom_images').append(data['obr']);
+                    skrinka_select.html('<option data-type="skrinka" data-id="0" value="'+data["nazov"]+'|'+data["cena"]+'" price="">'+data["nazov"]+'</option>');
                     var first_src_medium=$('div.custom_images').find('img').first().attr('src').replace('-thumbnail', '-medium');
                     var first_src_large=$('div.custom_images').find('img').first().attr('src').replace('-thumbnail', '-large');
                     $('div.main_image').html('<img src="' + first_src_medium + '" class="attachment-thumbnail" alt="Node304_backview_hires">');
@@ -81,6 +88,17 @@ jQuery(document).ready(function($) {
         }
       });
     });
+
+        /*SUBMIT VALIDATION COMPONENTS TODO
+    $("form.cart").submit(function() {
+     if ($("div.product_tooltip_image").data('power') == 150) {
+      
+     return true;
+      }else{$('div.alert alert-error').html('Zle maš volty jeblina odporucam aby si isiel odtialto strasne rychlo doriti!');
+      return false;};
+
+      });
+      */
 
     /*ORANGE EYE PREVIEW SELECTED ITEM*/
 $('form.cart').find('select').on('change', function () {

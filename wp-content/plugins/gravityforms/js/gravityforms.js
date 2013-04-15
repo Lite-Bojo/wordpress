@@ -390,7 +390,7 @@ function gformGetProductIds(parent_class, element){
 }
 
 function gformGetPrice(text){
-    var val = text.split("|");
+    var val = text.split("|"); /*ak sem dojde null znamena to ze sql prikaz neprinesol neco tak to nema value*/
     var currency = new Currency(window['gf_currency_config']);
 
     if(val.length > 1 && currency.toNumber(val[1]) !== false)

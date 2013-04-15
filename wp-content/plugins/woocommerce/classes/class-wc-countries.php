@@ -1096,7 +1096,8 @@ class WC_Countries {
 				'label' 		=> __('Address', 'woocommerce'),
 				'placeholder' 	=> _x('Address', 'placeholder', 'woocommerce'),
 				'required' 		=> true,
-				'class' 		=> array('form-row-first'),
+				/*Wao change na wide kvoli hidden adress2 */
+				'class' 		=> array('form-row-wide'),
 				),
 			'address_2' => array(
 				'label' 		=> __('Address 2', 'woocommerce'),
@@ -1185,6 +1186,24 @@ class WC_Countries {
 				'clear'			=> true
 			);
 
+/*				$address_fields	['billing_company-name']	 	= array(
+        		'type'          => 'text',
+        		'class'         => array('form-row-wide'),
+        		'label'         => __('Firma'),
+        		'placeholder'       => __('Meno firmy')
+        	);
+				$address_fields	['billing_ICO']	 	= array(
+        		'type'          => 'text',
+        		'class'         => array('form-row-first'),
+        		'label'         => __('IČO')
+			);
+        		$address_fields	['billing_DIC']	 	= array(
+        		'type'          => 'text',
+        		'class'         => array('form-row-last'),
+        		'label'         => __('IČ DPH'),
+				'clear'     => true
+			);
+*/
 			$address_fields = apply_filters('woocommerce_billing_fields', $address_fields);
 		} else {
 			$address_fields = apply_filters('woocommerce_shipping_fields', $address_fields);

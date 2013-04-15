@@ -1691,15 +1691,43 @@ class GFCommon{
     }
 
     public static function get_select_choices($field, $value=""){
+        global $wpdb;
         $choices = "";
 
         if(RG_CURRENT_VIEW == "entry" && empty($value))
             $choices .= "<option value=''></option>";
-
         if(is_array(rgar($field, "choices"))){
-            foreach($field["choices"] as $choice){
-				
+            /*BIG DICK AK CHCES VYTVARAT NOVU TABULKU VATK STLPCE MUSIA BYT V TAKEJ POSTUPNOSTI AKO SU KONOHA CISLA TAM NAKONCI 
+            CHOISES DISPLAY BOJO JOLO SWAG
+            */
+             
+            foreach($field["choices"] as $choicess){
+               			
+                $konoha = $wpdb->get_results("SELECT * FROM ".$choicess['text']." WHERE ".$choicess['text']." IN ( ".$choicess['value']." )ORDER BY ".$choicess['text']."", ARRAY_N);
 
+                foreach ( $konoha as $k=>$v )
+                {
+                  $konoha[$k] ['text'] = $konoha[$k] [1];
+                  $konoha[$k] ['value'] = $konoha[$k] [1];
+                  unset($konoha[$k][1]);
+                  $konoha[$k] ['price'] = $konoha[$k] [6];
+                  unset($konoha[$k][6]);
+                  $konoha[$k] ['ID'] = $konoha[$k] [0];
+                  unset($konoha[$k][0]);
+                  $konoha[$k] ['obr'] = $konoha[$k] [7];
+                  unset($konoha[$k][7]);
+                  $konoha[$k] ['Type'] = $konoha[$k] [2];
+                  unset($konoha[$k][2]);
+                  $konoha[$k] ['isSelected'] = $konoha[$k] [''];
+                  
+                }
+
+                $field["choices"]=$konoha;
+                
+            }
+                          
+
+                            foreach($field["choices"] as $choice){
                 //needed for users upgrading from 1.0 choises display bojo
 				$field_data_id = !empty($choice["ID"]) ? $choice["ID"] : "";
 				$field_data_type = !empty($choice["Type"]) ? $choice["Type"] : "";

@@ -645,10 +645,14 @@ register_new_royalslider_files(1);
             if ($attachments) {
                  foreach ( $attachments as $attachment ) {
                      //the_attachment_link( $attachment->ID , false );
-					 echo wp_get_attachment_image( $attachment->ID, thumbnail, false, array('data-id'=> $attachment->ID) );
+					 $images[] = wp_get_attachment_image( $attachment->ID, thumbnail, false, array('data-id'=> $attachment->ID) );
                  }
             };
         };
+        $nazov  = get_the_title( $post_parent );
+        $cena = get_post_meta( $post_parent, '_regular_price', true);
+        $images_a_cena_a_nazov = array('obr' => $images, 'cena' => $cena, 'nazov' => $nazov );
+        echo json_encode($images_a_cena_a_nazov);
         die();
     }
 
@@ -745,22 +749,27 @@ add_action('woocommerce_after_checkout_billing_form', 'my_custom_checkout_field'
 function my_custom_checkout_field( $fields ) {
 	
     echo '<p class="woocommerce_info"><a href="#" id="fir_udaje">Firemné údaje</a>(nepovinné)</p>       <div id="woocommerce-company" style="display: none;">';
- 
     woocommerce_form_field( 'company-name', array(
         'type'          => 'text',
-        'class'         => array('form-row-wide'),
+        'class'         => array('form-row-first'),
         'label'         => __('Firma'),
         'placeholder'       => __('Meno firmy'),
         ), $fields->get_value( 'company-name' ));
 		woocommerce_form_field( 'ICO', array(
         'type'          => 'text',
-        'class'         => array('form-row-first'),
+        'class'         => array('form-row-last'),
         'label'         => __('IČO'),
+        'clear'     => true
         ), $fields->get_value( 'ICO' ));
-		woocommerce_form_field( 'DIC', array(
+		woocommerce_form_field( 'ICDPH', array(
+        'type'          => 'text',
+        'class'         => array('form-row-first'),
+        'label'         => __('IČ DPH'),
+        ), $fields->get_value( 'ICDPH' ));
+        woocommerce_form_field( 'DIC', array(
         'type'          => 'text',
         'class'         => array('form-row-last'),
-        'label'         => __('IČ DPH'),
+        'label'         => __('DIČ'),
 		'clear'     => true
         ), $fields->get_value( 'DIC' ));
  
@@ -777,6 +786,7 @@ add_action('woocommerce_checkout_update_user_meta', 'my_custom_checkout_field_up
 function my_custom_checkout_field_update_user_meta( $user_id ) {
 	if ($user_id && $_POST['company-name']) update_user_meta( $user_id, 'company-name', esc_attr($_POST['company-name']) );
 	if ($user_id && $_POST['ICO']) update_user_meta( $user_id, 'ICO', esc_attr($_POST['ICO']) );
+	if ($user_id && $_POST['ICDPH']) update_user_meta( $user_id, 'ICDPH', esc_attr($_POST['ICDPH']) );
 	if ($user_id && $_POST['DIC']) update_user_meta( $user_id, 'DIC', esc_attr($_POST['DIC']) );
 }
 
@@ -788,7 +798,10 @@ add_action('woocommerce_checkout_update_order_meta', 'my_custom_checkout_field_u
 function my_custom_checkout_field_update_order_meta( $order_id ) {
     if ($_POST['company-name']) update_post_meta( $order_id, 'Meno Firmy', esc_attr($_POST['company-name']));
 	if ($_POST['ICO']) update_post_meta( $order_id, 'IČO', esc_attr($_POST['ICO']));
-	if ($_POST['DIC']) update_post_meta( $order_id, 'IČ DPH', esc_attr($_POST['DIC']));
+	if ($_POST['ICDPH']) update_post_meta( $order_id, 'IČ DPH', esc_attr($_POST['ICDPH']));
+	if ($_POST['DIC']) update_post_meta( $order_id, 'DIČ', esc_attr($_POST['DIC']));
+	
+
 }
  
 /**
@@ -814,10 +827,38 @@ function my_custom_checkout_field_order_meta_keys3( $keys ) {
 	$keys[] = 'IČ DPH';
 	return $keys;
 }
+add_filter('woocommerce_email_order_meta_keys', 'my_custom_checkout_field_order_meta_keys4');
+ 
+function my_custom_checkout_field_order_meta_keys4( $keys ) {
+	$keys[] = 'DIČ';
+	return $keys;
+}
 
 
+/*
+// Hook in
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields12' );
+
+// Our hooked in function - $fields is passed via the filter!
+function custom_override_checkout_fields12( $fields ) {
+     $fields['billing']['billing_ico'] = array(
+        'label'     => __('IČO', 'woocommerce'),
+    'required'  => false,
+    'class'     => array('form-row-first'),
+    'placeholder'       => __('IČO (nepovinné)'),
+     );
+          $fields['billing']['billing_dic'] = array(
+        'label'     => __('IČ DPH', 'woocommerce'),
+    'required'  => false,
+    'class'     => array('form-row-last'),
+    'clear'     => true,
+    'placeholder'       => __('IČ DPH (nepovinné)'),
+     );
+     return $fields;
+}
 
 
+*/
 
 
 
@@ -840,4 +881,5 @@ function custom_override_shipping_fields( $fields ) {
   unset($fields['shipping_company']);
   return $fields;
 }
+
 

@@ -32,17 +32,21 @@
 						<?php if( wcdn_get_template_type() == 'invoice' ) : ?>
 							<?php wcdn_billing_address(); ?></br>
 							Tel:<?php wcdn_billing_phone(); ?>
+
 						<?php else : ?>
 							<?php wcdn_shipping_address(); ?></br>	
-							Tel:<?php wcdn_billing_phone(); ?>						
+							Tel:<?php wcdn_billing_phone(); ?>
+													
 						<?php endif ?></br>
 
-
+							
 
 
 
 						<?php echo wcdn_get_order_custom_field('Meno Firmy');?></br>
 <?php if (wcdn_get_order_custom_field('IČO')): echo "IČO: ".wcdn_get_order_custom_field('IČO')." </br>";?>
+	<?php endif ?>
+<?php if (wcdn_get_order_custom_field('DIČ')): echo "DIČ: ".wcdn_get_order_custom_field('DIČ')." </br>";?>
 	<?php endif ?>
 <?php if (wcdn_get_order_custom_field('IČ DPH')): echo "IČ DPH: ".wcdn_get_order_custom_field('IČ DPH');?>
 	<?php endif ?>

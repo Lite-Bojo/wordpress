@@ -203,8 +203,9 @@ function woocommerce_get_address_to_edit() {
 
 	$load_address = ( isset( $_GET[ 'address' ] ) ) ? esc_attr( $_GET[ 'address' ] ) : '';
 
-	$load_address = ( $load_address == 'billing' || $load_address == 'shipping' ) ? $load_address : '';
 
+	$load_address = ( $load_address == 'billing' || $load_address == 'shipping' ) ? $load_address : '';
+	
 	return $load_address;
 }
 

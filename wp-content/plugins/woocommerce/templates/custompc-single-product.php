@@ -198,8 +198,6 @@ get_header(); ?>
 
 <div class="options_pc_right">
 <div class="alert alert-error">
-Chyba:<br>
-Mate priliš veľa voltov prosim zmente si gravicku kartu alebo zlepšite zdroj.
 </div>
 
 <div class="alert alert-block">

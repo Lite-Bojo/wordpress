@@ -34,7 +34,7 @@ class woocommerce_gravityforms_product_form {
                     'disable_calculations' => 'no'
                         ), $options));
 
-        //Get the form meta so we can make sure the form exists.
+        //Get the form meta so we can make sure the form exists. DISPLAY FORM
         $form_meta = RGFormsModel::get_form_meta($this->form_id);
         if (!empty($form_meta)) {
             $form = RGForms::get_form($this->form_id, $display_title, $display_description, $display_inactive, $field_values, $ajax, $tabindex);
@@ -179,15 +179,23 @@ class woocommerce_gravityforms_product_form {
             }
                                                                                                                                                                                                                                                                                             
             jQuery(document).ready(function($) {
-                     // OPTION GROUPS
-                      var type=" ";
-                      $('form.cart').find('select option').each(function() {
-                        if (type!=$(this).data('type')) {
-                          type=$(this).data('type');
-                          $('form.cart').find('select option[data-type="'+type+'"]').wrapAll('<optgroup label="'+type+'" />');
-                        } else{};
+                 //OPTION GROUPS
+                 //create array s type names bojo
+                var all_types = $('form.cart').find('select option').map(function() {
+                return this.getAttribute("data-type");
+                }).get();
 
-                      });
+                uniqueArray = all_types.filter(function(elem, pos) {
+                return all_types.indexOf(elem) == pos;
+                });
+                //foreach
+                var length = uniqueArray.length;
+                for (var i = 0; i < length; i++) {
+                    $('form.cart').find('select').each(function() {
+                        $(this).find('option[data-type="'+uniqueArray[i]+'"]').wrapAll('<optgroup label="'+uniqueArray[i]+'" />');
+                    });
+                };
+                    //chosen script
                     $('select.gfield_select').chosen();
 
                         //OPTION GROUPS

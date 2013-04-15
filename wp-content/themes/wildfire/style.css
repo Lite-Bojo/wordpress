@@ -1900,11 +1900,13 @@ label.case_filter_label{
 }
 div.custom_total_price{
 	margin-left: 15px;
-	/*float: right;*/
 	display: inline-block;
 	width: 100px;
 	font-size: 50px;
 	color: green;
+}
+div.custom_total_price > div.ginput_container{
+	margin-top: 0px;
 }
 
 div.options_pc{
@@ -1993,3 +1995,10 @@ div.product_tooltip_popis{
     font-style: normal;
     font-size: 10px;
     }
+/*Hidden adress 2 a country select fields kvoli uselessness*/
+ #billing_country_field,
+ #shipping_address_2_field,
+ #billing_address_2_field{
+ 	display: none;
+}
+.skrinka {display: none;}

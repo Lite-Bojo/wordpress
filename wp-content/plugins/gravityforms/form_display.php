@@ -1045,9 +1045,11 @@ class GFFormDisplay{
             }
             else{
                 if(self::failed_state_validation($form["id"], $field, $value)){
+					continue;
+					/*continue tu nebolo BOJO TOTO HADZE ERRORY AK SU FIELDY VYGERENOVANE CEZ SQL NEVIEM PRECO
                     $field["failed_validation"] = true;
                     $field["validation_message"] = in_array($field["inputType"], array("singleproduct", "singleshipping", "hiddenproduct")) ? __("Please enter a valid value.", "gravityforms") : __("Invalid selection. Please select one of the available choices.", "gravityforms");
-                }
+                */}
                 else{
                     switch(RGFormsModel::get_input_type($field)){
                         case "password" :

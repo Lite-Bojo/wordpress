@@ -132,6 +132,19 @@ function woocommerce_get_customer_meta_fields() {
 						'label' => __('Company', 'woocommerce'),
 						'description' => ''
 					),
+				/*Wao adding ico icdph dic do administracie*/
+				'ICO' => array(
+						'label' => __('IČO', 'woocommerce'),
+						'description' => ''
+					),
+				'ICDPH' => array(
+						'label' => __('IČ DPH', 'woocommerce'),
+						'description' => ''
+					),
+				'DIC' => array(
+						'label' => __('DIČ', 'woocommerce'),
+						'description' => ''
+					),
 				'billing_address_1' => array(
 						'label' => __('Address 1', 'woocommerce'),
 						'description' => ''
@@ -139,6 +152,7 @@ function woocommerce_get_customer_meta_fields() {
 				'billing_address_2' => array(
 						'label' => __('Address 2', 'woocommerce'),
 						'description' => ''
+						
 					),
 				'billing_city' => array(
 						'label' => __('City', 'woocommerce'),
