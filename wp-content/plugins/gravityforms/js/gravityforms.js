@@ -390,6 +390,9 @@ function gformGetProductIds(parent_class, element){
 }
 
 function gformGetPrice(text){
+    if (text==null) {
+        return 0;
+    } else{
     var val = text.split("|"); /*ak sem dojde null znamena to ze sql prikaz neprinesol neco tak to nema value*/
     var currency = new Currency(window['gf_currency_config']);
 
@@ -397,6 +400,7 @@ function gformGetPrice(text){
          return currency.toNumber(val[1]);
 
     return 0;
+    };
 }
 
 function gformRegisterPriceField(item){

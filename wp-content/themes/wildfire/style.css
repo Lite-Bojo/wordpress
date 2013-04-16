@@ -1813,12 +1813,13 @@ ul.cases_overflow{
 			border-left: 2px solid #e8e8e8;
 			border-right:2px solid #e8e8e8;
 			width: 500px;
-            height: 140px;
+            height: 168px;
             overflow: auto;
             overflow-y: hidden;
             /*margin: 0 auto; if you wanna center*/
             white-space: nowrap}
 li.cases_overflow_li{
+			position: relative; /* for labels */
 			width: 300px;
             height: 150px;
             margin: 20px 10px;
@@ -2001,4 +2002,13 @@ div.product_tooltip_popis{
  #billing_address_2_field{
  	display: none;
 }
-.skrinka {display: none;}
+.skrinka {visibility: hidden;
+position: absolute;
+}
+.skrinka_label{
+	position: absolute;
+	display: block;
+	left: 50px;
+	top: 360%;
+
+}

@@ -22,9 +22,8 @@ get_header(); ?>
         $args = array( 'post_type' => 'product', 'posts_per_page' => -1, 'product_cat' => 'computercase', 'orderby' => 'rand');
         $loop = new WP_Query( $args );
         while ( $loop->have_posts() ) : $loop->the_post();  ?>
-                <?php //echo wp_get_attachment_image( 1 ); ?>
                 <li class="cases_overflow_li" data-id="<?php echo $loop->post->ID; ?>">    
-                   <a href="#"><?php the_post_thumbnail( thumbnail ); ?> </a>               
+                   <a href="#"><?php the_post_thumbnail( thumbnail ); ?> </a> <label class="skrinka_label"> <?php echo get_post_meta( get_the_ID(), '_regular_price', true); ?>€</label>            
                 </li>
     <?php endwhile; ?>
 </ul><!--/.products-->
@@ -218,7 +217,6 @@ get_header(); ?>
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </div>
 </div>
-
 
 </div>
 <div class="options_pc"><?php do_action( 'woocommerce_single_product_summary' );?></div>

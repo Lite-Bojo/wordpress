@@ -1,7 +1,6 @@
 jQuery(document).ready(function($) {
-
+var this_form_id = $('input#gform_form_id').val();
   //skrinka select
-  $('li.skrinka').hide();
   skrinka_select = $('div.gform_body > ul > li.skrinka > div.ginput_container > select');
   skrinka_select.append('<option data-type="skrinka" data-id="0" value="Ziadna Skrinka|0" price="">Ziadna Skrinka</option>');
    $('div.product_desc').click(function (e) {
@@ -15,7 +14,8 @@ jQuery(document).ready(function($) {
      };
    });
   function li_click(){       
-    $('li.cases_overflow_li').click(function() {
+    $('li.cases_overflow_li').click(function(e) {
+      e.preventDefault();
       $('div.main_image > a').fadeTo( 5, 0.8 );
       $('div.main_image').append('<div class="windows8"><div class="wBall" id="wBall_1"><div class="wInnerBall"></div></div><div class="wBall" id="wBall_2"><div class="wInnerBall"></div></div><div class="wBall" id="wBall_3"><div class="wInnerBall"></div></div><div class="wBall" id="wBall_4"><div class="wInnerBall"></div></div><div class="wBall" id="wBall_5"><div class="wInnerBall"></div></div></div>');
                   jQuery.ajax({
@@ -29,10 +29,13 @@ jQuery(document).ready(function($) {
                       //called when complete
                     },
                     success: function(data, textStatus, xhr) {
+                    var cena_skrinky=parseFloat(data["cena"]);
                     $('div.main_image, div.custom_images').empty();
                     $('div.animation_icon').remove();
                     $('div.custom_images').append(data['obr']);
+                    //update ceny skrinky
                     skrinka_select.html('<option data-type="skrinka" data-id="0" value="'+data["nazov"]+'|'+data["cena"]+'" price="">'+data["nazov"]+'</option>');
+                    update_dynamic_price(cena_skrinky+parseFloat($('span.formattedTotalPrice > span.amount').html()));
                     var first_src_medium=$('div.custom_images').find('img').first().attr('src').replace('-thumbnail', '-medium');
                     var first_src_large=$('div.custom_images').find('img').first().attr('src').replace('-thumbnail', '-large');
                     $('div.main_image').html('<img src="' + first_src_medium + '" class="attachment-thumbnail" alt="Node304_backview_hires">');

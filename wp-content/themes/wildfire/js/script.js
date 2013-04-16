@@ -98,13 +98,13 @@ $('input, textarea').placeholder();
 
 /*
 =============================================== 07. Twitter Embed Responsive Fix  ===============================================
-*/
+*//*NEPOTREBNE
 jQuery(document).ready(function($){
 setInterval( function() {
 $( '.twitter-tweet-rendered' ).removeAttr( 'style' );
 }, 100 );
 });
-
+*/
 /*
 =============================================== 07. HOMEPAGE LINE ACTIVATION  ===============================================
 */
