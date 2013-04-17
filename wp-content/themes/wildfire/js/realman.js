@@ -1,17 +1,17 @@
 jQuery(document).ready(function($) {
 var this_form_id = $('input#gform_form_id').val();
   //skrinka select
-  skrinka_select = $('div.gform_body > ul > li.skrinka > div.ginput_container > select');
+  var skrinka_select = $('div.gform_body > ul > li.skrinka > div.ginput_container > select');
   skrinka_select.append('<option data-type="skrinka" data-id="0" value="Ziadna Skrinka|0" price="">Ziadna Skrinka</option>');
    $('div.product_desc').click(function (e) {
      e.preventDefault();
      var target = $(this).find('div.product_tooltip');
-     if (target.css('display') != 'none') {
+     if (target.css('display') !== 'none') {
         target.css('display', 'none');
      } else{
       $('div.options_pc').find('div.product_tooltip').css('display', 'none');
       target.css('display', 'block');
-     };
+     }
    });
   function li_click(){       
     $('li.cases_overflow_li').click(function(e) {
@@ -25,16 +25,16 @@ var this_form_id = $('input#gform_form_id').val();
                     data: {
                         action: 'thumbnail_obr',
                         post_parent: $(this).data('id')},
-                    complete: function(xhr, textStatus) {
+                    complete: function() {
                       //called when complete
                     },
-                    success: function(data, textStatus, xhr) {
-                    var cena_skrinky=parseFloat(data["cena"]);
+                    success: function(data) {
+                    var cena_skrinky=parseFloat(data.cena);
                     $('div.main_image, div.custom_images').empty();
                     $('div.animation_icon').remove();
-                    $('div.custom_images').append(data['obr']);
+                    $('div.custom_images').append(data.obr);
                     //update ceny skrinky
-                    skrinka_select.html('<option data-type="skrinka" data-id="0" value="'+data["nazov"]+'|'+data["cena"]+'" price="">'+data["nazov"]+'</option>');
+                    skrinka_select.html('<option data-type="skrinka" data-id="0" value="'+data.nazov+'|'+data.cena+'" price="">'+data.nazov+'</option>');
                     update_dynamic_price(cena_skrinky+parseFloat($('span.formattedTotalPrice > span.amount').html()));
                     var first_src_medium=$('div.custom_images').find('img').first().attr('src').replace('-thumbnail', '-medium');
                     var first_src_large=$('div.custom_images').find('img').first().attr('src').replace('-thumbnail', '-large');
@@ -60,7 +60,7 @@ var this_form_id = $('input#gform_form_id').val();
                               }); 
                           });
                     },
-                    error: function(xhr, textStatus, errorThrown) {
+                    error: function() {
                       $('div.main_image').html('<p>Načitanie obrazku zlyhalo.</p>');
                     }
                   });
@@ -70,14 +70,14 @@ var this_form_id = $('input#gform_form_id').val();
     $( "input[type=checkbox]" ).click(function(){
     $('ul.cases_overflow > li').fadeTo( 5, 0.8 );
     var sended_string = $( "input:checked" ).map(function() {
-      return this.value + '=' + this.name
+      return this.value + '=' + this.name;
     }).get().join();
       $.ajax({
         url: 'http://192.168.0.127/wordpress/wp-admin/admin-ajax.php',
         type: 'POST',
         data: {action: 'custom_pc_filter',
               sended_string: sended_string},
-        complete: function(xhr, textStatus) {
+        complete: function() {
           //called when complete
         },
         success: function(data) {
@@ -85,7 +85,7 @@ var this_form_id = $('input#gform_form_id').val();
           $('ul.cases_overflow').append(data);
           li_click();
         },
-        error: function(xhr, textStatus, errorThrown) {
+        error: function() {
           $('ul.cases_overflow').empty();
           $('ul.cases_overflow').append('Chyba skuste znova prosim.');
         }
@@ -118,7 +118,7 @@ $('form.cart').find('select').on('change', function () {
       },
       success: function (data) {
 
-        $('div.'+identifikator).html('<a href="#" class="href_desc"></a><div class="product_tooltip"><div class="product_tooltip_image" data-power="'+data['Power']+'"><img src="'+data['Picture']+'" alt=""></div><div class="product_tooltip_popis">'+data['popis']+'</div></div>');
+        $('div.'+identifikator).html('<a href="#" class="href_desc"></a><div class="product_tooltip"><div class="product_tooltip_image" data-power="'+data.Power+'"><img src="'+data.Picture+'" alt=""></div><div class="product_tooltip_popis">'+data.popis+'</div></div>');
       }
     });
 });

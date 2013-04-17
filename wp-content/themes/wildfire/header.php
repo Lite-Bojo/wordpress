@@ -112,18 +112,10 @@
 
 <div id="main" class="site-main">
 	<div class='page_header'><div class='page_header_title'>
-		<?php if(isset($_GET["pc"]))
-		{ $product = ($_GET['pc']) ? $_GET['pc'] : 0 ;
-	   	$args = array(
-	    'post_type' => 'product',
-	    'product' => $product,
-	    'posts_per_page' => 1
-	    );
-	    $loop3 = new WP_Query( $args );
-	    while ( $loop3->have_posts() ) : $loop3->the_post(); 
-	     echo $loop3->post->post_title;
-	    endwhile;
-	    wp_reset_query();}else{}; 
+		<?php 
+		if ($post->post_title=='Custom PC') {
+			echo $post->post_title;
+		};
 		?>
 		</div>
 	<div class='silver_line'></div>

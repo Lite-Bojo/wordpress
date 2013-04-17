@@ -196,7 +196,7 @@ get_header(); ?>
 <div class="width-container">
 
 <div class="options_pc_right">
-<div class="alert alert-error">
+<div style="display: none;" class="alert alert-error">
 </div>
 
 <div class="alert alert-block">
@@ -209,27 +209,16 @@ get_header(); ?>
       </div>
     </div>
     <div class="pasik_orange_1px"></div>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Prosím uistite sa že vaše komponenty spolu fungujú. <br> Ak potrebujete pomôcť skúste sekciu <a href="#">pomoc s výberom</a>.
+    Taktiež odporúčame si pozrieť naše <a href="#">zostavy</a>.
+
   </div>
 </div>
 
 </div>
 <div class="options_pc"><?php do_action( 'woocommerce_single_product_summary' );?></div>
 <div class="clearfix"></div>
-<div class="product_tooltip">
-  <div class="product_tooltip_image"><img src="http://content.hwigroup.net/images/products/xl/152868/asus_gtx670dc22gd5.jpg" alt=""></div>
-  <div class="product_tooltip_popis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-</div>
+
 
 
 <!-- chbaju otazniky

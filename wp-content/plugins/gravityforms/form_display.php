@@ -1902,7 +1902,7 @@ class GFFormDisplay{
     public static function get_field_content($field, $value="", $force_frontend_label = false, $form_id=0){
         $id = $field["id"];
         $size = rgar($field,"size");
-        $validation_message = (rgget("failed_validation", $field) && !empty($field["validation_message"])) ? sprintf("<div class=input_" . $field['id'] . "></div>", $field["validation_message"]) : sprintf("<div class= 'product_desc input_" . $field['id'] . "'></div>", $field["validation_message"]); /*Bojo za dvojbotkov bolo "" som dal aby gform mal stale description aj som zmenil obi dve clasy*/
+        $validation_message = (rgget("failed_validation", $field) && !empty($field["validation_message"])) ? sprintf("<div class=input_" . $field['id'] . "></div><div class='gfield_description validation_message'>%s</div>", $field["validation_message"]) : sprintf("<div class= 'product_desc input_" . $field['id'] . "'></div><div class='gfield_description validation_message'>%s</div>", $field["validation_message"]); /*Bojo za dvojbotkov bolo "" som dal aby gform mal stale description aj som zmenil obi dve clasy*/
 
         $duplicate_disabled = array('captcha', 'post_title', 'post_content', 'post_excerpt', 'total', 'shipping', 'creditcard');
         $duplicate_field_link = !in_array($field['type'], $duplicate_disabled) ? "<a class='field_duplicate_icon' id='gfield_duplicate_$id' title='" . __("click to duplicate this field", "gravityforms") . "' href='#' onclick='StartDuplicateField(this); return false;'>" . __("Duplicate", "gravityforms") . "</a>" : "";

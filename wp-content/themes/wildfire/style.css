@@ -1872,7 +1872,8 @@ div.silver_line{
 	background-color: #e8e8e8;
 	width: 100%;
 }
-div.page_header_title{width: 1140px;
+div.page_header_title{
+width: 1140px;
 margin: 0 auto;
 color: #000000;
 font-family:"Open Sans Light" ;
@@ -1920,7 +1921,7 @@ div.options_pc_right{
 	margin-top: 20px;
 }
 /* Dropdow tooltips and preview*/
-div.product_desc{
+div.options_pc div.product_desc{
 	margin-top: 26px;
 	margin-left: 10px;
 	width: 32px;
@@ -1929,7 +1930,13 @@ div.product_desc{
 	background-repeat: no-repeat;
 	float: left;
 }
-div.ginput_container{
+.href_desc{
+	display: block;
+	position: absolute;
+	width: 32px;
+	height: 32px;
+}
+div.options_pc div.ginput_container{
 	width: 49%;
 	float: left;
 	margin-top: 30px;
@@ -1937,7 +1944,7 @@ div.ginput_container{
 .gform_wrapper .top_label select.medium{
 	width: 100%;
 }
-.gform_wrapper .top_label .gfield_label{
+div.options_pc .gform_wrapper .top_label .gfield_label{
 	position: absolute;
 	left: 0px;
 }
@@ -1976,12 +1983,6 @@ div.product_tooltip_popis{
 	max-height: 150px;
 	overflow: auto;
 }
-.href_desc{
-	display: block;
-	position: absolute;
-	width: 32px;
-	height: 32px;
-}
 /* Dropdow tooltips and preview END*/
 	/*optgroup style*/
     div.gform_body select optgroup[label]{
@@ -2011,4 +2012,14 @@ position: absolute;
 	left: 50px;
 	top: 360%;
 
+}
+
+/*Wao Pridany znak € gform field z classov cenapcfield*/
+.cenapcfield .ginput_container:before 
+{
+content:"";
+}
+.cenapcfield .ginput_container:after 
+{
+content:" €";
 }
