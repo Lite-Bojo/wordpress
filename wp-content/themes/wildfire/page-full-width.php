@@ -11,7 +11,8 @@ get_header(); ?>
 <?php while ( have_posts() ) : the_post(); ?>
 
 </div><!-- close .width-container -->
-<div id="highlight-container">
+
+<div style="padding:0px" id="highlight-container">
 	<div class="width-container">
 		<?php get_template_part( 'child-page', 'navigation' ); ?>
 		<h1 class="page-title"><?php the_title(); ?></h1>
