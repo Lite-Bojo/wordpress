@@ -1702,8 +1702,23 @@ class GFCommon{
             */
              
             foreach($field["choices"] as $choicess){
-               			
-                $konoha = $wpdb->get_results("SELECT * FROM ".$choicess['text']." WHERE ".$choicess['text']." IN ( ".$choicess['value']." )ORDER BY ".$choicess['text']."", ARRAY_N);
+               	$riverside = explode("-.-", $choicess['value']);
+               
+
+                switch ($riverside[2]) {
+                    case "'1'":
+                        $queryy = "SELECT * FROM ".$choicess['text']." WHERE ".$riverside[0]." IN ( ".$riverside[1]." ) OR ID = 1 ORDER BY CASE WHEN Name = ".$riverside[3]." THEN 0 ELSE 1 END, ".$choicess['text']." DESC";
+                        break;
+                    case "'0'":
+                        $queryy = "SELECT * FROM ".$choicess['text']." WHERE ".$riverside[0]." IN ( ".$riverside[1]." ) ORDER BY CASE WHEN Name = ".$riverside[3]." THEN 0 ELSE 1 END, ".$choicess['text']." DESC";
+                        break;
+                    
+                    default:
+                        $queryy = "SELECT * FROM ".$choicess['text']." WHERE ".$riverside[0]." IN ( ".$riverside[1]." ) ORDER BY CASE WHEN Name = ".$riverside[3]." THEN 0 ELSE 1 END, ".$choicess['text']." DESC";
+                        break;
+                }
+                 
+                $konoha = $wpdb->get_results($queryy, ARRAY_N);
 
                 foreach ( $konoha as $k=>$v )
                 {
@@ -1725,6 +1740,7 @@ class GFCommon{
                 $field["choices"]=$konoha;
                 
             }
+                          
                           
 
                             foreach($field["choices"] as $choice){

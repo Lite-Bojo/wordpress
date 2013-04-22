@@ -112,12 +112,15 @@
 
 <div id="main" class="site-main">
 	<div class='page_header'><div class='page_header_title'>
+		<div class="width-container">
 		<?php 
-		if ($post->post_title=='Custom PC') {
+		if ($post->post_type=='product') {
 			echo $post->post_title;
 		};
 		?>
+	</div>
 		</div>
+		<div class="clearfix"></div>
 	<div class='silver_line'></div>
 	</div>
 	<div class="width-container">
