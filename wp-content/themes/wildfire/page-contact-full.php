@@ -33,7 +33,7 @@ if(isset($_POST['submit'])) {
 	//If there is no error, send the email
 	if(!isset($hasError)) {
 		$emailTo = get_post_meta($post->ID, 'contactpage_text', true); //Put your own email address here
-		$body = "Name: $name \n\nEmail: $email \n\nComments:\n $comments";
+		$body = "Meno: $name \n\nEmail: $email \n\nComments:\n $comments";
 		$headers = 'From: '.get_bloginfo('name').' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
 		mail($emailTo, get_bloginfo('name'), $body, $headers);
@@ -89,16 +89,16 @@ if(isset($_POST['submit'])) {
 					});
 				</script>
 				<?php if(isset($hasError)) { //If errors are found ?>
-					<p class="error"><?php _e('Please check if you have filled all the fields with valid information. Thank you.','progression'); ?></p>
+					<p class="error"><?php _e('Skontrolujte prosím, či ste vyplnili všetky polia s platným informácií. Ďakujem.','progression'); ?></p>
 				<?php } ?>
 
 				<?php if(isset($emailSent) && $emailSent == true) { //If email is sent ?>
-					<p class="success"><?php _e('Email Successfully Sent!','progression'); ?></p>
-					<p class="success2"><?php _e('Thank you for using my contact form! I will be in touch with you soon.','progression'); ?></p>
+					<p class="success"><?php _e('E-mail bol úspešne odoslaný!','progression'); ?></p>
+					<p class="success2"><?php _e('Ďakujeme, že ste nás kontaktovali! Budem s vami v kontakte čoskoro.','progression'); ?></p>
 				<?php } ?>
 				<form method="post" action="<?php echo get_permalink(); ?>" id="contactform">
 					<div class="contact-form-border-input">
-					    <label for="name"><?php _e('Name','progression'); ?>:<span class="required">*</span></label>
+					    <label for="name"><?php _e('Meno','progression'); ?>:<span class="required">*</span></label>
 						<input type="text" size="28" name="contactname" id="contactname" value="" class="required" />
 					</div>
 					<div class="contact-form-border-input">
@@ -106,16 +106,16 @@ if(isset($_POST['submit'])) {
 						<input type="text" size="28" name="email" id="email" value="" class="required email" />
 					</div>
 					<div class="contact-form-border">
-						<label for="message"><?php _e('Message','progression'); ?>:</label>
+						<label for="message"><?php _e('Správa','progression'); ?>:</label>
 						<textarea rows="10" cols="38" name="message" id="message"></textarea>
 					</div>
-				    <input type="submit" value="<?php _e('Send Message','progression'); ?>" name="submit" class="button" />
+				    <input type="submit" value="<?php _e('Odoslať','progression'); ?>" name="submit" class="button" />
 				</form>
 			</div><!-- close #contact-wrapper -->
 			<div class="clearfix"></div>
 			<?php endif; ?>
 			
-			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'progression' ), 'after' => '</div>' ) ); ?>
+			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Stránky:', 'progression' ), 'after' => '</div>' ) ); ?>
 			
 
 			<?php endwhile; // end of the loop. ?>

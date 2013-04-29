@@ -875,3 +875,17 @@ return $title;
 add_filter('the_title', 'meno_the_title');
 
 
+
+
+
+
+/**
+ * Add the field to order emails
+ **/
+add_filter('woocommerce_email_order_meta_keys', 'my_custom_checkout_field_order_meta_keys55');
+ 
+function my_custom_checkout_field_order_meta_keys55( $keys ) {
+	$keys[] = 'Číslo zásielky';
+	return $keys;
+}
+

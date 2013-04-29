@@ -67,7 +67,9 @@ get_header(); ?>
 					
 					<div class="blog-post-excerpt">
 						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-						<?php the_content( __( '<p>Continue reading <span class="meta-nav">&rarr;</span></p>', 'progression' ) ); ?>
+						<!-- Wao fix read more za prispevkom -->
+						<?php global $more;$more = 0;?>
+						<?php the_content( __( '<p>Pokračovať v čítaní <span class="meta-nav">&rarr;</span></p>', 'progression' ) ); ?>
 					</div><!-- close .blog-post-excerpt -->
 					
 				<div class="clearfix"></div>

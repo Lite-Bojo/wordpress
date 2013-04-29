@@ -7,7 +7,7 @@
  */
 ?>
 
-<div id="sidebar">
-<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
-<?php endif; // end sidebar widget area ?>
+<!--<div id="sidebar">
+<?php //if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
+<?php //endif; // end sidebar widget area ?>
 </div><!-- close #sidebar -->
