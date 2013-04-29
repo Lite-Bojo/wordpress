@@ -195,6 +195,18 @@ padding:7px 5px 7px 10px;}*/
 body:after {content: "0 to 480px"; background-color: hsla(90,60%,40%,0.7);}/* Notify what @media browser is using, Disable above by display:none; */ 
 
 /*Bojo*/
+.zostavy_kupit_btn{
+	float: right;
+}
+.zostavy_div_2{
+	width: 285px;
+}
+.zostavy_div{
+	width: 125px;
+}
+
+
+
 div.line{
 	display: none;
 }
