@@ -1,0 +1,1364 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WildFire (shared on themelock.com) v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-04-22 07:35:11+0000\n"
+"Last-Translator: admin <bojo@syndark.sk>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Slovak\n"
+"X-Poedit-Country: SLOVAKIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:15
+#@ progression
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:28
+#@ progression
+msgid "It looks like nothing was found at this location. "
+msgstr ""
+
+#: archive.php:21
+#, php-format
+#@ progression
+msgid "Category Archives: %s"
+msgstr "Archív Kategórie: %s"
+
+#: archive.php:24
+#, php-format
+#@ progression
+msgid "Tag Archives: %s"
+msgstr "Archív Tagu: %s"
+
+#: archive.php:31
+#, php-format
+#@ progression
+msgid "Author Archives: %s"
+msgstr "Archív Autora: %s"
+
+#: archive.php:39
+#, php-format
+#@ progression
+msgid "Daily Archives: %s"
+msgstr "Archív Dňa: %s"
+
+#: archive.php:42
+#, php-format
+#@ progression
+msgid "Monthly Archives: %s"
+msgstr "Archív Mesiaca: %s"
+
+#: archive.php:45
+#, php-format
+#@ progression
+msgid "Yearly Archives: %s"
+msgstr "Archív Roka: %s"
+
+#: archive.php:48
+#@ progression
+msgid "Archives"
+msgstr "Archívy"
+
+#: archive.php:97
+#: index.php:52
+#: page-blog-slider.php:65
+#: search.php:47
+#: single.php:43
+#@ progression
+msgid "No comments"
+msgstr ""
+
+#: archive.php:97
+#: index.php:52
+#: page-blog-slider.php:65
+#: search.php:47
+#: single.php:43
+#@ progression
+msgctxt "comments number"
+msgid "1 comment"
+msgstr ""
+
+#: archive.php:97
+#: index.php:52
+#: page-blog-slider.php:65
+#: search.php:47
+#: single.php:43
+#@ progression
+msgctxt "comments number"
+msgid "% comments"
+msgstr ""
+
+#: archive.php:102
+#: index.php:57
+#: search.php:52
+#: single.php:48
+#@ progression
+msgid "<p>Continue reading <span class=\"meta-nav\">&rarr;</span></p>"
+msgstr "<p>Pokračovať v čítaní <span class=\"meta-nav\">&rarr;</span></p>"
+
+#: comments.php:32
+#, php-format
+#@ progression
+msgid "One comments on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: comments.php:39
+#: comments.php:59
+#@ progression
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:40
+#: comments.php:60
+#@ progression
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:41
+#: comments.php:61
+#@ progression
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:71
+#@ progression
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:94
+#@ progression
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:148
+#@ progression
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:157
+#@ progression
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions.php:245
+#@ progression
+msgid "Load More"
+msgstr ""
+
+#: functions.php:307
+#@ progression
+msgid "Font Colors"
+msgstr ""
+
+#: functions.php:317
+#@ progression
+msgid "Body Default Font Color"
+msgstr ""
+
+#: functions.php:330
+#@ progression
+msgid "Navigation Font Color"
+msgstr ""
+
+#: functions.php:343
+#@ progression
+msgid "Page Title Font Color"
+msgstr ""
+
+#: functions.php:356
+#@ progression
+msgid "Link and Post Hover Font Color"
+msgstr ""
+
+#: functions.php:369
+#@ progression
+msgid "Default Link Hover Color"
+msgstr ""
+
+#: functions.php:383
+#@ progression
+msgid "Headings Text Color"
+msgstr ""
+
+#: functions.php:396
+#@ progression
+msgid "Sidebar Headings Text Color"
+msgstr ""
+
+#: functions.php:409
+#@ progression
+msgid "Footer Text Color"
+msgstr ""
+
+#: functions.php:421
+#@ progression
+msgid "Footer Heading and Link Color"
+msgstr ""
+
+#: functions.php:434
+#@ progression
+msgid "Footer Link Hover Color"
+msgstr ""
+
+#: functions.php:447
+#@ progression
+msgid "Button Text Link Color"
+msgstr ""
+
+#: functions.php:455
+#@ progression
+msgid "Background Colors"
+msgstr ""
+
+#: functions.php:465
+#@ progression
+msgid "Header Background Color"
+msgstr ""
+
+#: functions.php:480
+#@ progression
+msgid "Page Title Background Color"
+msgstr ""
+
+#: functions.php:493
+#@ progression
+msgid "Body Background Color"
+msgstr ""
+
+#: functions.php:506
+#@ progression
+msgid "Content Container Background Color"
+msgstr ""
+
+#: functions.php:520
+#@ progression
+msgid "Footer Base Background Color"
+msgstr ""
+
+#: functions.php:533
+#@ progression
+msgid "Footer Widget Area Background Color"
+msgstr ""
+
+#: functions.php:546
+#@ progression
+msgid "Button Background Color"
+msgstr ""
+
+#: functions.php:560
+#@ progression
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: functions.php:755
+#@ default
+msgid "Firma"
+msgstr ""
+
+#: functions.php:756
+#@ default
+msgid "Meno firmy"
+msgstr ""
+
+#: functions.php:761
+#@ default
+msgid "IČO"
+msgstr ""
+
+#: functions.php:767
+#@ default
+msgid "IČ DPH"
+msgstr ""
+
+#: functions.php:772
+#@ default
+msgid "DIČ"
+msgstr ""
+
+#: header.php:25
+#, php-format
+#@ progression
+msgid "Page %s"
+msgstr ""
+
+#: inc/options-framework.php:170
+#: inc/options-framework.php:364
+#@ progression
+msgid "Theme Options"
+msgstr ""
+
+#: inc/options-framework.php:237
+#@ progression
+msgid "Save Options"
+msgstr ""
+
+#: inc/options-framework.php:238
+#@ progression
+msgid "Restore Defaults"
+msgstr ""
+
+#: inc/options-framework.php:238
+#@ progression
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: inc/options-framework.php:270
+#@ progression
+msgid "Default options restored."
+msgstr ""
+
+#: inc/options-framework.php:313
+#@ progression
+msgid "Options saved."
+msgstr ""
+
+#: inc/options-medialibrary-uploader.php:26
+#@ progression
+msgid "Theme Options Media"
+msgstr ""
+
+#: inc/options-medialibrary-uploader.php:129
+#@ optionsframeworktheme
+msgid "Upload"
+msgstr ""
+
+#: inc/options-medialibrary-uploader.php:152
+#@ progression
+msgid "View File"
+msgstr ""
+
+#: inc/options-medialibrary-uploader.php:289
+#@ progression
+msgid "Gallery"
+msgstr ""
+
+#: inc/options-medialibrary-uploader.php:289
+#@ progression
+msgid "Previously Uploaded"
+msgstr ""
+
+#: inc/options-sanitize.php:232
+#@ progression
+msgid "No Repeat"
+msgstr ""
+
+#: inc/options-sanitize.php:233
+#@ progression
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/options-sanitize.php:234
+#@ progression
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/options-sanitize.php:235
+#@ progression
+msgid "Repeat All"
+msgstr ""
+
+#: inc/options-sanitize.php:248
+#@ progression
+msgid "Top Left"
+msgstr ""
+
+#: inc/options-sanitize.php:249
+#@ progression
+msgid "Top Center"
+msgstr ""
+
+#: inc/options-sanitize.php:250
+#@ progression
+msgid "Top Right"
+msgstr ""
+
+#: inc/options-sanitize.php:251
+#@ progression
+msgid "Middle Left"
+msgstr ""
+
+#: inc/options-sanitize.php:252
+#@ progression
+msgid "Middle Center"
+msgstr ""
+
+#: inc/options-sanitize.php:253
+#@ progression
+msgid "Middle Right"
+msgstr ""
+
+#: inc/options-sanitize.php:254
+#@ progression
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/options-sanitize.php:255
+#@ progression
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/options-sanitize.php:256
+#@ progression
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/options-sanitize.php:269
+#@ progression
+msgid "Scroll Normally"
+msgstr ""
+
+#: inc/options-sanitize.php:270
+#@ progression
+msgid "Fixed in Place"
+msgstr ""
+
+#: inc/options-sanitize.php:344
+#@ progression
+msgid "Normal"
+msgstr ""
+
+#: inc/options-sanitize.php:345
+#@ progression
+msgid "Italic"
+msgstr ""
+
+#: inc/options-sanitize.php:346
+#@ progression
+msgid "Bold"
+msgstr ""
+
+#: inc/options-sanitize.php:347
+#@ progression
+msgid "Bold Italic"
+msgstr ""
+
+#: inc/template-tags.php:27
+#@ progression
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:27
+#@ progression
+msgid "(Edit)"
+msgstr ""
+
+#. translators: 1: comment author, 2: date and time
+#: inc/template-tags.php:45
+#, php-format
+#@ progression
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:51
+#, php-format
+#@ progression
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:55
+#@ progression
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:58
+#@ progression
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:88
+#, php-format
+#@ progression
+msgid "<div class=\"post-date\"><a href=\"%1$s\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a></div><div class=\"post-author\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">by %7$s</a></div>"
+msgstr "<div class=\"post-date\"><a href=\"%1$s\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a></div><div class=\"post-author\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">od %7$s</a></div>"
+
+#: inc/template-tags.php:94
+#, php-format
+#@ progression
+msgid "View all posts by %s"
+msgstr ""
+
+#: no-results.php:16
+#@ progression
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:26
+#, php-format
+#@ progression
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:31
+#@ progression
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: no-results.php:36
+#@ progression
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: options.php:32
+#@ progression
+msgid "Fade"
+msgstr ""
+
+#: options.php:33
+#@ progression
+msgid "Slide"
+msgstr ""
+
+#: options.php:39
+#@ progression
+msgid "On"
+msgstr ""
+
+#: options.php:40
+#@ progression
+msgid "Off"
+msgstr ""
+
+#: options.php:46
+#@ progression
+msgid "French Toast"
+msgstr ""
+
+#: options.php:47
+#@ progression
+msgid "Pancake"
+msgstr ""
+
+#: options.php:48
+#@ progression
+msgid "Omelette"
+msgstr ""
+
+#: options.php:49
+#@ progression
+msgid "Crepe"
+msgstr ""
+
+#: options.php:50
+#@ progression
+msgid "Waffle"
+msgstr ""
+
+#: options.php:111
+#@ progression
+msgid "Basic"
+msgstr ""
+
+#: options.php:116
+#@ progression
+msgid "Copyright"
+msgstr ""
+
+#: options.php:117
+#@ progression
+msgid "Choose your copyright text here. "
+msgstr ""
+
+#: options.php:125
+#@ progression
+msgid "Fixed Navigation"
+msgstr ""
+
+#: options.php:126
+#@ progression
+msgid "Select this checkbox to enable the fixed navigation. This will keep the navigation sticky to the top of your browser."
+msgstr ""
+
+#: options.php:133
+#@ progression
+msgid "Display Footer Widgets"
+msgstr ""
+
+#: options.php:134
+#@ progression
+msgid "Select this checkbox to enable the footer widgets."
+msgstr ""
+
+#: options.php:141
+#@ progression
+msgid "Footer Widget Column Count"
+msgstr ""
+
+#: options.php:142
+#@ progression
+msgid "Choose how many columns you want to use for our footer widgets (1-4 Columns)."
+msgstr ""
+
+#: options.php:151
+#@ progression
+msgid "Display Sidebar on Blog, Archives, and Search"
+msgstr ""
+
+#: options.php:152
+#@ progression
+msgid "Select this checkbox to display the sidebar in the blog pages."
+msgstr ""
+
+#: options.php:163
+#@ progression
+msgid "Display Sidebar on Blog Post pages"
+msgstr ""
+
+#: options.php:164
+#@ progression
+msgid "Select this checkbox to display the sidebar in the blog post pages."
+msgstr ""
+
+#: options.php:171
+#@ progression
+msgid "Display Comments on Pages"
+msgstr ""
+
+#: options.php:172
+#@ progression
+msgid "Select this checkbox to enable the comments on pages.  Once selected you can also manually enable/disable comments on a page-by-page basis via the Discussion Screen Option."
+msgstr ""
+
+#: options.php:184
+#@ progression
+msgid "Portfolio"
+msgstr ""
+
+#: options.php:189
+#@ progression
+msgid "Portfolio Posts Per Page"
+msgstr ""
+
+#: options.php:190
+#@ progression
+msgid "Choose how many portfolio posts show per page (Or before scrolling). You can overwrite this in the portfolio template files under \"posts_per_page\"."
+msgstr ""
+
+#: options.php:199
+#@ progression
+msgid "Check to turn off Infinite Scroll (Manual Load More Button)"
+msgstr ""
+
+#: options.php:200
+#: options.php:272
+#@ progression
+msgid "Select this checkbox to turn off infinite scroll.  When checkbox is unselected, posts will load as the user scroll down infinitely instead of the default button push. (<strong>Note</strong>: This option also controls \"Blog w/ Columns Template\")"
+msgstr ""
+
+#: options.php:207
+#@ progression
+msgid "Turn on Normal Pagination for Portfolio (Over-rides Infinite Scroll option above)"
+msgstr ""
+
+#: options.php:208
+#@ progression
+msgid "Select this checkbox to turn on normal portfolio pagination instead of the load more pagination. (<strong>Note</strong>: This option also controls \"Blog w/ Columns Template\")"
+msgstr ""
+
+#: options.php:216
+#@ progression
+msgid "Display Sidebar on Portfolio Post pages"
+msgstr ""
+
+#: options.php:217
+#@ progression
+msgid "Select this checkbox to display the sidebar in the portfolio post pages."
+msgstr ""
+
+#: options.php:224
+#@ progression
+msgid "Crop Images on Portfolio Single Post"
+msgstr ""
+
+#: options.php:225
+#@ progression
+msgid "Select this checkbox to crop images on the Portfolio Single Post Pages.  Unselect this box to un-crop images on the portfolio single post page."
+msgstr ""
+
+#: options.php:232
+#@ progression
+msgid "Display Comments on Portfolio Posts"
+msgstr ""
+
+#: options.php:233
+#@ progression
+msgid "Select this checkbox to enable the comments on portfolio posts."
+msgstr ""
+
+#: options.php:239
+#@ progression
+msgid "Homepage"
+msgstr ""
+
+#: options.php:244
+#@ progression
+msgid "Homepage Template Posts Per Page"
+msgstr ""
+
+#: options.php:245
+#@ progression
+msgid "Choose how many  posts show per page (Or before scrolling) on the default Homepage Template. If you are using the blog/slider page templates, you will use the default WordPress settings to set the posts per page under Settings > Reading."
+msgstr ""
+
+#: options.php:254
+#@ progression
+msgid "Homepage & \"Blog w/ Columns\" page templates post Column Count"
+msgstr ""
+
+#: options.php:255
+#@ progression
+msgid "Choose how many columns you want to use if you are using the Homepage or \"Blog w/ Column\" page templates.  Choose between 2, 3 and 4."
+msgstr ""
+
+#: options.php:263
+#@ progression
+msgid "Homepage Template Portfolio/Blog Posts Display"
+msgstr ""
+
+#: options.php:264
+#@ progression
+msgid "Select this checkbox to enable the Portfolio and Blog Posts on the homepage completely.  You can manually disable one of the post-types by selecting a blank category on the page or by selecting no category."
+msgstr ""
+
+#: options.php:271
+#@ progression
+msgid "Homepage Template checkbox to turn off Infinite Scroll (Manual Load More Button)"
+msgstr ""
+
+#: options.php:280
+#@ progression
+msgid "Homepage Template option to turn on Normal Pagination (Over-rides Infinite Scroll option above)"
+msgstr ""
+
+#: options.php:281
+#@ progression
+msgid "Select this checkbox to turn on normal pagination instead of the load more pagination."
+msgstr ""
+
+#: options.php:289
+#@ progression
+msgid "Display Sidebar on the Homepage"
+msgstr ""
+
+#: options.php:290
+#@ progression
+msgid "Select this checkbox to display the sidebar on the homepage"
+msgstr ""
+
+#: options.php:297
+#@ progression
+msgid "Display Featured Text area below slider"
+msgstr ""
+
+#: options.php:298
+#@ progression
+msgid "Select this checkbox to enable the featured text area on the homepage.  Below are options for this featured text area."
+msgstr ""
+
+#: options.php:304
+#@ progression
+msgid "Homepage Featured Text Headline"
+msgstr ""
+
+#: options.php:305
+#@ progression
+msgid "Choose your homepage featured text headline."
+msgstr ""
+
+#: options.php:311
+#@ progression
+msgid "Homepage Featured Text Content"
+msgstr ""
+
+#: options.php:312
+#@ progression
+msgid "Choose your homepage featured text content."
+msgstr ""
+
+#: options.php:319
+#@ progression
+msgid "Homepage Featured Text Image"
+msgstr ""
+
+#: options.php:320
+#@ progression
+msgid "Use the upload button to upload a featured text area image that floats left of the content."
+msgstr ""
+
+#: options.php:326
+#@ progression
+msgid "Homepage Featured Text Image Width"
+msgstr ""
+
+#: options.php:327
+#@ progression
+msgid "Homepage Featured Image width."
+msgstr ""
+
+#: options.php:335
+#@ progression
+msgid "Homepage Featured Text Image Height"
+msgstr ""
+
+#: options.php:336
+#@ progression
+msgid "Homepage Featured Image height."
+msgstr ""
+
+#: options.php:344
+#@ progression
+msgid "Social Icons"
+msgstr ""
+
+#: options.php:349
+#@ progression
+msgid "Header/Footer Social Icons"
+msgstr ""
+
+#: options.php:350
+#@ progression
+msgid "These icons will display in the header & footer of your theme.  Leave the text area blank and the icon will disappear automatically."
+msgstr ""
+
+#: options.php:354
+#@ progression
+msgid "RSS Link"
+msgstr ""
+
+#: options.php:355
+#: options.php:363
+#: options.php:370
+#: options.php:378
+#: options.php:386
+#: options.php:393
+#: options.php:401
+#: options.php:409
+#: options.php:417
+#: options.php:425
+#: options.php:433
+#@ progression
+msgid "Social Icon will display/hide automatically in the header & footer."
+msgstr ""
+
+#: options.php:362
+#@ progression
+msgid "Facebook Link"
+msgstr ""
+
+#: options.php:369
+#@ progression
+msgid "Twitter Link"
+msgstr ""
+
+#: options.php:377
+#@ progression
+msgid "Skype Link"
+msgstr ""
+
+#: options.php:385
+#@ progression
+msgid "Vimeo Link"
+msgstr ""
+
+#: options.php:392
+#@ progression
+msgid "LinkedIn Link"
+msgstr ""
+
+#: options.php:400
+#@ progression
+msgid "Dribbble Link"
+msgstr ""
+
+#: options.php:408
+#@ progression
+msgid "Forrst Link"
+msgstr ""
+
+#: options.php:416
+#@ progression
+msgid "Flickr Link"
+msgstr ""
+
+#: options.php:424
+#@ progression
+msgid "Google Link"
+msgstr ""
+
+#: options.php:432
+#@ progression
+msgid "Youtube Link"
+msgstr ""
+
+#: options.php:441
+#@ progression
+msgid "Widget Area Social Icons"
+msgstr ""
+
+#: options.php:442
+#@ progression
+msgid "These icons will display in the custom social icons widget of your theme.  Leave the text area blank and the icon will disappear automatically."
+msgstr ""
+
+#: options.php:447
+#@ progression
+msgid "RSS Link in Social Icons Widget"
+msgstr ""
+
+#: options.php:448
+#: options.php:456
+#: options.php:463
+#: options.php:471
+#: options.php:479
+#: options.php:486
+#: options.php:494
+#: options.php:502
+#: options.php:510
+#: options.php:518
+#: options.php:526
+#@ progression
+msgid "Social Icon will display/hide automatically in the social icons widget."
+msgstr ""
+
+#: options.php:455
+#@ progression
+msgid "Facebook Link in Social Icons Widget"
+msgstr ""
+
+#: options.php:462
+#@ progression
+msgid "Twitter Link in Social Icons Widget"
+msgstr ""
+
+#: options.php:470
+#@ progression
+msgid "Skype Link in Social Icons Widget"
+msgstr ""
+
+#: options.php:478
+#@ progression
+msgid "Vimeo Link in Social Icons Widget"
+msgstr ""
+
+#: options.php:485
+#@ progression
+msgid "LinkedIn Linkin Social Icons Widget"
+msgstr ""
+
+#: options.php:493
+#@ progression
+msgid "Dribbble Link in Social Icons Widget"
+msgstr ""
+
+#: options.php:501
+#@ progression
+msgid "Forrst Link in Social Icons Widget"
+msgstr ""
+
+#: options.php:509
+#@ progression
+msgid "Flickr Link in Social Icons Widget"
+msgstr ""
+
+#: options.php:517
+#@ progression
+msgid "Google Link in Social Icons Widget"
+msgstr ""
+
+#: options.php:525
+#@ progression
+msgid "Youtube Link in Social Icons Widget"
+msgstr ""
+
+#: options.php:533
+#@ progression
+msgid "Appearance"
+msgstr ""
+
+#: options.php:537
+#@ progression
+msgid "Logo"
+msgstr ""
+
+#: options.php:538
+#@ progression
+msgid "Use the upload button to upload your sites logo and then click <strong>Use this image</strong>."
+msgstr ""
+
+#: options.php:545
+#@ progression
+msgid "Logo Width"
+msgstr ""
+
+#: options.php:546
+#@ progression
+msgid "Choose your logo width in pixels.  Default is 164."
+msgstr ""
+
+#: options.php:553
+#@ progression
+msgid "FavIcon"
+msgstr ""
+
+#: options.php:554
+#@ progression
+msgid "Use the upload button to upload your favicon (bookmark icon) and then click <strong>Use this image</strong>."
+msgstr ""
+
+#: options.php:560
+#@ progression
+msgid "Navigation Height"
+msgstr ""
+
+#: options.php:561
+#@ progression
+msgid "Choose how tall you want your navigation.  Adjust this if your logo is too tall or short. Default is 96"
+msgstr ""
+
+#: options.php:569
+#@ progression
+msgid "Main Body Font"
+msgstr ""
+
+#: options.php:570
+#@ progression
+msgid "Choose a Main Navigation Font. Default font is <strong>Helvetica Neue</strong>"
+msgstr ""
+
+#: options.php:578
+#@ progression
+msgid "Main Custom Font"
+msgstr ""
+
+#: options.php:579
+#@ progression
+msgid "Choose the main custom font.  This is used on the Navigation and Widget Headings.  Default font is <strong>PT Sans</strong>"
+msgstr ""
+
+#: options.php:587
+#@ progression
+msgid "Secondary Custom Font"
+msgstr ""
+
+#: options.php:588
+#@ progression
+msgid "Choose the secondary custom font.  This is used on H2-H6 headings and various small areas like pagination.  Default font is <strong>PT Sans Narrow</strong>"
+msgstr ""
+
+#: options.php:595
+#@ progression
+msgid "Page Title and Caption Custom Font"
+msgstr ""
+
+#: options.php:596
+#@ progression
+msgid "Choose the featured slider caption and Page Title custom font.  Default font is <strong>Dosis</strong>"
+msgstr ""
+
+#: options.php:603
+#@ progression
+msgid "Tools"
+msgstr ""
+
+#: options.php:608
+#@ progression
+msgid "Homepage Title"
+msgstr ""
+
+#: options.php:609
+#@ progression
+msgid "Enter a title for the homepage, leave blank if you want to use an auto generated one or a third party plugin."
+msgstr ""
+
+#: options.php:616
+#@ progression
+msgid "Homepage Meta Description"
+msgstr ""
+
+#: options.php:617
+#@ progression
+msgid "Enter a description for the homepage, about 140 characters."
+msgstr ""
+
+#: options.php:626
+#@ progression
+msgid "Tracking Code"
+msgstr ""
+
+#: options.php:627
+#@ progression
+msgid "Paste your tracking code here e.g. Google Analytics etc... without &lt;script&gt; tags."
+msgstr ""
+
+#: options.php:634
+#@ progression
+msgid "Custom CSS Code"
+msgstr ""
+
+#: options.php:635
+#@ progression
+msgid "Paste custom JavaScript code here without &lt;style&gt;&lt;/style&gt; tags."
+msgstr ""
+
+#: options.php:642
+#@ progression
+msgid "Custom Javascript Code"
+msgstr ""
+
+#: options.php:643
+#@ progression
+msgid "Paste custom JavaScript code here without &lt;script&gt;&lt;s/cript&gt; tags."
+msgstr ""
+
+#: options.php:649
+#@ progression
+msgid "Slider"
+msgstr ""
+
+#: options.php:655
+#@ progression
+msgid "Display Retina Sized Featured Slider Images"
+msgstr ""
+
+#: options.php:656
+#@ progression
+msgid "Select this checkbox to enable retina sized slider images.  This means the images will be resized to 2000px wide by 800px tall (Your browser will then resize it to fit in the window).  If you unselect this box, the featured slider images will be resized to 1500px wide by 600px tall.  Note:  These images are sized in the functions.php file. Make sure the images you upload are large enough to be resized."
+msgstr ""
+
+#: options.php:663
+#@ progression
+msgid "Featured Slider Animation"
+msgstr ""
+
+#: options.php:664
+#: options.php:721
+#@ progression
+msgid "Choose your slider animation between fade and slide."
+msgstr ""
+
+#: options.php:673
+#@ progression
+msgid "Featured Slider Autoplay"
+msgstr ""
+
+#: options.php:674
+#: options.php:731
+#@ progression
+msgid "Choose to have your slide show autoplay or not."
+msgstr ""
+
+#: options.php:683
+#@ progression
+msgid "Featured Slider Autoplay Speed"
+msgstr ""
+
+#: options.php:684
+#: options.php:741
+#@ progression
+msgid "Choose how long each slide will show (in milliseconds)"
+msgstr ""
+
+#: options.php:692
+#@ progression
+msgid "Featured Slider Next / Previous Buttons"
+msgstr ""
+
+#: options.php:693
+#: options.php:750
+#@ progression
+msgid "Choose to turn the next/previous buttons on or off. "
+msgstr ""
+
+#: options.php:703
+#@ progression
+msgid "Featured Slider Thumbnail Navigation Buttons"
+msgstr ""
+
+#: options.php:704
+#: options.php:761
+#@ progression
+msgid "Choose to display the navigation bullets on the bottom left of the slideshow. "
+msgstr ""
+
+#: options.php:714
+#@ progression
+msgid "Portfolio Post Slider Options"
+msgstr ""
+
+#: options.php:715
+#@ progression
+msgid "The set of slider options below refer to the portfolio post slider options."
+msgstr ""
+
+#: options.php:720
+#@ progression
+msgid "Portfolio Post Slider Animation"
+msgstr ""
+
+#: options.php:730
+#@ progression
+msgid "Portfolio Post Slider Autoplay"
+msgstr ""
+
+#: options.php:740
+#@ progression
+msgid "Portfolio Post Slider Autoplay Speed"
+msgstr ""
+
+#: options.php:749
+#@ progression
+msgid "Portfolio Post Slider Next / Previous Buttons"
+msgstr ""
+
+#: options.php:760
+#@ progression
+msgid "Portfolio Post Slider Thumbnail Navigation Buttons"
+msgstr ""
+
+#: page-blog-columns.php:67
+#@ progression
+msgid "Blog"
+msgstr ""
+
+#: page-blog-columns.php:128
+#: portfolio-2-sidebar.php:122
+#: portfolio-2.php:121
+#: portfolio-3-sidebar.php:121
+#: portfolio-3.php:121
+#: portfolio-4-sidebar.php:121
+#: portfolio-4.php:121
+#@ progression
+msgid "Loading new posts..."
+msgstr ""
+
+#: page-blog-columns.php:129
+#: portfolio-2-sidebar.php:123
+#: portfolio-2.php:122
+#: portfolio-3-sidebar.php:122
+#: portfolio-3.php:122
+#: portfolio-4-sidebar.php:122
+#: portfolio-4.php:122
+#@ progression
+msgid "No more pages to load."
+msgstr ""
+
+#: page-blog-slider.php:72
+#@ progression
+msgid "<p>Pokračovať v čítaní <span class=\"meta-nav\">&rarr;</span></p>"
+msgstr ""
+
+#: page-contact-full.php:92
+#@ progression
+msgid "Skontrolujte prosím, či ste vyplnili všetky polia s platným informácií. Ďakujem."
+msgstr ""
+
+#: page-contact-full.php:96
+#@ progression
+msgid "E-mail bol úspešne odoslaný!"
+msgstr ""
+
+#: page-contact-full.php:97
+#@ progression
+msgid "Ďakujeme, že ste nás kontaktovali! Budem s vami v kontakte čoskoro."
+msgstr ""
+
+#: page-contact-full.php:101
+#@ progression
+msgid "Meno"
+msgstr ""
+
+#: page-contact-full.php:105
+#: page-contact.php:105
+#@ progression
+msgid "Email"
+msgstr ""
+
+#: page-contact-full.php:109
+#@ progression
+msgid "Správa"
+msgstr ""
+
+#: page-contact-full.php:112
+#@ progression
+msgid "Odoslať"
+msgstr ""
+
+#: page-contact-full.php:118
+#@ progression
+msgid "Stránky:"
+msgstr ""
+
+#: page-contact.php:92
+#@ progression
+msgid "Please check if you have filled all the fields with valid information. Thank you."
+msgstr ""
+
+#: page-contact.php:96
+#@ progression
+msgid "Email Successfully Sent!"
+msgstr ""
+
+#: page-contact.php:97
+#@ progression
+msgid "Thank you for using my contact form! I will be in touch with you soon."
+msgstr ""
+
+#: page-contact.php:101
+#@ progression
+msgid "Name"
+msgstr ""
+
+#: page-contact.php:109
+#@ progression
+msgid "Message"
+msgstr ""
+
+#: page-contact.php:112
+#@ progression
+msgid "Send Message"
+msgstr ""
+
+#: page-contact.php:118
+#: page-full-width.php:33
+#: page.php:36
+#@ progression
+msgid "Pages:"
+msgstr ""
+
+#: search.php:16
+#, php-format
+#@ progression
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:11
+#: searchform.php:13
+#@ progression
+msgid "Search"
+msgstr ""
+
+#: searchform.php:12
+#@ progression
+msgid "Search &hellip;"
+msgstr ""
+
+#: view-product_lite.php:227
+#@ default
+msgid "No products found"
+msgstr ""
+
