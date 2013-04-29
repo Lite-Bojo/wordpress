@@ -1,0 +1,6692 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GravityForms de_DE (SIE-Version)\n"
+"Report-Msgid-Bugs-To: http://www.gravityhelp.com/forums\n"
+"POT-Creation-Date: 2010-02-04 15:50-0500\n"
+"PO-Revision-Date: 2013-04-16 08:01:30+0000\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: no"
+
+#@ gravityforms
+msgid " 2 to 3 times a month"
+msgstr " 2-3 mal pro Monat"
+
+#@ gravityforms
+msgid " Bulk action"
+msgstr " Aktion w&auml;hlen"
+
+#@ gravityforms
+msgid " Bulk action "
+msgstr " Aktion w&auml;hlen "
+
+#@ gravityforms
+msgid " but looking for work"
+msgstr " arbeitssuchend"
+
+#@ gravityforms
+msgid "\"Other\" Choice"
+msgstr "\"Andere\" Auswahl"
+
+#@ gravityforms
+msgid "$100,000 - $150,000"
+msgstr "EUR 100.000 - EUR 150.000"
+
+#@ gravityforms
+msgid "$150,000 or more"
+msgstr "EUR 150.000 oder mehr"
+
+#@ gravityforms
+msgid "$20,000 - $30,000"
+msgstr "EUR 20.000 - EUR 30.000"
+
+#@ gravityforms
+msgid "$30,000 - $40,000"
+msgstr "EUR 30.000 - EUR 40.000"
+
+#@ gravityforms
+msgid "$40,000 - $50,000"
+msgstr "EUR 40.000 - EUR 50.000"
+
+#@ gravityforms
+msgid "$50,000 - $75,000"
+msgstr "EUR 50.000 - EUR 75.000"
+
+#@ gravityforms
+msgid "$75,000 - $100,000"
+msgstr "EUR 75.000 - EUR 100.000"
+
+#@ gravityforms
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#@ gravityforms
+msgid "%d entries"
+msgstr "%d Eintr&auml;ge"
+
+#@ gravityforms
+msgid "%d of %d items shown. Edit field to view all"
+msgstr "%d von %d Produkten werden angezeigt. Bearbeiten Sie das Feld, um alle zu sehen"
+
+#@ gravityforms
+msgid "%s ago"
+msgstr "%s zur&uuml;ck"
+
+#@ gravityforms
+msgid "%s deleted."
+msgstr "%s gel&ouml;scht."
+
+#@ gravityforms
+msgid "%s marked as read."
+msgstr "%s als gelesen gekennzeichnet."
+
+#@ gravityforms
+msgid "%s marked as spam."
+msgstr "%s als Spam gekennzeichnet."
+
+#@ gravityforms
+msgid "%s marked as unread."
+msgstr "%s als ungelesen gekennzeichnet."
+
+#@ gravityforms
+msgid "%s moved to Trash."
+msgstr "%s in den Papierkorb verschoben."
+
+#@ gravityforms
+msgid "%s restored from the Trash."
+msgstr "%s wiederhergestellt aus dem Papierkorb."
+
+#@ gravityforms
+msgid "%s restored from the spam."
+msgstr "%s wiederhergestellt aus dem Spam-Ordner."
+
+#@ gravityforms
+msgid "%s starred."
+msgstr "%s gekennzeichnet."
+
+#@ gravityforms
+msgid "%s unstarred."
+msgstr "%s Kennzeichnung entfernt."
+
+#@ gravityforms
+msgid "%sSign up%s for a free account to get the key."
+msgstr "%sRegistrieren%s Sie ein kostenloses Konto, um den Schl&uuml;ssel (Key) zu erhalten."
+
+#@ gravityforms
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#@ gravityforms
+msgid "&laquo; back to entries list"
+msgstr "&laquo; zur&uuml;ck zur Liste der Eintr&auml;ge"
+
+#@ gravityforms
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#@ gravityforms
+msgid "'Would you like to delete this file? \\'Cancel\\' to stop. \\'OK\\' to delete'"
+msgstr "'M&ouml;chten Sie diese Datei l&ouml;schen? \\'Abbrechen\\' um zu beenden. \\'OK\\' um zu l&ouml;schen'"
+
+#@ gravityforms
+msgid "1 entry"
+msgstr "1 Eintrag"
+
+#@ gravityforms
+msgid "1-3 years"
+msgstr "1-3 Jahre"
+
+#@ gravityforms
+msgid "1-6 months"
+msgstr "1-6 Monate"
+
+#@ gravityforms
+msgid "12 hour"
+msgstr "12-Stunden"
+
+#@ gravityforms
+msgid "18-24"
+msgstr "18-24 J."
+
+#@ gravityforms
+msgid "2 to 3 times a week"
+msgstr "2-3 mal pro Woche"
+
+#@ gravityforms
+msgid "24 hour"
+msgstr "24-Stunden"
+
+#@ gravityforms
+msgid "25-34"
+msgstr "25-34 J."
+
+#@ gravityforms
+msgid "35-44"
+msgstr "35-44 J."
+
+#@ gravityforms
+msgid "45-54"
+msgstr "45-54 J."
+
+#@ gravityforms
+msgid "5 of %d items shown. Edit field to view all"
+msgstr "5 von %d Elementen werden angezeigt. Bearbeiten Sie das Feld, um alle anzusehen."
+
+#@ gravityforms
+msgid "55-64"
+msgstr "55-64 J."
+
+#@ gravityforms
+msgid "65 or Above"
+msgstr "65 oder &auml;lter"
+
+#@ gravityforms
+msgid "<a href=\"admin.php?page=gf_settings\">Register</a> your copy of Gravity Forms to receive access to automatic updates and support. Need a license key? <a href=\"http://www.gravityforms.com\">Purchase one now</a>."
+msgstr "<a href=\"admin.php?page=gf_settings\">Registrieren</a> Sie Ihre Version von Gravity Forms, um Zugriff zu automatischen Aktualisierungen sowie Support zu erhalten. Brauchen Sie einen Lizenzschl&uuml;ssel? <a href=\"http://www.gravityforms.com\">Kaufen Sie jetzt einen</a>."
+
+#@ gravityforms
+msgid "<a href=\"admin.php?page=gf_settings\">Register</a> your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? <a href=\"http://www.gravityforms.com\">Purchase one now</a>."
+msgstr "<a href=\"admin.php?page=gf_settings\">Registrieren</a> Sie Ihre Version von Gravity Forms, um Zugang zu automatischen Aktualisierungen (Upgrades) und Support zu erhalten. Ben&ouml;tigen Sie noch einen Lizenzschl&uuml;ssel? <a href=\"http://www.gravityforms.com\">Kaufen Sie jetzt einen im Online-Shop ...</a>."
+
+#@ gravityforms
+msgid "<p>You can update to the latest version automatically or download the update and install it manually. %sUpdate Automatically%s %sDownload Update%s"
+msgstr "<p>Sie k&ouml;nnen automatisch auf die neueste Version aktualisieren oder das Update herunterladen und es manuell installieren. %sAutomatisch aktualisieren%s %sUpdate herunterladen%s"
+
+#@ gravityforms
+msgid "<strong>IMPORTANT NOTICE:</strong> We do not provide support via e-mail. Please post any support queries in our <a href='http://forum.gravityhelp.com/'>support forums</a>."
+msgstr "<strong>WICHTIGER HINWEIS:</strong> Wir bieten keinen Support via E-Mail an. Bitte stellen Sie <em>jede</em> Supportanfrage in unseren <a href='http://forum.gravityhelp.com/'>Support-Foren</a>."
+
+#@ gravityforms
+msgid "<strong>Note:</strong> Only licensed Gravity Forms customers are granted access to the documentation section."
+msgstr "<strong>Hinweis:</strong> Nur Gravity Forms-Kunden im Besitz einer Lizenz wird Zugang zum Dokumentationsbereich gew&auml;hrt."
+
+#@ gravityforms
+msgid "<strong>Please Note:</strong> Only licensed Gravity Forms customers are granted access to the FAQ section."
+msgstr "<strong>Bitte beachten:</strong> Nur Gravity Forms-Kunden im Besitz einer Lizenz wird Zugang zum Bereich mit den h&auml;ufigen Fragen (FAQ) gew&auml;hrt."
+
+#@ gravityforms
+msgid "<strong>Please Note:</strong> Only licensed Gravity Forms customers are granted access to the downloads section."
+msgstr "<strong>Bitte beachten:</strong> Nur Gravity Forms-Kunden im Besitz einer Lizenz wird Zugang zum Download-Bereich gew&auml;hrt."
+
+#@ gravityforms
+msgid "<strong>Please Note:</strong> Only licensed Gravity Forms customers are granted access to the support forums."
+msgstr "<strong>Bitte beachten:</strong> Nur Gravity Forms-Kunden im Besitz einer Lizenz wird Zugang zu den Support-Foren gew&auml;hrt."
+
+#@ gravityforms
+msgid "<strong>Please note:</strong> The Gravity Forms support team does not provide support for third party scripts, widgets, etc."
+msgstr "<strong>Bitte beachten:</strong> Das Gravity Forms-Supportteam leistet <em>keinen</em> Support f&uuml;r Skripte, Widgets, etc. von Drittanbietern!"
+
+#@ gravityforms
+msgid "AFGHANISTAN"
+msgstr "AFGHANISTAN"
+
+#@ gravityforms
+msgid "ALBANIA"
+msgstr "ALBANIEN"
+
+#@ gravityforms
+msgid "ALGERIA"
+msgstr "ALGERIEN"
+
+#@ gravityforms
+msgid "AM"
+msgstr "AM"
+
+#@ gravityforms
+msgid "AMERICAN SAMOA"
+msgstr "AMERIKANISCH SAMOA"
+
+#@ gravityforms
+msgid "ANDORRA"
+msgstr "ANDORRA"
+
+#@ gravityforms
+msgid "ANGOLA"
+msgstr "ANGOLA"
+
+#@ gravityforms
+msgid "ANTIGUA AND BARBUDA"
+msgstr "ANTIGUA UND BARBUDA"
+
+#@ gravityforms
+msgid "ARGENTINA"
+msgstr "ARGENTINIEN"
+
+#@ gravityforms
+msgid "ARMENIA"
+msgstr "ARMENIEN"
+
+#@ gravityforms
+msgid "AUSTRALIA"
+msgstr "AUSTRALIEN"
+
+#@ gravityforms
+msgid "AUSTRIA"
+msgstr "&Ouml;STERREICH"
+
+#@ gravityforms
+msgid "AZERBAIJAN"
+msgstr "ASERBAIDSCHAN"
+
+#@ gravityforms
+msgid "About the Same"
+msgstr "in etwa dasselbe"
+
+#@ gravityforms
+msgid "Above inputs"
+msgstr "&Uuml;ber den Eingaben"
+
+#@ gravityforms
+msgid "Accounting/Finance"
+msgstr "Rechnungswesen / Finanzen"
+
+#@ gravityforms
+msgid "Active"
+msgstr "aktiv"
+
+#@ gravityforms
+msgid "Active Columns"
+msgstr "Aktive Spalten"
+
+#@ gravityforms
+msgid "Add Choices to this field. You can mark each choice as checked by default by using the radio/checkbox fields on the left."
+msgstr "F&uuml;gen Sie eine Auswahl zu diesem Feld hinzu. Sie k&ouml;nnen jede Auswahl als 'gew&auml;hlt' setzen, indem Sie die Radio/ Checkbox-Felder links benutzen."
+
+#@ gravityforms
+msgid "Add Gravity Form"
+msgstr "Gravity Formular hinzuf&uuml;gen"
+
+#@ gravityforms
+msgid "Add Icon URL"
+msgstr "Icon-URL f&uuml;r 'Hinzuf&uuml;gen' (Standard: Plus-Symbol)"
+
+#@ gravityforms
+msgid "Add New"
+msgstr "Neues hinzuf&uuml;gen"
+
+#@ gravityforms
+msgid "Add Note"
+msgstr "Notiz hinzuf&uuml;gen"
+
+#@ gravityforms
+msgid "Add Star"
+msgstr "Stern hinzuf&uuml;gen"
+
+#@ gravityforms
+msgid "Add a row"
+msgstr "Eine Zeile hinzuf&uuml;gen"
+
+#@ gravityforms
+msgid "Add page break between entries"
+msgstr "Seitenumbruch zwischen Eintr&auml;gen hinzuf&uuml;gen"
+
+#@ gravityforms
+msgid "Add-On brower is currently unavailable. Please try again later."
+msgstr "Der Add-On-Browser ist derzeit nicht verf&uuml;gbar. Bitte versuchen Sie es sp&auml;ter wieder."
+
+#@ gravityforms
+msgid "Add-Ons"
+msgstr "Zusatzmodule (Add-Ons)"
+
+#@ gravityforms
+msgid "Address"
+msgstr "Anschrift"
+
+#@ gravityforms
+msgid "Address Line 2"
+msgstr "Anschrift Zusatz"
+
+#@ gravityforms
+msgid "Address Type"
+msgstr "Address-Typ"
+
+#@ gravityforms
+msgid "Admin Label"
+msgstr "Admin-Label"
+
+#@ gravityforms
+msgid "Admin Notification"
+msgstr "Administrator-Benachrichtigung"
+
+#@ gravityforms
+msgid "Admin Only"
+msgstr "Nur Administrator"
+
+#@ gravityforms
+msgid "Advanced"
+msgstr "Erweitert"
+
+#@ gravityforms
+msgid "Advanced Fields"
+msgstr "Erweiterte Felder"
+
+#@ gravityforms
+msgid "Advanced Fields are for specific uses.  They enable advanced formatting of regularly used fields such as Name, Email, Address, etc."
+msgstr "Erweiterte Felder sind f&uuml;r spezielle Zwecke: Sie erm&ouml;glichen eine erweiterte Formatierung von regelm&auml;&szlig;ig benutzten Feldern, wie etwa Name, E-Mail, Anschrift, etc."
+
+#@ gravityforms
+msgid "Advertising/Public Relations"
+msgstr "Werbung / &Ouml;ffentlichkeitsarbeit"
+
+#@ gravityforms
+msgid "Aerospace/Aviation"
+msgstr "Luft-/ Raumfahrt"
+
+#@ gravityforms
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#@ gravityforms
+msgid "Africa"
+msgstr "Afrika"
+
+#@ gravityforms
+msgid "Age"
+msgstr "Alter"
+
+#@ gravityforms
+msgid "Agree"
+msgstr "zustimmend"
+
+#@ gravityforms
+msgid "Agreement"
+msgstr "Zustimmung"
+
+#@ gravityforms
+msgid "Ajax error while adding field"
+msgstr "Ajax-Fehler w&auml;hrend das Feld hinzugef&uuml;gt wurde"
+
+#@ gravityforms
+msgid "Ajax error while changing input type"
+msgstr "Ajax-Fehler w&auml;hrend der Eingabetyp ver&auml;ndert wurde"
+
+#@ gravityforms
+msgid "Ajax error while deleting field."
+msgstr "Ajax-Fehler w&auml;hrend dem Versuch das Feld zu l&ouml;schen."
+
+#@ gravityforms
+msgid "Ajax error while duplicating field"
+msgstr "Ajax-Fehler beim Duplizieren des Feldes"
+
+#@ gravityforms
+msgid "Ajax error while saving form"
+msgstr "Ajax-Fehler beim Speichern des Formulars"
+
+#@ gravityforms
+msgid "Ajax error while selecting a form"
+msgstr "Ajax-Fehler, w&auml;hrend ein Formular ausgew&auml;hlt werden sollte"
+
+#@ gravityforms
+msgid "Ajax error while setting lead property"
+msgstr "Ajax-Fehler w&auml;hrend der Hauptwert gesetzt werden sollte"
+
+#@ gravityforms
+msgid "Ajax error while update form"
+msgstr "Ajax-Fehler, w&auml;hrend das Formular aktualisiert wurde"
+
+#@ gravityforms
+msgid "Alabama"
+msgstr "Alabama"
+
+#@ gravityforms
+msgid "Alaska"
+msgstr "Alaska"
+
+#@ gravityforms
+msgid "Albania"
+msgstr "Albanien"
+
+#@ gravityforms
+msgid "Alberta"
+msgstr "Alberta"
+
+#@ gravityforms
+msgid "Algeria"
+msgstr "Algerien"
+
+#@ gravityforms
+msgid "All"
+msgstr "Alle"
+
+#@ gravityforms
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#@ gravityforms
+msgid "All Pricing Fields"
+msgstr "Alle Preis-Felder"
+
+#@ gravityforms
+msgid "All Submitted Fields"
+msgstr "Alle abgesendeten Felder"
+
+#@ gravityforms
+msgid "All other characters are literal values and will be displayed automatically."
+msgstr "Alle anderen Zeichen sind buchst&auml;bliche/ w&ouml;rtliche Werte und werden automatisch angezeigt."
+
+#@ gravityforms
+msgid "Allow field to be populated dynamically"
+msgstr "Erlauben Sie die dynamische Best&uuml;ckung dieses Feldes"
+
+#@ gravityforms
+msgid "Allowed File Extensions"
+msgstr "Erlaubte Dateitypen/ -erweiterungen"
+
+#@ gravityforms
+msgid "Allowed file extensions"
+msgstr "Erlaubte Dateitypen (Dateierweiterungen)"
+
+#@ gravityforms
+msgid "Allows notification to be sent to different email addresses depending on values selected in the form."
+msgstr "Erlaubt es, die Benachrichtigung an eine andere E-Mail-Adresse zu senden, abh&auml;ngig von ausgew&auml;hlten Werten im Formular."
+
+#@ gravityforms
+msgid "Also email this note to"
+msgstr "Diese Notiz auch via E-Mail an"
+
+#@ gravityforms
+msgid "American Express"
+msgstr "American Express"
+
+#@ gravityforms
+msgid "American Samoa"
+msgstr "Amerikanisch-Samoa"
+
+#@ gravityforms
+msgid "Andorra"
+msgstr "Andorra"
+
+#@ gravityforms
+msgid "Angola"
+msgstr "Angola"
+
+#@ gravityforms
+msgid "Antarctica"
+msgstr "Antarktis"
+
+#@ gravityforms
+msgid "Antigua and Barbuda"
+msgstr "Antigua und Barbuda"
+
+#@ gravityforms
+msgid "Any"
+msgstr "Irgendeins"
+
+#@ gravityforms
+msgid "Apply"
+msgstr "Anwenden"
+
+#@ gravityforms
+msgid "April"
+msgstr "April"
+
+#@ gravityforms
+msgid "Are you sure you would like to reset the Views for the selected forms? "
+msgstr "Sind Sie sicher, dass Sie den Anzeige-Z&auml;hler der ausgew&auml;hlten Formulare zur&uuml;cksetzen wollen? "
+
+#@ gravityforms
+msgid "Argentina"
+msgstr "Argentinien"
+
+#@ gravityforms
+msgid "Arizona"
+msgstr "Arizona"
+
+#@ gravityforms
+msgid "Arkansas"
+msgstr "Arkansas"
+
+#@ gravityforms
+msgid "Armed Forces Americas"
+msgstr "Amerikanische Streitkr&auml;fte"
+
+#@ gravityforms
+msgid "Armed Forces Europe"
+msgstr "Europ&auml;ische Streitkr&auml;fte"
+
+#@ gravityforms
+msgid "Armed Forces Pacific"
+msgstr "Pazifik-Streitkr&auml;fte"
+
+#@ gravityforms
+msgid "Armenia"
+msgstr "Armenien"
+
+#@ gravityforms
+msgid "Arts/Entertainment/Publishing"
+msgstr "Kunst / Unterhaltung / Verlagswesen"
+
+#@ gravityforms
+msgid "Asia"
+msgstr "Asien"
+
+#@ gravityforms
+msgid "Associate Degree"
+msgstr "Abitur"
+
+#@ gravityforms
+msgid "August"
+msgstr "August"
+
+#@ gravityforms
+msgid "Australia"
+msgstr "Australien"
+
+#@ gravityforms
+msgid "Australian Dollar"
+msgstr "Australischer Dollar"
+
+#@ gravityforms
+msgid "Austria"
+msgstr "&Ouml;sterreich"
+
+#@ gravityforms
+msgid "Automotive"
+msgstr "Automobilbranche"
+
+#@ gravityforms
+msgid "Azerbaijan"
+msgstr "Aserbaidschan"
+
+#@ gravityforms
+msgid "BAHAMAS"
+msgstr "BAHAMAS"
+
+#@ gravityforms
+msgid "BAHRAIN"
+msgstr "BAHRAIN"
+
+#@ gravityforms
+msgid "BANGLADESH"
+msgstr "BANGLADESH"
+
+#@ gravityforms
+msgid "BARBADOS"
+msgstr "BARBADOS"
+
+#@ gravityforms
+msgid "BCC"
+msgstr "BCC (Blindkopie)"
+
+#@ gravityforms
+msgid "BELARUS"
+msgstr "WEISSRUSSLAND"
+
+#@ gravityforms
+msgid "BELGIUM"
+msgstr "BELGIEN"
+
+#@ gravityforms
+msgid "BELIZE"
+msgstr "BELIZE"
+
+#@ gravityforms
+msgid "BENIN"
+msgstr "BENIN"
+
+#@ gravityforms
+msgid "BERMUDA"
+msgstr "BERMUDA"
+
+#@ gravityforms
+msgid "BHUTAN"
+msgstr "BHUTAN"
+
+#@ gravityforms
+msgid "BOLIVIA"
+msgstr "BOLIVIEN"
+
+#@ gravityforms
+msgid "BOSNIA AND HERZEGOVINA"
+msgstr "BOSNIEN UND HERZEGOWINA"
+
+#@ gravityforms
+msgid "BOTSWANA"
+msgstr "BOTSWANA"
+
+#@ gravityforms
+msgid "BRAZIL"
+msgstr "BRASILIEN"
+
+#@ gravityforms
+msgid "BRUNEI"
+msgstr "BRUNEI"
+
+#@ gravityforms
+msgid "BULGARIA"
+msgstr "BULGARIEN"
+
+#@ gravityforms
+msgid "BURKINA FASO"
+msgstr "BURKINA FASO"
+
+#@ gravityforms
+msgid "BURUNDI"
+msgstr "BURUNDI"
+
+#@ gravityforms
+msgid "Bachelor's Degree"
+msgstr "Bachelor"
+
+#@ gravityforms
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#@ gravityforms
+msgid "Bad"
+msgstr "Schlecht"
+
+#@ gravityforms
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#@ gravityforms
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#@ gravityforms
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#@ gravityforms
+msgid "Banking/Mortgage"
+msgstr "Bank-/ Hypothekwesen"
+
+#@ gravityforms
+msgid "Barbados"
+msgstr "Barbados"
+
+#@ gravityforms
+msgid "Base Price"
+msgstr "Basispreis"
+
+#@ gravityforms
+msgid "Belarus"
+msgstr "Wei&szlig;russland"
+
+#@ gravityforms
+msgid "Belgium"
+msgstr "Belgien"
+
+#@ gravityforms
+msgid "Belize"
+msgstr "Belize"
+
+#@ gravityforms
+msgid "Below inputs"
+msgstr "Unter den Eingaben"
+
+#@ gravityforms
+msgid "Benin"
+msgstr "Benin"
+
+#@ gravityforms
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#@ gravityforms
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#@ gravityforms
+msgid "Black Glass"
+msgstr "schwarzes Glas"
+
+#@ gravityforms
+msgid "Blind Carbon Copy Addresses"
+msgstr "Blindkopie-Adressen (BCC)"
+
+#@ gravityforms
+msgid "Blue"
+msgstr "Blau"
+
+#@ gravityforms
+msgid "Body"
+msgstr "Body"
+
+#@ gravityforms
+msgid "Bolivia"
+msgstr "Bolivien"
+
+#@ gravityforms
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnien und Herzegowina"
+
+#@ gravityforms
+msgid "Botswana"
+msgstr "Botswana"
+
+#@ gravityforms
+msgid "Brazil"
+msgstr "Brasilien"
+
+#@ gravityforms
+msgid "Brazilian Real"
+msgstr "Brasilianischer Real"
+
+#@ gravityforms
+msgid "British Columbia"
+msgstr "British Columbia"
+
+#@ gravityforms
+msgid "Brunei"
+msgstr "Brunei"
+
+#@ gravityforms
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+#@ gravityforms
+msgid "Bulk Add / Predefined Choices"
+msgstr "Aktion w&auml;hlen / Vorgegebene M&ouml;glichkeiten"
+
+#@ gravityforms
+msgid "Bulk action"
+msgstr "Aktion w&auml;hlen"
+
+#@ gravityforms
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#@ gravityforms
+msgid "Burundi"
+msgstr "Burundi"
+
+#@ gravityforms
+msgid "Business Development"
+msgstr "Wirtschaftsf&ouml;rderung"
+
+#@ gravityforms
+msgid "Business Opportunity"
+msgstr "Gesch&auml;ftsentwicklung"
+
+#@ gravityforms
+msgid "By selecting this option, the <a href='http://harvesthq.github.com/chosen/' target='_blank'>Chosen</a> jQuery script will be applied to this field, enabling search capabilities to Drop Down fields and a more user-friendly interface for Multi Select fields."
+msgstr "Durch Ausw&auml;hlen dieser Option, wird das <a href='http://harvesthq.github.com/chosen/' target='_blank'><em>Chosen</em></a> jQuery-Skript zu diesem Feld hinzugef&uuml;gt und dadurch unter anderem eine Suchfunktion f&uuml;r Aufklappfelder sowie ein benutzerfreundlicheres Interface f&uuml;r Mehrfachauswahlfelder erm&ouml;glicht."
+
+#@ gravityforms
+msgid "C&OCIRC;TE D'IVOIRE"
+msgstr "C&OCIRC;TE D'IVOIRE"
+
+#@ gravityforms
+msgid "C&ocirc;te d'Ivoire"
+msgstr "C&ocirc;te d'Ivoire"
+
+#@ gravityforms
+msgid "CAMBODIA"
+msgstr "KAMBODSCHA"
+
+#@ gravityforms
+msgid "CAMEROON"
+msgstr "KAMERUN"
+
+#@ gravityforms
+msgid "CANADA"
+msgstr "KANADA"
+
+#@ gravityforms
+msgid "CAPE VERDE"
+msgstr "KAP VERDE"
+
+#@ gravityforms
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#@ gravityforms
+msgid "CAPTCHA Type"
+msgstr "CAPTCHA-Typ"
+
+#@ gravityforms
+msgid "CENTRAL AFRICAN REPUBLIC"
+msgstr "ZENTRALAFRIKANISCHE REPUBLIK"
+
+#@ gravityforms
+msgid "CHAD"
+msgstr "TSCHAD"
+
+#@ gravityforms
+msgid "CHILE"
+msgstr "CHILE"
+
+#@ gravityforms
+msgid "CHINA"
+msgstr "CHINA"
+
+#@ gravityforms
+msgid "COLOMBIA"
+msgstr "KULUMBIEN"
+
+#@ gravityforms
+msgid "COMOROS"
+msgstr "KOMOREN"
+
+#@ gravityforms
+msgid "CONGO, DEMOCRATIC REPUBLIC OF THE"
+msgstr "KONGO, DEMOKRATISCHE REPUBLIK DES"
+
+#@ gravityforms
+msgid "CONGO, REPUBLIC OF THE"
+msgstr "KONGO, REPUBLIK DES"
+
+#@ gravityforms
+msgid "COSTA RICA"
+msgstr "COSTA RICA"
+
+#@ gravityforms
+msgid "CROATIA"
+msgstr "KROATIEN"
+
+#@ gravityforms
+msgid "CSS Class Name"
+msgstr "CSS-Klassenname"
+
+#@ gravityforms
+msgid "CUBA"
+msgstr "KUBA"
+
+#@ gravityforms
+msgid "CYPRUS"
+msgstr "ZYPERN"
+
+#@ gravityforms
+msgid "CZECH REPUBLIC"
+msgstr "TSCHECHISCHE REPUBLIK"
+
+#@ gravityforms
+msgid "Calendar Icon"
+msgstr "Kalender-Icon"
+
+#@ gravityforms
+msgid "California"
+msgstr "Kalifornien"
+
+#@ gravityforms
+msgid "Cambodia"
+msgstr "Kambodscha"
+
+#@ gravityforms
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#@ gravityforms
+msgid "Can't find your form? Make sure it is active."
+msgstr "K&ouml;nnen Sie Ihr Formular nicht finden? Stellen Sie sicher, dass es aktiviert ist."
+
+#@ gravityforms
+msgid "Canada"
+msgstr "Kanada"
+
+#@ gravityforms
+msgid "Canadian"
+msgstr "kanadisch"
+
+#@ gravityforms
+msgid "Canadian Dollar"
+msgstr "Kanadischer Dollar"
+
+#@ gravityforms
+msgid "Canadian Province/Territory"
+msgstr "Kanadische Provinzen/ Territorien"
+
+#@ gravityforms
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#@ gravityforms
+msgid "Cape Verde"
+msgstr "Kap Verde"
+
+#@ gravityforms
+msgid "Captcha"
+msgstr "Captcha"
+
+#@ gravityforms
+msgid "Caption"
+msgstr "Beschriftung"
+
+#@ gravityforms
+msgid "Card Number"
+msgstr "Kartennummer"
+
+#@ gravityforms
+msgid "Card Type"
+msgstr "Kartentyp"
+
+#@ gravityforms
+msgid "Cardholder Name"
+msgstr "Name des Karteninhabers"
+
+#@ gravityforms
+msgid "Cardholder\\'s Name"
+msgstr "Name des Karteninhabers"
+
+#@ gravityforms
+msgid "Category"
+msgstr "Kategorie"
+
+#@ gravityforms
+msgid "Central African Republic"
+msgstr "Zentralafrikanische Republik"
+
+#@ gravityforms
+msgid "Chad"
+msgstr "Tschad"
+
+#@ gravityforms
+msgid "Check this box to prevent Province field from being displayed in the form."
+msgstr "Setzen Sie diese Option, damit das Provinzfeld nicht angezeigt wird im Formular."
+
+#@ gravityforms
+msgid "Check this box to prevent the State field from being displayed in the form."
+msgstr "Setzen Sie diese Option, damit das Bundesstaat-Feld im Formular nicht angezeigt wird."
+
+#@ gravityforms
+msgid "Check this box to prevent the State/Province/Region from being displayed in the form."
+msgstr "Setzen Sie diese Option, damit das Bundesstaat-/ Provinz-/ Regionsfeld nicht angezeigt wird im Formular."
+
+#@ gravityforms
+msgid "Check this box to prevent the extra address input (Address Line 2) from being displayed in the form."
+msgstr "Klicken Sie diese Box, damit das zus&auml;tzliche Addressfeld (zweite Addresszeile) nicht im Formular angezeigt wird."
+
+#@ gravityforms
+msgid "Check this option to add a text input as the final choice of your radio button field. This allows the user to specify a value that is not a predefined choice."
+msgstr "W&auml;hlen Sie diese Option, um ein Texteingabefeld als die letzte Auswahl Ihres Radio-Button-Feldes anzubieten. Dies erlaubt es Benutzern einen Wert anzugeben, welcher nicht in der Vorauswahl angezeigt wird."
+
+#@ gravityforms
+msgid "Check this option to enable a sliding animation when displaying/hiding conditional logic fields."
+msgstr "Setzen Sie diese Option, um eine gleitende Animation zu aktiveren, wenn das Conditional Logic-Feld angezeigt/ verborgen wird."
+
+#@ gravityforms
+msgid "Check this option to enable data to be passed to the form and pre-populate this field dynamically. Data can be passed via Query Strings, Shortcode and/or Hooks"
+msgstr "Setzen Sie diese Option, damit die Daten durch das Formular gehen und von diesem Feld dynamisch vorverarbeitet werden. Daten k&ouml;nnen via Query Strings, Shortcode und/ oder Hooks geleitet werden."
+
+#@ gravityforms
+msgid "Check this option to format and insert form fields into the Post Content."
+msgstr "Setzen Sie diese Option, um Formularfelder f&uuml;r den Beitragsinhalt einzuf&uuml;gen und zu formatieren."
+
+#@ gravityforms
+msgid "Check this option to format and insert form fields into the Post Title."
+msgstr "Setzen Sie diese Option, um Formularfelder f&uuml;r den Beitragstitel einzuf&uuml;gen und zu formatieren."
+
+#@ gravityforms
+msgid "Check this option to require a user to be logged in to view this form"
+msgstr "W&auml;hlen Sie diese Option, um die Anmeldung eines Benutzers zu erzwingen, damit dieses Formular angesehen werden kann."
+
+#@ gravityforms
+msgid "Check this option to set this image as the post's Featured Image."
+msgstr "W&auml;hlen Sie diese Option, um dieses Bild dann als das Artikelbild (Featured Image) festzulegen."
+
+#@ gravityforms
+msgid "Check this option to specify a value for each choice. Choice values are not displayed to the user viewing the form, but are accessible to administrators when viewing the entry."
+msgstr "Setzen Sie diese Option, um einen Wert f&uuml;r jede Auswahl festzulegen. Auswahlwerte werden dem Besucher beim Aufruf des Formulars nicht angezeigt, sind jedoch f&uuml;r Administratoren verf&uuml;gbar, wenn sie die entsprechenden Formulareintr&auml;ge betrachten."
+
+#@ gravityforms
+msgid "Checkboxes"
+msgstr "Checkboxen"
+
+#@ gravityforms
+msgid "Chile"
+msgstr "Chile"
+
+#@ gravityforms
+msgid "China"
+msgstr "China"
+
+#@ gravityforms
+msgid "Choices"
+msgstr "M&ouml;glichkeiten"
+
+#@ gravityforms
+msgid "City"
+msgstr "Ort"
+
+#@ gravityforms
+msgid "Clean"
+msgstr "Sauber"
+
+#@ gravityforms
+msgid "Clerical/Administrative"
+msgstr "Kirchlich"
+
+#@ gravityforms
+msgid "Click to edit post"
+msgstr "Klicken, um den Beitrag zu bearbeiten"
+
+#@ gravityforms
+msgid "Click to select..."
+msgstr "Klicken zum Ausw&auml;hlen..."
+
+#@ gravityforms
+msgid "Click to view"
+msgstr "Klicken zum Anschauen"
+
+#@ gravityforms
+msgid "Client IP Address"
+msgstr "Client IP-Adresse"
+
+#@ gravityforms
+msgid "Close"
+msgstr "Schlie&szlig;en"
+
+#@ gravityforms
+msgid "Close Window"
+msgstr "Fenster schlie&szlig;en"
+
+#@ gravityforms
+msgid "Colombia"
+msgstr "Kolumbien"
+
+#@ gravityforms
+msgid "Colorado"
+msgstr "Colorado"
+
+#@ gravityforms
+msgid "Column 1"
+msgstr "Spalte 1"
+
+#@ gravityforms
+msgid "Column 2"
+msgstr "Spalte 2"
+
+#@ gravityforms
+msgid "Column 3"
+msgstr "Spalte 3"
+
+#@ gravityforms
+msgid "Comoros"
+msgstr "Komoren"
+
+#@ gravityforms
+msgid "Comparison"
+msgstr "Vergleich"
+
+#@ gravityforms
+msgid "Conditional Logic"
+msgstr "Conditional Logic"
+
+#@ gravityforms
+msgid "Confirm Email"
+msgstr "E-Mail best&auml;tigen"
+
+#@ gravityforms
+msgid "Confirm Password"
+msgstr "Passwort best&auml;tigen"
+
+#@ gravityforms
+msgid "Confirmation"
+msgstr "Best&auml;tigung"
+
+#@ gravityforms
+msgid "Confirmation Message"
+msgstr "Best&auml;tigungsnachricht"
+
+#@ gravityforms
+msgid "Confirmation Message Text"
+msgstr "Text der Best&auml;tigungsnachricht beim Absenden"
+
+#@ gravityforms
+msgid "Congo, Democratic Republic of the"
+msgstr "Kongo, Demokratische Republik des"
+
+#@ gravityforms
+msgid "Congo, Republic of the"
+msgstr "Kongo, Republik des"
+
+#@ gravityforms
+msgid "Connecticut"
+msgstr "Connecticut"
+
+#@ gravityforms
+msgid "Construction/Facilities"
+msgstr "Bau / Ausstattung"
+
+#@ gravityforms
+msgid "Consumer Goods"
+msgstr "Konsumg&uuml;ter"
+
+#@ gravityforms
+msgid "Contact Us"
+msgstr "Kontaktieren Sie uns"
+
+#@ gravityforms
+msgid "Content"
+msgstr "Inhalt"
+
+#@ gravityforms
+msgid "Continents"
+msgstr "Kontinente"
+
+#@ gravityforms
+msgid "Continue Editing this Form"
+msgstr "Bearbeiten des Formulars fortsetzen"
+
+#@ gravityforms
+msgid "Continue editing this form"
+msgstr "Bearbeiten des Formulars fortsetzen"
+
+#@ gravityforms
+msgid "Contract"
+msgstr "per Vertrag"
+
+#@ gravityforms
+msgid "Conversion"
+msgstr "Verwertung/ Umwandlung"
+
+#@ gravityforms
+msgid "Conversion is the percentage of form views that generated an entry. If a form was viewed twice, and one entry was generated, the conversion will be 50%."
+msgstr "Conversion ist der Prozentsatz von Formular-Aufrufen, der einen Eintrag generiert hat. Wenn ein Formular zweimal aufgerufen wurde, und dabei ein Eintrag generiert wurde, liegt die Conversion bei 50%."
+
+#@ gravityforms
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#@ gravityforms
+msgid "Countries"
+msgstr "L&auml;nder"
+
+#@ gravityforms
+msgid "Country"
+msgstr "Land"
+
+#@ gravityforms
+msgid "Course Code"
+msgstr "Kursbezeichnung"
+
+#@ gravityforms
+msgid "Create content template"
+msgstr "Inhaltstemplate erstellen"
+
+#@ gravityforms
+msgid "Create rules to dynamically display or hide the page's Next Button based on values from another field"
+msgstr "Erstellen Sie Regeln, um dynamisch den Weiter-Button der Seite anzuzeigen oder zu verbergen, basierend auf Werten von einem anderen Feld"
+
+#@ gravityforms
+msgid "Create rules to dynamically display or hide the submit button based on values from another field"
+msgstr "Erstellen Sie Regeln, um dynamisch den Absende-Button anzuzeigen oder zu verbergen, basierend auf Werten von einem anderen Formularfeld."
+
+#@ gravityforms
+msgid "Create rules to dynamically display or hide this field based on values from another field"
+msgstr "Erstellen Sie Regeln, um dynamisch dieses Feld anzuzeigen oder zu verbergen, abh&auml;ngig von Werten eines anderes Formularfeldes."
+
+#@ gravityforms
+msgid "Create rules to dynamically display or hide this page based on values from another field"
+msgstr "Erstellen Sie Regeln, um dynamisch diese Seite anzuzeigen oder zu verbergen, basierend auf Werten von einem anderen Feld"
+
+#@ gravityforms
+msgid "Credit Card"
+msgstr "Kreditkarte"
+
+#@ gravityforms
+msgid "Croatia"
+msgstr "Kroatien"
+
+#@ gravityforms
+msgid "Cuba"
+msgstr "Kuba"
+
+#@ gravityforms
+msgid "Currency"
+msgstr "W&auml;hrung"
+
+#@ gravityforms
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#@ gravityforms
+msgid "Custom Field"
+msgstr "benutzerdef. Feld"
+
+#@ gravityforms
+msgid "Custom Field Name"
+msgstr "benutzerdefinierter Feldname"
+
+#@ gravityforms
+msgid "Custom Icon"
+msgstr "Individuelles Icon"
+
+#@ gravityforms
+msgid "Custom Mask Instructions"
+msgstr "Benutzerdefinierte Eingabemasken-Instruktionen"
+
+#@ gravityforms
+msgid "Customer Service"
+msgstr "Kundenservice"
+
+#@ gravityforms
+msgid "Cyprus"
+msgstr "Zypern"
+
+#@ gravityforms
+msgid "Czech Koruna"
+msgstr "Tschechische Krone"
+
+#@ gravityforms
+msgid "Czech Republic"
+msgstr "Tschechische Republik"
+
+#@ gravityforms
+msgid "DD"
+msgstr "TT"
+
+#@ gravityforms
+msgid "DENMARK"
+msgstr "D&Auml;NEMARK"
+
+#@ gravityforms
+msgid "DJIBOUTI"
+msgstr "DJIBOUTI"
+
+#@ gravityforms
+msgid "DOMINICA"
+msgstr "DOMINICA"
+
+#@ gravityforms
+msgid "DOMINICAN REPUBLIC"
+msgstr "DOMINIKANISCHE REPUBLIK"
+
+#@ gravityforms
+msgid "Danish Krone"
+msgstr "D&auml;nische Krone"
+
+#@ gravityforms
+msgid "Date"
+msgstr "Datum"
+
+#@ gravityforms
+msgid "Date Drop Down"
+msgstr "Datums-Aufklappfeld"
+
+#@ gravityforms
+msgid "Date Field"
+msgstr "Datumsfeld"
+
+#@ gravityforms
+msgid "Date Format"
+msgstr "Datumsformat"
+
+#@ gravityforms
+msgid "Date Input Type"
+msgstr " Datumseingabeformat"
+
+#@ gravityforms
+msgid "Date Picker"
+msgstr "Datumsw&auml;hler"
+
+#@ gravityforms
+msgid "Date Range is optional, if no date range is selected all entries will be exported."
+msgstr "Der Datumsbereich ist optional, wenn kein Datumsbereich ausgew&auml;hlt wird, werden alle Eintr&auml;ge exportiert."
+
+#@ gravityforms
+msgid "Day"
+msgstr "Tag"
+
+#@ gravityforms
+msgid "Days of the Week"
+msgstr "Wochentage"
+
+#@ gravityforms
+msgid "December"
+msgstr "Dezember"
+
+#@ gravityforms
+msgid "Default"
+msgstr "Standard"
+
+#@ gravityforms
+msgid "Default %s"
+msgstr "Standard %s"
+
+#@ gravityforms
+msgid "Default Country"
+msgstr "Standard-Land"
+
+#@ gravityforms
+msgid "Default Post Author"
+msgstr "Standard-Autor f&uuml;r Beitr&auml;ge"
+
+#@ gravityforms
+msgid "Default Province"
+msgstr "Standard-Provinz"
+
+#@ gravityforms
+msgid "Default State"
+msgstr "Standard-Bundesstaat"
+
+#@ gravityforms
+msgid "Default Value"
+msgstr "Standardwert"
+
+#@ gravityforms
+msgid "Definitely"
+msgstr "unbedingt"
+
+#@ gravityforms
+msgid "Definitely Not"
+msgstr "definitiv nicht"
+
+#@ gravityforms
+msgid "Delaware"
+msgstr "Delaware"
+
+#@ gravityforms
+msgid "Delete"
+msgstr "L&ouml;schen"
+
+#@ gravityforms
+msgid "Delete All Spam"
+msgstr "Gesamten Spam l&ouml;schen"
+
+#@ gravityforms
+msgid "Delete Entries"
+msgstr "Eintr&auml;ge l&ouml;schen"
+
+#@ gravityforms
+msgid "Delete Form"
+msgstr "Formular l&ouml;schen"
+
+#@ gravityforms
+msgid "Delete Icon URL"
+msgstr "Icon-URL f&uuml;r 'L&ouml;schen' (Standard: Minus-Symbol)"
+
+#@ gravityforms
+msgid "Delete Permanently"
+msgstr "Dauerhaft l&ouml;schen"
+
+#@ gravityforms
+msgid "Delete file"
+msgstr "Datei l&ouml;schen"
+
+#@ gravityforms
+msgid "Delete this Form"
+msgstr "Dieses Formular l&ouml;schen"
+
+#@ gravityforms
+msgid "Delete this custom choice list? 'OK' to delete, 'Cancel' to abort."
+msgstr "Diese benutzerdefinierte Auswahlliste l&ouml;schen? 'OK' zum l&ouml;schen, 'Abbrechen' f&uuml;r Abbruch."
+
+#@ gravityforms
+msgid "Delete this entry permanently"
+msgstr "Diesen Eintrag dauerhaft l&ouml;schen"
+
+#@ gravityforms
+msgid "Deleted Field"
+msgstr "Feld l&ouml;schen"
+
+#@ gravityforms
+msgid "Denmark"
+msgstr "D&auml;nemark"
+
+#@ gravityforms
+msgid "Description"
+msgstr "Beschreibung"
+
+#@ gravityforms
+msgid "Description Placement"
+msgstr "Beschreibungs-Platzierung"
+
+#@ gravityforms
+msgid "Deselect All"
+msgstr "Auswahl aufl&ouml;sen"
+
+#@ gravityforms
+msgid "Design and Layout"
+msgstr "Design und Layout"
+
+#@ gravityforms
+msgid "Details"
+msgstr "Details"
+
+#@ gravityforms
+msgid "Developer Docs"
+msgstr "Dokumente f&uuml;r Entwickler (Developer)"
+
+#@ gravityforms
+msgid "Disable Auto-Formatting"
+msgstr "Auto-Formatierung deaktivieren"
+
+#@ gravityforms
+msgid "Disable Auto-formatting"
+msgstr "Auto-Formatierung deaktivieren"
+
+#@ gravityforms
+msgid "Disable Default Margins"
+msgstr "Default Margins deaktivieren"
+
+#@ gravityforms
+msgid "Disable Quantity"
+msgstr "Menge deaktivieren"
+
+#@ gravityforms
+msgid "Disable default margins"
+msgstr "default margins deaktivieren"
+
+#@ gravityforms
+msgid "Disable quantity field"
+msgstr "Mengenfeld deaktivieren"
+
+#@ gravityforms
+msgid "Disable script output"
+msgstr "Skriptausgabe deaktivieren"
+
+#@ gravityforms
+msgid "Disables the quantity field.  A quantity of 1 will be assumed or you can add a Quantity field to your form from the Pricing Fields."
+msgstr "Deaktiviert das Mengenfeld. Eine Menge von 1 wird angenommen - oder Sie k&ouml;nnen ein Mengenfeld zum Formular hinzuf&uuml;gen bei bzw. von den Preisfeldern"
+
+#@ gravityforms
+msgid "Disagree"
+msgstr "abneigend"
+
+#@ gravityforms
+msgid "Discover"
+msgstr "Discover"
+
+#@ gravityforms
+msgid "Dismiss"
+msgstr "Verwerfen"
+
+#@ gravityforms
+msgid "Display form description"
+msgstr "Formularbeschreibung anzeigen"
+
+#@ gravityforms
+msgid "Display form title"
+msgstr "Formulartitel anzeigen"
+
+#@ gravityforms
+msgid "Display placeholder"
+msgstr "Anzeige-Platzhalter"
+
+#@ gravityforms
+msgid "Displaying %d - %d of %d"
+msgstr "Anzeige %d - %d von %d"
+
+#@ gravityforms
+msgid "District of Columbia"
+msgstr "District of Columbia"
+
+#@ gravityforms
+msgid "Divorced"
+msgstr "geschieden"
+
+#@ gravityforms
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#@ gravityforms
+msgid "Documentation (please select a topic)"
+msgstr "Dokumentation (Bitte w&auml;hlen Sie ein Thema)"
+
+#@ gravityforms
+msgid "Dominica"
+msgstr "Dominica"
+
+#@ gravityforms
+msgid "Dominican Republic"
+msgstr "Dominikanische Republik"
+
+#@ gravityforms
+msgid "Donation"
+msgstr "Spende"
+
+#@ gravityforms
+msgid "Donations are not editable"
+msgstr "Spenden k&ouml;nnen nicht bearbeitet werden"
+
+#@ gravityforms
+msgid "Download Export File"
+msgstr "Export-Datei herunterladen"
+
+#@ gravityforms
+msgid "Download file"
+msgstr "Datei herunterladen"
+
+#@ gravityforms
+msgid "Downloads (please select a product)"
+msgstr "Downloads (Bitte w&auml;hlen Sie ein Produkt)"
+
+#@ gravityforms
+msgid "Draft"
+msgstr "Entwurf"
+
+#@ gravityforms
+msgid "Drag & drop to order and select which columns are displayed in the entries table."
+msgstr "Nutzen Sie Drag & Drop, um die Spalten zu sortieren und um auszuw&auml;hlen, welche Spalten in der Eintr&auml;ge-Tabelle angezeigt werden."
+
+#@ gravityforms
+msgid "Drop Down"
+msgstr "Auswahlfeld"
+
+#@ gravityforms
+msgid "Duplicate"
+msgstr "Duplizieren"
+
+#@ gravityforms
+msgid "Duplicate this form"
+msgstr "Dieses Formular duplizieren"
+
+#@ gravityforms
+msgid "Dutch"
+msgstr "Holl&auml;ndisch"
+
+#@ gravityforms
+msgid "EAST TIMOR"
+msgstr "OSTTIMOR"
+
+#@ gravityforms
+msgid "ECUADOR"
+msgstr "ECUADOR"
+
+#@ gravityforms
+msgid "EGYPT"
+msgstr "&Auml;GYPTEN"
+
+#@ gravityforms
+msgid "EL SALVADOR"
+msgstr "EL SALVADOR"
+
+#@ gravityforms
+msgid "EQUATORIAL GUINEA"
+msgstr "&Auml;QUATORIAL GUINEA"
+
+#@ gravityforms
+msgid "ERITREA"
+msgstr "ERITREA"
+
+#@ gravityforms
+msgid "ESTONIA"
+msgstr "ESTLAND"
+
+#@ gravityforms
+msgid "ETHIOPIA"
+msgstr "&Auml;THIOPIEN"
+
+#@ gravityforms
+msgid "East Timor"
+msgstr "Osttimor"
+
+#@ gravityforms
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#@ gravityforms
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#@ gravityforms
+msgid "Edit Form's properties"
+msgstr "Formulareigenschaften bearbeiten"
+
+#@ gravityforms
+msgid "Edit Forms"
+msgstr "Formulare bearbeiten"
+
+#@ gravityforms
+msgid "Edit Last Page"
+msgstr "Letzte Seite bearbeiten"
+
+#@ gravityforms
+msgid "Edit Post"
+msgstr "Beitrag bearbeiten"
+
+#@ gravityforms
+msgid "Edit notifications sent by this form"
+msgstr "Benachtigungen bearbeiten, die von diesem Formular ausgesandt wurden"
+
+#@ gravityforms
+msgid "Education"
+msgstr "Bildung"
+
+#@ gravityforms
+msgid "Education/Training"
+msgstr "Bildung / Training"
+
+#@ gravityforms
+msgid "Egypt"
+msgstr "&Auml;gypten"
+
+#@ gravityforms
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#@ gravityforms
+msgid "Email"
+msgstr "E-Mail"
+
+#@ gravityforms
+msgid "Embed Post/Page Id"
+msgstr "Beitrags-/ Seiten-ID einf&uuml;gen"
+
+#@ gravityforms
+msgid "Embed Post/Page Title"
+msgstr "Beitrags-/ Seiten-Titel einf&uuml;gen"
+
+#@ gravityforms
+msgid "Embed URL"
+msgstr "URL einf&uuml;gen"
+
+#@ gravityforms
+msgid "Embed Url"
+msgstr "Eingef&uuml;gte URL"
+
+#@ gravityforms
+msgid "Employed Full-Time"
+msgstr "vollbesch&auml;ftigt"
+
+#@ gravityforms
+msgid "Employed Part-Time"
+msgstr "teilzeitbesch&auml;ftigt"
+
+#@ gravityforms
+msgid "Employee"
+msgstr "angestellt"
+
+#@ gravityforms
+msgid "Employment"
+msgstr "Besch&auml;ftigungsverh&auml;ltnis"
+
+#@ gravityforms
+msgid "Empty Trash"
+msgstr "Papierkorb lehren"
+
+#@ gravityforms
+msgid "Enable \"other\" choice"
+msgstr "\"Andere\" Auswahl aktivieren"
+
+#@ gravityforms
+msgid "Enable AJAX"
+msgstr "AJAX aktivieren"
+
+#@ gravityforms
+msgid "Enable Animation"
+msgstr "Animation aktivieren"
+
+#@ gravityforms
+msgid "Enable Anti-spam honeypot"
+msgstr "Antispam Honeypot aktivieren"
+
+#@ gravityforms
+msgid "Enable Choice Values"
+msgstr "Auswahlwerte aktivieren"
+
+#@ gravityforms
+msgid "Enable Conditional Logic"
+msgstr "Conditional Logic aktivieren"
+
+#@ gravityforms
+msgid "Enable Email Confirmation"
+msgstr "E-Mail-Best&auml;tigung aktivieren"
+
+#@ gravityforms
+msgid "Enable Enhanced UI"
+msgstr "Erweiterte Benutzeroberfl&auml;che aktivieren"
+
+#@ gravityforms
+msgid "Enable Next Button Conditional Logic"
+msgstr "Conditional-Logic f&uuml;r Weiter-Button aktivieren"
+
+#@ gravityforms
+msgid "Enable Page Conditional Logic"
+msgstr "Conditional-Logic f&uuml;r Seiten aktivieren"
+
+#@ gravityforms
+msgid "Enable Password Input"
+msgstr "Passworteingabe aktivieren"
+
+#@ gravityforms
+msgid "Enable Password Strength"
+msgstr "Passwortst&auml;rke aktivieren"
+
+#@ gravityforms
+msgid "Enable animation"
+msgstr "Animation aktivieren"
+
+#@ gravityforms
+msgid "Enable anti-spam honeypot"
+msgstr "Antispam Honeypot aktivieren"
+
+#@ gravityforms
+msgid "Enable email notification to administrators"
+msgstr "Aktivieren Sie E-Mail-Benachrichtigungen f&uuml;r Administratoren"
+
+#@ gravityforms
+msgid "Enable email notification to users"
+msgstr "Aktivieren Sie die E-Mail-Benachrichtigung f&uuml;r Besucher"
+
+#@ gravityforms
+msgid "Enable enhanced user interface"
+msgstr "Erweitertes Benutzerinterface aktivieren"
+
+#@ gravityforms
+msgid "Enable multiple columns"
+msgstr "Mehrere Spalten erm&ouml;glichen"
+
+#@ gravityforms
+msgid "Enables the honeypot spam protection technique, which is an alternative to the reCAPTCHA field."
+msgstr "Aktiviert die Honeypot Spamabwehr-Technik, welche eine Alternative zum reCAPTCHA-Feld darstellt."
+
+#@ gravityforms
+msgid "End"
+msgstr "Ende"
+
+#@ gravityforms
+msgid "End Date/Time"
+msgstr "Ende Datum/ Zeit"
+
+#@ gravityforms
+msgid "Energy/Utilities"
+msgstr "Energiebranche"
+
+#@ gravityforms
+msgid "Engineering"
+msgstr "Maschinenbau"
+
+#@ gravityforms
+msgid "English"
+msgstr "Englisch"
+
+#@ gravityforms
+msgid "Enter Email"
+msgstr "E-Mail eingeben"
+
+#@ gravityforms
+msgid "Enter Password"
+msgstr "Passwort eingeben"
+
+#@ gravityforms
+msgid "Enter a comma separated list of email addresses you would like to receive a BCC of the administrator notification email."
+msgstr "Tragen Sie eine mit Komma getrennte Liste von E-Mail-Adressen ein, an die Sie Blindkopien der Administrator-Benachrichtigungs-E-Mails erhalten wollen."
+
+#@ gravityforms
+msgid "Enter a comma separated list of email addresses you would like to receive a BCC of the user notification email."
+msgstr "Tragen Sie eine mit Komma getrennte Liste von E-Mail-Adressen ein, an die Blindkopien der Besucher-Benachrichtigungs-E-Mail gesendet werden sollen."
+
+#@ gravityforms
+msgid "Enter a comma separated list of email addresses you would like to receive the selected notification emails."
+msgstr "Geben Sie eine kommagetrennte Liste von E-Mail-Adressen ein, an denen Sie die ausgew&auml;hlten Benachrichtigungen erhalten wollen."
+
+#@ gravityforms
+msgid "Enter a custom mask"
+msgstr "Geben Sie eine benutzerdefinierte Eingabemaske ein"
+
+#@ gravityforms
+msgid "Enter a description for your form. This may be used for user instructions."
+msgstr "Geben Sie eine Beschreibung f&uuml;r Ihr Formular ein. Dies kann zum Beispiel f&uuml;r Hinweise an die Besucher genutzt werden."
+
+#@ gravityforms
+msgid "Enter a message below to receive a notification email when users submit this form."
+msgstr "Geben Sie eine Nachricht unten ein, um eine Benachrichtigungs-E-Mail zu erhalten, wenn Besucher ein Formular absenden."
+
+#@ gravityforms
+msgid "Enter a message below to send users an automatic response when they submit this form."
+msgstr "Geben Sie unten eine Nachricht ein, um Besuchern eine automatisierte Antwort zu senden, wenn sie dieses Formular absenden."
+
+#@ gravityforms
+msgid "Enter a message to be displayed to users who are not logged in (shortcodes and HTML are supported)"
+msgstr "Geben Sie eine Mitteilung ein, die Benutzern angezeigt wird, die nicht angemeldet sind (Shortcodes sowie HTML werden unterst&uuml;tzt)."
+
+#@ gravityforms
+msgid "Enter a number in the input box below to limit the number of entries allowed for this form. The form will become inactive when that number is reached."
+msgstr "Tragen Sie eine Zahl in das Eingabefeld unten ein, um die Zahl der Eintr&auml;ge zu begrenzen, die f&uuml;r dieses Formular erlaubt sind. Das Formular wird deaktiviert, wenn diese Zahl erreicht wurde."
+
+#@ gravityforms
+msgid "Enter name"
+msgstr "Name eingeben"
+
+#@ gravityforms
+msgid "Enter that allowed file extensions for file uploads.  This will limit what type of files a user may upload."
+msgstr "Geben Sie die erlaubten Dateitypen bzw. Dateierweiterungen f&uuml;r das Hochladen von Dateien an. Dies begrenzt die M&ouml;glichkeiten der Besucher, welche Dateien hochgeladen werden k&ouml;nnen."
+
+#@ gravityforms
+msgid "Enter the CSS class name you would like to use in order to override the default styles for this field."
+msgstr "Geben Sie den CSS-Klassenname ein, den Sie benutzen wollen, um die Standard-Stileinstellungen f&uuml;r dieses Feld zu &uuml;berschreiben."
+
+#@ gravityforms
+msgid "Enter the CSS class name you would like to use in order to override the default styles for this form."
+msgstr "Geben Sie den CSS-Klassenname an, den Sie benutzen m&ouml;chten, um die Standard-Stileinstellungen f&uuml;r dieses Formular zu &uuml;berschreiben."
+
+#@ gravityforms
+msgid "Enter the URL of a custom image to replace the default 'add item' icon."
+msgstr "Geben Sie die URL f&uuml;r ein benutzerdefiniertes Bild ein, um das vorgegebene 'Element hinzuf&uuml;gen'-Icon zu ersetzen."
+
+#@ gravityforms
+msgid "Enter the URL of a custom image to replace the default 'delete item' icon."
+msgstr "Geben Sie die URL f&uuml;r ein benutzerdefiniertes Bild ein, um das vorgegebene 'Element l&ouml;schen'-Icon zu ersetzen."
+
+#@ gravityforms
+msgid "Enter the URL of the webpage you would like the user to be redirected to after they have submitted the form."
+msgstr "Geben Sie die URL der Webseite an, an die der Besucher weitergeleitet werden soll, nachdem das Formular abgesendet wurde."
+
+#@ gravityforms
+msgid "Enter the admin label of the form field.  Entering a value in this field will override the Field Label when displayed in the Gravity Forms administration tool."
+msgstr "Geben Sie das Admin-Label des Formularfeldes ein. Ein hier eingetragener Wert f&uuml;r das Standard-Feldlabel &uuml;berschreiben, wenn das entsprechende Formular in den Gravity Forms-Administrationswerkzeugen angezeigt wird."
+
+#@ gravityforms
+msgid "Enter the base price for this product."
+msgstr "Geben Sie den Basispreis f&uuml;r dieses Produkt ein."
+
+#@ gravityforms
+msgid "Enter the content (Text or HTML) to be displayed on the form."
+msgstr "Geben Sie den Inhalt (Text oder HTML) ein, der im Formular angezeigt werden soll."
+
+#@ gravityforms
+msgid "Enter the description for the form field.  This will be displayed to the user and provide some direction on how the field should be filled out or selected."
+msgstr "Geben Sie die Beschreibung f&uuml;r das Formularfeld ein. Diese ist sichtbar f&uuml;r den Besucher und stellt in der Regel einige Informationen zur Verf&uuml;gung, wie das Feld ausgef&uuml;llt oder gew&auml;hlt werden sollte."
+
+#@ gravityforms
+msgid "Enter the email address you would like the administrator notification email sent from, or select the email from available email form fields."
+msgstr "Geben Sie eine E-Mail-Adresse ein, von der aus die Administrator-Benachrichtungen gesendet werden sollen, oder w&auml;hlen sie die E-Mail von den verf&uuml;gbaren E-Mail-Formularfeldern."
+
+#@ gravityforms
+msgid "Enter the email address you would like the administrator notification email sent to."
+msgstr "Geben Sie eine E-Mail-Adresse an, an welche die Administrator-Benachrichtungen gesendet werden sollen."
+
+#@ gravityforms
+msgid "Enter the email address you would like the user notification email sent from."
+msgstr "Geben Sie die E-Mail-Adresse ein, von der aus die Besucher-Benachrichtigungs-E-Mail gesendet werden soll."
+
+#@ gravityforms
+msgid "Enter the email address you would like to be used as the reply to address for the administrator notification email."
+msgstr "Geben Sie die E-Mail-Antwortadresse (reply to) an, an die Antworten bei Administrator-Benachrichtigungen gesendet werden sollen."
+
+#@ gravityforms
+msgid "Enter the email address you would like to be used as the reply to address for the user notification email."
+msgstr "Geben Sie die E-Mail-Antwortadresse (reply to) ein, an die Antworten auf die Besucher-Benachrichtigungs-E-Mail gesendet werden sollen."
+
+#@ gravityforms
+msgid "Enter the label for this HTML block. It will help you identify your HTML blocks in the form editor, but it will not be displayed on the form."
+msgstr "Geben Sie das Label f&uuml;r diesen HTML-Block ein. Es wird Ihnen helfen, Ihre HTML-Blocks im Formular-Editor zu identifizieren. Im Formular wird es jedoch nicht angezeigt."
+
+#@ gravityforms
+msgid "Enter the label of the form field.  This is the field title the user will see when filling out the form."
+msgstr "Geben Sie das Label des Formularfeldes ein. Dies ist der Feldtitel, den der Besucher sieht, wenn er/ sie das Formular ausf&uuml;llt."
+
+#@ gravityforms
+msgid "Enter the maximum number of characters that this field is allowed to have."
+msgstr "Geben Sie die maximale Anzahl an Zeichen ein, die f&uuml;r dieses Feld erlaubt sein soll."
+
+#@ gravityforms
+msgid "Enter the maximum number of rows that users are allowed to add."
+msgstr "Geben Sie die maximale Anzahl von Zeilen ein, die Benutzern zur Eingabe erlaubt sind."
+
+#@ gravityforms
+msgid "Enter the minimum and maximum values for this form field.  This will require that the value entered by the user must fall within this range."
+msgstr "Geben Sie die Minimum- und Maximum-Werte f&uuml;r dieses Formularfeld an. Dies erfordert, dass der durch den Besucher eingebene Wert innerhalb der Min.- bzw. Max.-Werte liegen mu&szlig;!"
+
+#@ gravityforms
+msgid "Enter the name you would like the administrator notification email sent from, or select the name from available name fields."
+msgstr "Geben Sie den Namen ein, unter dem die Administrator-Benachrichtigung gesendet werden soll, oder w&auml;hlen Sie den Namen aus verf&uuml;gbaren Formularfeldern."
+
+#@ gravityforms
+msgid "Enter the name you would like the user notification email sent from."
+msgstr "Geben Sie den Namen ein, unter dem dem Benutzerbenachrichtungs-E-Mail versendet werden soll."
+
+#@ gravityforms
+msgid "Enter the path to an image you would like to use as the form submit button."
+msgstr "Geben Sie den Pfad (URL) zum Bild an, welches Sie f&uuml;r den Formular-Absendebutton verwenden m&ouml;chten."
+
+#@ gravityforms
+msgid "Enter the path to an image you would like to use as the page next button"
+msgstr "Geben Sie den Pfad zu einem Bild an, den Sie als Seite-weiter-Button nutzen m&ouml;chten"
+
+#@ gravityforms
+msgid "Enter the path to an image you would like to use as the page previous button"
+msgstr "Geben Sie den Pfad zu einem Bild an, den Sie als Seite-zur&uuml;ck-Button nutzen m&ouml;chten"
+
+#@ gravityforms
+msgid "Enter the text you would like the user to see on the confirmation page of this form."
+msgstr "Geben Sie den Text ein, den der Besucher nach dem Absenden des Formulars sieht - also die Best&auml;tigungsnachricht."
+
+#@ gravityforms
+msgid "Enter the text you would like to appear on the form submit button."
+msgstr "Geben Sie den Text ein, den Sie auf dem Formular-Absendebutton haben m&ouml;chten."
+
+#@ gravityforms
+msgid "Enter the text you would like to appear on the page next button"
+msgstr "Geben Sie den Text ein, der auf dem Seite-weiter-Button erscheinen soll"
+
+#@ gravityforms
+msgid "Enter the text you would like to appear on the page previous button"
+msgstr "Geben Sie den Text ein, der auf dem Seite-zur&uuml;ck-Button erscheinen soll"
+
+#@ gravityforms
+msgid "Enter the title of your form."
+msgstr "Geben Sie den Titel Ihres Formulars an."
+
+#@ gravityforms
+msgid "Enter your reCAPTCHA Private Key, if you do not have a key you can register for one at the provided link.  reCAPTCHA is a free service."
+msgstr "Tragen Sie Ihren reCAPTCHA Privaten Schl&uuml;ssel (Private Key) ein. Wenn Sie keinen Schl&uuml;ssel haben, k&ouml;nnen Sie sich &uuml;ber den angegebenen Link registrieren. reCAPTCHA ist ein freier Dienst."
+
+#@ gravityforms
+msgid "Enter your reCAPTCHA Public Key, if you do not have a key you can register for one at the provided link.  reCAPTCHA is a free service."
+msgstr "Tragen Sie Ihren reCAPTCHA &Ouml;ffentlichen Schl&uuml;ssel (Public Key) ein. Wenn Sie keinen Schl&uuml;ssel haben, k&ouml;nnen Sie sich &uuml;ber den angegebenen Link registrieren. reCAPTCHA ist ein freier Dienst."
+
+#@ gravityforms
+msgid "Enter your reCAPTCHA keys in the %ssettings page%s"
+msgstr "Geben Sie Ihre reCAPTCHA-Schl&uuml;ssel (Keys) auf der %sEinstellungen-Seite%s ein"
+
+#@ gravityforms
+msgid "Entries"
+msgstr "Eintr&auml;ge"
+
+#@ gravityforms
+msgid "Entries Conversion"
+msgstr "Eintr&auml;ge-Conversion"
+
+#@ gravityforms
+msgid "Entry #"
+msgstr "Eintrag #"
+
+#@ gravityforms
+msgid "Entry # "
+msgstr "Eintrag # "
+
+#@ gravityforms
+msgid "Entry Date"
+msgstr "Datum des Eintrags"
+
+#@ gravityforms
+msgid "Entry Id"
+msgstr "Eintrags-ID"
+
+#@ gravityforms
+msgid "Entry Limit Reached Message"
+msgstr "Nachricht: Eintrags-Limit erreicht"
+
+#@ gravityforms
+msgid "Entry List"
+msgstr "Liste der Eintr&auml;ge"
+
+#@ gravityforms
+msgid "Entry URL"
+msgstr "Eintrags-URL"
+
+#@ gravityforms
+msgid "Entry Updated."
+msgstr "Eintrag aktualisiert."
+
+#@ gravityforms
+msgid "Entry deleted."
+msgstr "Eintrag gel&ouml;scht."
+
+#@ gravityforms
+msgid "Equatorial Guinea"
+msgstr "&Auml;quatorial Guinea"
+
+#@ gravityforms
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#@ gravityforms
+msgid "Errors have been highlighted below."
+msgstr "Fehler wurden unten hervorgehoben."
+
+#@ gravityforms
+msgid "Estonia"
+msgstr "Estland"
+
+#@ gravityforms
+msgid "Ethiopia"
+msgstr "&Auml;thopien"
+
+#@ gravityforms
+msgid "Euro"
+msgstr "Euro"
+
+#@ gravityforms
+msgid "Europe"
+msgstr "Europa"
+
+#@ gravityforms
+msgid "Everyday"
+msgstr "t&auml;glich"
+
+#@ gravityforms
+msgid "Everyone"
+msgstr "Jeder"
+
+#@ gravityforms
+msgid "Examples"
+msgstr "Beispiele"
+
+#@ gravityforms
+msgid "Excerpt"
+msgstr "Auszug (Excerpt)"
+
+#@ gravityforms
+msgid "Existing"
+msgstr "existierend"
+
+#@ gravityforms
+msgid "Expiration Date"
+msgstr "Ablaufdatum"
+
+#@ gravityforms
+msgid "Export Date Range"
+msgstr "Datumsbereich exportieren"
+
+#@ gravityforms
+msgid "Export Entries"
+msgstr "Eintr&auml;ge exportieren"
+
+#@ gravityforms
+msgid "Export Form Entries"
+msgstr "Formular-Eintr&auml;ge exportieren"
+
+#@ gravityforms
+msgid "Export Forms"
+msgstr "Formulare exportieren"
+
+#@ gravityforms
+msgid "Export Selected Fields"
+msgstr "Ausgew&auml;hlte Felder exportieren"
+
+#@ gravityforms
+msgid "Export Selected Form"
+msgstr "Ausgew&auml;hltes Formular exportieren"
+
+#@ gravityforms
+msgid "Export Selected Forms"
+msgstr "Ausgew&auml;hlte Formulare exportieren"
+
+#@ gravityforms
+msgid "Exporting entries. Please wait..."
+msgstr "Eintr&auml;ge werden exportiert. Bitte warten ..."
+
+#@ gravityforms
+msgid "Extended"
+msgstr "erweitert"
+
+#@ gravityforms
+msgid "Extra Large"
+msgstr "extra gro&szlig;"
+
+#@ gravityforms
+msgid "Extra Small"
+msgstr "extra klein"
+
+#@ gravityforms
+msgid "FAQ (please select a topic)"
+msgstr "H&auml;ufige Fragen (FAQ) (Bitte w&auml;hlen Sie ein Thema)"
+
+#@ gravityforms
+msgid "FIJI"
+msgstr "FIDSCHI"
+
+#@ gravityforms
+msgid "FINLAND"
+msgstr "FINNLAND"
+
+#@ gravityforms
+msgid "FRANCE"
+msgstr "FRANKREICH"
+
+#@ gravityforms
+msgid "Feature Requests"
+msgstr "Feature-Vorschl&auml;ge"
+
+#@ gravityforms
+msgid "February"
+msgstr "Februar"
+
+#@ gravityforms
+msgid "Female"
+msgstr "Weiblich"
+
+#@ gravityforms
+msgid "Field Choices"
+msgstr "Auswahlfeld"
+
+#@ gravityforms
+msgid "Field Date Format"
+msgstr "Datumsfeld-Format"
+
+#@ gravityforms
+msgid "Field Description"
+msgstr "Feldbeschreibung"
+
+#@ gravityforms
+msgid "Field ID"
+msgstr "Feld-ID"
+
+#@ gravityforms
+msgid "Field Label"
+msgstr "Feldbezeichnung"
+
+#@ gravityforms
+msgid "Field Name Format"
+msgstr "Namensfeldformat"
+
+#@ gravityforms
+msgid "Field Size"
+msgstr "Feldgr&ouml;&szlig;e"
+
+#@ gravityforms
+msgid "Field Type"
+msgstr "Feldtyp"
+
+#@ gravityforms
+msgid "Field type"
+msgstr "Feldtyp"
+
+#@ gravityforms
+msgid "Fiji"
+msgstr "Fidschi"
+
+#@ gravityforms
+msgid "File"
+msgstr "Datei"
+
+#@ gravityforms
+msgid "File Upload"
+msgstr "Datei hochladen"
+
+#@ gravityforms
+msgid "Finland"
+msgstr "Finnland"
+
+#@ gravityforms
+msgid "First"
+msgstr "Vorname"
+
+#@ gravityforms
+msgid "First Choice"
+msgstr "Erste Auswahl"
+
+#@ gravityforms
+msgid "First Option"
+msgstr "Erste Option"
+
+#@ gravityforms
+msgid "First Page Options"
+msgstr "Optionen f&uuml;r die erste Seite"
+
+#@ gravityforms
+msgid "Florida"
+msgstr "Florida"
+
+#@ gravityforms
+msgid "Font Color"
+msgstr "Schriftfarbe"
+
+#@ gravityforms
+msgid "For addresses that only apply to one country, you can choose to not display the country drop down. Entries will still be recorded with the selected country."
+msgstr "F&uuml;r Addressen, denen ein Land zugeordnet ist, kann das L&auml;nderauswahlfeld abgeschaltet werden. Eintr&auml;ge werden dennoch aufgezeichnet mit dem ausgew&auml;hlten Land."
+
+#@ gravityforms
+msgid "Form Button"
+msgstr "Formular-Button"
+
+#@ gravityforms
+msgid "Form Button Image"
+msgstr "Formularbutton-Bild"
+
+#@ gravityforms
+msgid "Form Button Text"
+msgstr "Formularbutton-Text"
+
+#@ gravityforms
+msgid "Form CSS Class Name"
+msgstr "Formular-CSS-Klassenname"
+
+#@ gravityforms
+msgid "Form Description"
+msgstr "Formularbeschreibung"
+
+#@ gravityforms
+msgid "Form Editor"
+msgstr "Formular-Editor"
+
+#@ gravityforms
+msgid "Form Editor :"
+msgstr "Formular-Editor:"
+
+#@ gravityforms
+msgid "Form Expired Message"
+msgstr "Nachricht: Formular abgelaufen"
+
+#@ gravityforms
+msgid "Form ID"
+msgstr "Formular-ID"
+
+#@ gravityforms
+msgid "Form Id"
+msgstr "Formular-ID"
+
+#@ gravityforms
+msgid "Form Id and Lead Id are required parameters."
+msgstr "Die Formular-ID und die Lead-ID sind erforderliche Parameter."
+
+#@ gravityforms
+msgid "Form Label Placement"
+msgstr "Platzierung der Formular-Label (Beschriftung)"
+
+#@ gravityforms
+msgid "Form Name"
+msgstr "Formularname"
+
+#@ gravityforms
+msgid "Form Preview"
+msgstr "Formularvorschau"
+
+#@ gravityforms
+msgid "Form Settings"
+msgstr "Form.-Einstlgn."
+
+#@ gravityforms
+msgid "Form Title"
+msgstr "Formular-Titel"
+
+#@ gravityforms
+msgid "Form updated successfully."
+msgstr "Formular erfolgreich aktualisiert."
+
+#@ gravityforms
+msgid "Formatting/Styling Questions"
+msgstr "Fragen zur/m Fomatierung/ Styling"
+
+#@ gravityforms
+msgid "Forms"
+msgstr "Formulare"
+
+#@ gravityforms
+msgid "Forms could not be imported. Please make sure your XML export file is in the correct format."
+msgstr "Formulare konnten nicht importiert werden. Bitte stellen Sie sicher, dass Ihre XML-Exportdatei im korrekten Format vorliegt."
+
+#@ gravityforms
+msgid "Forms could not be imported. Your XML export file is not compatible with your current version of Gravity Forms."
+msgstr "Formulare konnten nicht importiert werden. Ihre XML-Exportdatei ist nicht kompatibel mit Ihrer aktuellen Version von Gravity Forms."
+
+#@ gravityforms
+msgid "Forums (please select a topic)"
+msgstr "Foren (Bitte w&auml;hlen Sie ein Thema)"
+
+#@ gravityforms
+msgid "France"
+msgstr "Frankreich"
+
+#@ gravityforms
+msgid "French"
+msgstr "Franz&ouml;sisch"
+
+#@ gravityforms
+msgid "Friday"
+msgstr "Freitag"
+
+#@ gravityforms
+msgid "From Email"
+msgstr "Absender E-Mail (from)"
+
+#@ gravityforms
+msgid "From Email Address"
+msgstr "Absender-E-Mail-Adresse (from)"
+
+#@ gravityforms
+msgid "From Name"
+msgstr "Von-Name"
+
+#@ gravityforms
+msgid "Full Size"
+msgstr "Volle Gr&ouml;&szlig;e"
+
+#@ gravityforms
+msgid "Full Size - Centered"
+msgstr "Volle Gr&ouml;&szlig;e - zentriert"
+
+#@ gravityforms
+msgid "Full Size - Left Aligned"
+msgstr "Volle Gr&ouml;&szlig;e - Links ausgerichtet"
+
+#@ gravityforms
+msgid "Full Size - Right Aligned"
+msgstr "Volle Gr&ouml;&szlig;e - Rechts ausgerichtet"
+
+#@ gravityforms
+msgid "Full-Time"
+msgstr "vollzeit"
+
+#@ gravityforms
+msgid "GABON"
+msgstr "GABON"
+
+#@ gravityforms
+msgid "GAMBIA"
+msgstr "GAMBIA"
+
+#@ gravityforms
+msgid "GEORGIA"
+msgstr "GEORGIEN"
+
+#@ gravityforms
+msgid "GERMANY"
+msgstr "DEUTSCHLAND"
+
+#@ gravityforms
+msgid "GHANA"
+msgstr "GHANA"
+
+#@ gravityforms
+msgid "GO"
+msgstr "LOS"
+
+#@ gravityforms
+msgid "GREECE"
+msgstr "GRIECHENLAND"
+
+#@ gravityforms
+msgid "GREENLAND"
+msgstr "GR&Ouml;NLAND"
+
+#@ gravityforms
+msgid "GRENADA"
+msgstr "GRENADA"
+
+#@ gravityforms
+msgid "GUAM"
+msgstr "GUAM"
+
+#@ gravityforms
+msgid "GUATEMALA"
+msgstr "GUATEMALA"
+
+#@ gravityforms
+msgid "GUINEA"
+msgstr "GUINEA"
+
+#@ gravityforms
+msgid "GUINEA-BISSAU"
+msgstr "GUINEA-BISSAU"
+
+#@ gravityforms
+msgid "GUYANA"
+msgstr "GUYANA"
+
+#@ gravityforms
+msgid "Gabon"
+msgstr "Gabon"
+
+#@ gravityforms
+msgid "Gambia"
+msgstr "Gambia"
+
+#@ gravityforms
+msgid "Gender"
+msgstr "Geschlecht"
+
+#@ gravityforms
+msgid "General"
+msgstr "Allgemein"
+
+#@ gravityforms
+msgid "General Questions"
+msgstr "Allgemeine Fragen"
+
+#@ gravityforms
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#@ gravityforms
+msgid "Georgia"
+msgstr "Georgien"
+
+#@ gravityforms
+msgid "German"
+msgstr "Deutsch"
+
+#@ gravityforms
+msgid "Germany"
+msgstr "Deutschland"
+
+#@ gravityforms
+msgid "Getting Started"
+msgstr "Erste Schritte"
+
+#@ gravityforms
+msgid "Ghana"
+msgstr "Ghana"
+
+#@ gravityforms
+msgid "Good"
+msgstr "Gut"
+
+#@ gravityforms
+msgid "Government/Military"
+msgstr "Regierung / Milit&auml;r"
+
+#@ gravityforms
+msgid "Graduate of Professional Degree"
+msgstr "Doktor"
+
+#@ gravityforms
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#@ gravityforms
+msgid "Gravity Forms Add-Ons"
+msgstr "Gravity Forms Zusatzmodule (Add-Ons)"
+
+#@ gravityforms
+msgid "Gravity Forms Campaign Monitor Add-On"
+msgstr "Gravity Forms Campaign Monitor Zusatzmodul"
+
+#@ gravityforms
+msgid "Gravity Forms Documentation"
+msgstr "Gravity Forms Dokumentation"
+
+#@ gravityforms
+msgid "Gravity Forms Downloads"
+msgstr "Gravity Forms Downloads"
+
+#@ gravityforms
+msgid "Gravity Forms FAQ"
+msgstr "Gravity Forms H&auml;ufige Fragen (FAQ)"
+
+#@ gravityforms
+msgid "Gravity Forms FreshBooks Add-On"
+msgstr "Gravity Forms FreshBooks Zusatzmodul"
+
+#@ gravityforms
+msgid "Gravity Forms Help"
+msgstr "Gravity Forms Hilfe"
+
+#@ gravityforms
+msgid "Gravity Forms MailChimp Add-On"
+msgstr "Gravity Forms MailChimp Zusatzmodul"
+
+#@ gravityforms
+msgid "Gravity Forms PayPal Add-On"
+msgstr "Gravity Forms PayPal Zusatzmodul"
+
+#@ gravityforms
+msgid "Gravity Forms Settings"
+msgstr "Gravity Forms Einstellungen"
+
+#@ gravityforms
+msgid "Gravity Forms Support Forums"
+msgstr "Gravity Forms Support-Foren"
+
+#@ gravityforms
+msgid "Gravity Forms Tutorials &amp; Resources"
+msgstr "Gravity Forms Tuturials &amp; Material"
+
+#@ gravityforms
+msgid "Gravity Forms Updates"
+msgstr "Gravity Forms Aktualisierungen"
+
+#@ gravityforms
+msgid "Gravity Forms User Registration Add-On"
+msgstr "Gravity Forms User Registration Zusatzmodul"
+
+#@ gravityforms
+msgid "Gravity Forms Version"
+msgstr "Gravity Forms-Version"
+
+#@ gravityforms
+msgid "Gravity Forms Widget"
+msgstr "Gravity Forms Widget"
+
+#@ gravityforms
+msgid "Gravity Forms have been successfully uninstalled. It can be re-activated from the %splugins page%s."
+msgstr "Gravity Forms wurde erfolgreich deinstalliert. Es kann wieder neu aktiviert werden von der %sPlugin-Seite%s."
+
+#@ gravityforms
+msgid "Gravity Forms integrates with reCAPTCHA, a free CAPTCHA service that helps to digitize books while protecting your forms from spam bots. "
+msgstr "Gravity Forms verbindet sich mit reCAPTCHA, einem freien CAPTCHA-Dienst, der hilft, B&uuml;cher zu digitalisieren, w&auml;hrend er Ihre Formulare vor Spam-Bots sch&uuml;tzt. "
+
+#@ gravityforms
+msgid "Gravity Forms requires MySQL 5 or above."
+msgstr "Gravity Forms erfordert MySQL 5 oder h&ouml;her."
+
+#@ gravityforms
+msgid "Gravity Forms requires PHP 5 or above."
+msgstr "Gravity Forms erfordert PHP 5 oder h&ouml;her."
+
+#@ gravityforms
+msgid "Gravity Forms requires WordPress 2.8 or above."
+msgstr "Gravity Forms erfordert WordPress 2.8 oder h&ouml;her."
+
+#@ gravityforms
+msgid "Gray"
+msgstr "Grau"
+
+#@ gravityforms
+msgid "Greece"
+msgstr "Griechenland"
+
+#@ gravityforms
+msgid "Green"
+msgstr "Umweltbranche"
+
+#@ gravityforms
+msgid "Greenland"
+msgstr "Gr&ouml;nland"
+
+#@ gravityforms
+msgid "Grenada"
+msgstr "Grenada"
+
+#@ gravityforms
+msgid "Guam"
+msgstr "Guam"
+
+#@ gravityforms
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#@ gravityforms
+msgid "Guinea"
+msgstr "Guinea"
+
+#@ gravityforms
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#@ gravityforms
+msgid "Guyana"
+msgstr "Guyana"
+
+#@ gravityforms
+msgid "HAITI"
+msgstr "HAITI"
+
+#@ gravityforms
+msgid "HH"
+msgstr "HH"
+
+#@ gravityforms
+msgid "HONDURAS"
+msgstr "HONDURAS"
+
+#@ gravityforms
+msgid "HONG KONG"
+msgstr "HONGKONG"
+
+#@ gravityforms
+msgid "HTML"
+msgstr "HTML"
+
+#@ gravityforms
+msgid "HTML Block"
+msgstr "HTML-Block"
+
+#@ gravityforms
+msgid "HTTP Referer URL"
+msgstr "HTTP Refer URL"
+
+#@ gravityforms
+msgid "HTTP User Agent"
+msgstr "HTTP User Agent"
+
+#@ gravityforms
+msgid "HUNGARY"
+msgstr "UNGARN"
+
+#@ gravityforms
+msgid "Haiti"
+msgstr "Haiti"
+
+#@ gravityforms
+msgid "Hawaii"
+msgstr "Hawaii"
+
+#@ gravityforms
+msgid "Healthcare"
+msgstr "Gesundheitswesen"
+
+#@ gravityforms
+msgid "Help"
+msgstr "Hilfe"
+
+#@ gravityforms
+msgid "Hidden"
+msgstr "Verborgen"
+
+#@ gravityforms
+msgid "Hidden Field"
+msgstr "verborgenes Feld"
+
+#@ gravityforms
+msgid "Hide"
+msgstr "verberge"
+
+#@ gravityforms
+msgid "Hide %s Field"
+msgstr "%s-Feld verbergen"
+
+#@ gravityforms
+msgid "Hide Address Line 2"
+msgstr "Zweite Addresszeile verbergen"
+
+#@ gravityforms
+msgid "Hide Address Line 2 Field"
+msgstr "2. Anschriftszeile verbergen"
+
+#@ gravityforms
+msgid "Hide Country"
+msgstr "Land verbergen"
+
+#@ gravityforms
+msgid "Hide Country Field"
+msgstr "Landesfeld verbergen"
+
+#@ gravityforms
+msgid "Hide Province Field"
+msgstr "Provinz-Feld verbergen"
+
+#@ gravityforms
+msgid "Hide State Field"
+msgstr "Bundesstaat-Feld verbergen"
+
+#@ gravityforms
+msgid "Hide State/Province/Region"
+msgstr "Bundesstaat/ Provinz/ Region verbergen"
+
+#@ gravityforms
+msgid "High School"
+msgstr "Mittlere Reife"
+
+#@ gravityforms
+msgid "Homemaker"
+msgstr "Heimarbeit"
+
+#@ gravityforms
+msgid "Honduras"
+msgstr "Honduras"
+
+#@ gravityforms
+msgid "Hong Kong"
+msgstr "Hongkong"
+
+#@ gravityforms
+msgid "Hong Kong Dollar"
+msgstr "Hong Kong Dollar"
+
+#@ gravityforms
+msgid "Hospitality/Travel"
+msgstr "Gastgewerbe / Reisebranche"
+
+#@ gravityforms
+msgid "How Long"
+msgstr "Wie lange"
+
+#@ gravityforms
+msgid "How Often"
+msgstr "Wie oft"
+
+#@ gravityforms
+msgid "How To"
+msgstr "Wie's geht (How to)"
+
+#@ gravityforms
+msgid "Human Resources"
+msgstr "Personalwesen"
+
+#@ gravityforms
+msgid "Hungarian Forint"
+msgstr "Ungarischer Forint"
+
+#@ gravityforms
+msgid "Hungary"
+msgstr "Ungarn"
+
+#@ gravityforms
+msgid "I am done. Take me back to form list"
+msgstr "Fertig. Bitte zur&uuml;ck zur Formularliste"
+
+#@ gravityforms
+msgid "ICELAND"
+msgstr "ISLAND"
+
+#@ gravityforms
+msgid "INDIA"
+msgstr "INDIEN"
+
+#@ gravityforms
+msgid "INDONESIA"
+msgstr "INDONESIEN"
+
+#@ gravityforms
+msgid "IRAN"
+msgstr "IRAN"
+
+#@ gravityforms
+msgid "IRAQ"
+msgstr "IRAK"
+
+#@ gravityforms
+msgid "IRELAND"
+msgstr "IRLAND"
+
+#@ gravityforms
+msgid "ISRAEL"
+msgstr "ISRAEL"
+
+#@ gravityforms
+msgid "ITALY"
+msgstr "ITALIEN"
+
+#@ gravityforms
+msgid "Iceland"
+msgstr "Island"
+
+#@ gravityforms
+msgid "Id"
+msgstr "ID"
+
+#@ gravityforms
+msgid "Idaho"
+msgstr "Idaho"
+
+#@ gravityforms
+msgid "If you have other forms on the page (i.e. Comments Form), specify a higher tabindex start value so that your Gravity Form does not end up with the same tabindices as your other forms. To disable the tabindex, enter 0 (zero)."
+msgstr "Wenn Sie weitere Formulare auf der Seite haben (z.B. ein Kommentarformular), legen Sie einen h&ouml;heren Tab-Index-Startwert fest, damit Ihr Gravity Forms-Formular nicht mit den gleichen Indizes verwechselt wird, wie die anderen Formulare. Um den Tab-Index zu deaktivieren, geben Sie 0 ein (Null)."
+
+#@ gravityforms
+msgid "If you would like to override the default error validation for a field, enter it here.  This message will be displayed if there is an error with this field when the user submits the form."
+msgstr "Wenn Sie die Standard-Pr&uuml;fnachricht f&uuml;r ein Feld &uuml;berschreiben wollen, geben Sie hier den neuen Text/ Wert ein. Diese Nachricht wird angezeigt, im Falle eines Fehlers (oder leeren Feldes), wenn ein Besucher das Formular absendet."
+
+#@ gravityforms
+msgid "If you would like to pre-populate the value of a field, enter it here."
+msgstr "Wenn Sie den Wert eines Feldes vorbelegen wollen, geben Sie den Wert hier ein."
+
+#@ gravityforms
+msgid "Illinois"
+msgstr "Illinois"
+
+#@ gravityforms
+msgid "Image"
+msgstr "Bild"
+
+#@ gravityforms
+msgid "Image Meta"
+msgstr "Bild-Metadaten"
+
+#@ gravityforms
+msgid "Image Metadata"
+msgstr "Bild-Metadaten"
+
+#@ gravityforms
+msgid "Image Path:"
+msgstr "Bild-Pfad (URL):"
+
+#@ gravityforms
+msgid "Image Path: "
+msgstr "Bild-Pfad (URL): "
+
+#@ gravityforms
+msgid "Import"
+msgstr "importieren"
+
+#@ gravityforms
+msgid "Import Forms"
+msgstr "Formulare importieren"
+
+#@ gravityforms
+msgid "Import/Export"
+msgstr "Import/ Export"
+
+#@ gravityforms
+msgid "Importance"
+msgstr "Bedeutung"
+
+#@ gravityforms
+msgid "Important"
+msgstr "wichtig"
+
+#@ gravityforms
+msgid "Inactive"
+msgstr "inaktiv"
+
+#@ gravityforms
+msgid "Inactive Columns"
+msgstr "Inaktive Spalten"
+
+#@ gravityforms
+msgid "Include notes"
+msgstr "Notizen/ Anmerkungen einschlie&szlig;en"
+
+#@ gravityforms
+msgid "Income"
+msgstr "Einkommen"
+
+#@ gravityforms
+msgid "Incoming Field Data"
+msgstr "Eingehende Felddaten"
+
+#@ gravityforms
+msgid "India"
+msgstr "Indien"
+
+#@ gravityforms
+msgid "Indiana"
+msgstr "Indiana"
+
+#@ gravityforms
+msgid "Indonesia"
+msgstr "Indonesien"
+
+#@ gravityforms
+msgid "Industry"
+msgstr "Industrie"
+
+#@ gravityforms
+msgid "Info"
+msgstr "Info"
+
+#@ gravityforms
+msgid "Input Mask"
+msgstr "Eingabemaske"
+
+#@ gravityforms
+msgid "Input masks provide a visual guide allowing users to more easily enter data in a specific format such as dates and phone numbers."
+msgstr "Eingabemasken stellen eine visuelle Benutzerf&uuml;hrung zur Verf&uuml;gung, die es Benutzern erlaubt, viel einfacher Daten in einem spezifischen Format einzugeben, zum Beispiel Datumsangaben oder Telefonnummern."
+
+#@ gravityforms
+msgid "Insert A Form"
+msgstr "Ein Formular einf&uuml;gen"
+
+#@ gravityforms
+msgid "Insert Choices"
+msgstr "Auswahl einf&uuml;gen"
+
+#@ gravityforms
+msgid "Insert form field"
+msgstr "Formular-Feld einf&uuml;gen"
+
+#@ gravityforms
+msgid "Insert variable"
+msgstr "Variable einf&uuml;gen"
+
+#@ gravityforms
+msgid "Installation Questions"
+msgstr "Fragen zur Installation"
+
+#@ gravityforms
+msgid "Installation Status"
+msgstr "Installationsstatus"
+
+#@ gravityforms
+msgid "Installation/Maintenance"
+msgstr "Installation / Wartung"
+
+#@ gravityforms
+msgid "Insurance"
+msgstr "Versicherung"
+
+#@ gravityforms
+msgid "Intern"
+msgstr "intern"
+
+#@ gravityforms
+msgid "International"
+msgstr "international"
+
+#@ gravityforms
+msgid "Internet"
+msgstr "Internet"
+
+#@ gravityforms
+msgid "Invalid credit card number."
+msgstr "Ung&uuml;ltige Kreditkartennummer."
+
+#@ gravityforms
+msgid "Invalid selection. Please select one of the available choices."
+msgstr "Ung&uuml;ltige Auswahl. Bitte w&auml;hlen Sie aus einer der verf&uuml;gbaren Optionen."
+
+#@ gravityforms
+msgid "Iowa"
+msgstr "Iowa"
+
+#@ gravityforms
+msgid "Iran"
+msgstr "Iran"
+
+#@ gravityforms
+msgid "Iraq"
+msgstr "Irak"
+
+#@ gravityforms
+msgid "Ireland"
+msgstr "Irland"
+
+#@ gravityforms
+msgid "Israel"
+msgstr "Israel"
+
+#@ gravityforms
+msgid "Israeli New Sheqel"
+msgstr "Israelischer Schekel"
+
+#@ gravityforms
+msgid "Italy"
+msgstr "Italien"
+
+#@ gravityforms
+msgid "Item has been deleted."
+msgstr "Das Element wurde gel&ouml;scht."
+
+#@ gravityforms
+msgid "Item has been saved."
+msgstr "Das Element wurde gespeichert."
+
+#@ gravityforms
+msgid "JAMAICA"
+msgstr "JAMAICA"
+
+#@ gravityforms
+msgid "JAPAN"
+msgstr "JAPAN"
+
+#@ gravityforms
+msgid "JCB"
+msgstr "JCB"
+
+#@ gravityforms
+msgid "JORDAN"
+msgstr "JORDANIEN"
+
+#@ gravityforms
+msgid "Jamaica"
+msgstr "Jamaika"
+
+#@ gravityforms
+msgid "January"
+msgstr "Januar"
+
+#@ gravityforms
+msgid "Japan"
+msgstr "Japan"
+
+#@ gravityforms
+msgid "Japanese Yen"
+msgstr "Japanischer Yen"
+
+#@ gravityforms
+msgid "Job Search Aids"
+msgstr "Arbeitsvermittlung"
+
+#@ gravityforms
+msgid "Job Type"
+msgstr "Art der Arbeit"
+
+#@ gravityforms
+msgid "Jordan"
+msgstr "Jordanien"
+
+#@ gravityforms
+msgid "July"
+msgstr "Juli"
+
+#@ gravityforms
+msgid "June"
+msgstr "Juni"
+
+#@ gravityforms
+msgid "KAZAKHSTAN"
+msgstr "KASACHSTAN"
+
+#@ gravityforms
+msgid "KENYA"
+msgstr "KENIA"
+
+#@ gravityforms
+msgid "KIRIBATI"
+msgstr "KIRIBATI"
+
+#@ gravityforms
+msgid "KUWAIT"
+msgstr "KUWAIT"
+
+#@ gravityforms
+msgid "KYRGYZSTAN"
+msgstr "KIRGISTAN"
+
+#@ gravityforms
+msgid "Kansas"
+msgstr "Kansas"
+
+#@ gravityforms
+msgid "Kazakhstan"
+msgstr "Kasachstan"
+
+#@ gravityforms
+msgid "Kentucky"
+msgstr "Kentucky"
+
+#@ gravityforms
+msgid "Kenya"
+msgstr "Kenia"
+
+#@ gravityforms
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#@ gravityforms
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#@ gravityforms
+msgid "Kyrgyzstan"
+msgstr "Kirgistan"
+
+#@ gravityforms
+msgid "LAOS"
+msgstr "LAOS"
+
+#@ gravityforms
+msgid "LATVIA"
+msgstr "LETTLAND"
+
+#@ gravityforms
+msgid "LEBANON"
+msgstr "LIBANON"
+
+#@ gravityforms
+msgid "LESOTHO"
+msgstr "LESOTHO"
+
+#@ gravityforms
+msgid "LIBERIA"
+msgstr "LIBERIA"
+
+#@ gravityforms
+msgid "LIBYA"
+msgstr "LYBIEN"
+
+#@ gravityforms
+msgid "LIECHTENSTEIN"
+msgstr "LIECHTENSTEIN"
+
+#@ gravityforms
+msgid "LITHUANIA"
+msgstr "LITAUEN"
+
+#@ gravityforms
+msgid "LUXEMBOURG"
+msgstr "LUXEMBURG"
+
+#@ gravityforms
+msgid "Label"
+msgstr "Label"
+
+#@ gravityforms
+msgid "Label Placement"
+msgstr "Label-Platzierung"
+
+#@ gravityforms
+msgid "Language"
+msgstr "Sprache"
+
+#@ gravityforms
+msgid "Laos"
+msgstr "Laos"
+
+#@ gravityforms
+msgid "Large"
+msgstr "gro&szlig;"
+
+#@ gravityforms
+msgid "Large - Centered"
+msgstr "Gro&szlig; - zentriert"
+
+#@ gravityforms
+msgid "Large - Left Aligned"
+msgstr "Gro&szlig; - Links ausgerichtet"
+
+#@ gravityforms
+msgid "Large - Right Aligned"
+msgstr "Gro&szlig; - Rechts ausgerichtet"
+
+#@ gravityforms
+msgid "LaserCard"
+msgstr "LaserCard"
+
+#@ gravityforms
+msgid "Last"
+msgstr "Nachname"
+
+#@ gravityforms
+msgid "Last Entry"
+msgstr "Letzter Eintrag"
+
+#@ gravityforms
+msgid "Last Page Options"
+msgstr "Optionen f&uuml;r die letzte Seite"
+
+#@ gravityforms
+msgid "Latvia"
+msgstr "Lettland"
+
+#@ gravityforms
+msgid "Law Enforcement/Security"
+msgstr "Ordnung / Sicherheit"
+
+#@ gravityforms
+msgid "Lebanon"
+msgstr "Libanon"
+
+#@ gravityforms
+msgid "Left aligned"
+msgstr "links ausgerichtet"
+
+#@ gravityforms
+msgid "Legal"
+msgstr "Gerichtswesen"
+
+#@ gravityforms
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#@ gravityforms
+msgid "Less than a month"
+msgstr "Weniger als ein Monat"
+
+#@ gravityforms
+msgid "Less than once a month"
+msgstr "Weniger als einmal pro Monat"
+
+#@ gravityforms
+msgid "Liberia"
+msgstr "Liberia"
+
+#@ gravityforms
+msgid "Libya"
+msgstr "Lybien"
+
+#@ gravityforms
+msgid "License Key"
+msgstr "Lizenzschl&uuml;ssel"
+
+#@ gravityforms
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#@ gravityforms
+msgid "Limit Form Activity"
+msgstr "Formular-Aktivit&auml;t begrenzen"
+
+#@ gravityforms
+msgid "Limit Number of Entries"
+msgstr "Zahl der Eintr&auml;ge begrenzen"
+
+#@ gravityforms
+msgid "Limit number of entries"
+msgstr "Begrenze die Zahl der Eintr&auml;ge"
+
+#@ gravityforms
+msgid "Limit the number of entries a form can generate and/or schedule a time period the form is active."
+msgstr "Begrenzen Sie die Zahl der Eintr&auml;ge, die ein Formular generieren kann, oder planen Sie einen Zeitraum, in welchem das Formular aktiv ist."
+
+#@ gravityforms
+msgid "List"
+msgstr "Listenfeld"
+
+#@ gravityforms
+msgid "Lithuania"
+msgstr "Litauen"
+
+#@ gravityforms
+msgid "Louisiana"
+msgstr "Louisiana"
+
+#@ gravityforms
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#@ gravityforms
+msgid "MACEDONIA"
+msgstr "MAZEDONIEN"
+
+#@ gravityforms
+msgid "MADAGASCAR"
+msgstr "MADAGASKAR"
+
+#@ gravityforms
+msgid "MALAWI"
+msgstr "MALAWI"
+
+#@ gravityforms
+msgid "MALAYSIA"
+msgstr "MALAYSIA"
+
+#@ gravityforms
+msgid "MALDIVES"
+msgstr "MALDIVEN"
+
+#@ gravityforms
+msgid "MALI"
+msgstr "MALI"
+
+#@ gravityforms
+msgid "MALTA"
+msgstr "MALTA"
+
+#@ gravityforms
+msgid "MARSHALL ISLANDS"
+msgstr "MARSHALLINSELN"
+
+#@ gravityforms
+msgid "MAURITANIA"
+msgstr "MAURETANIEN"
+
+#@ gravityforms
+msgid "MAURITIUS"
+msgstr "MAURITIUS"
+
+#@ gravityforms
+msgid "MEXICO"
+msgstr "MEXIKO"
+
+#@ gravityforms
+msgid "MICRONESIA"
+msgstr "MIKRONESIEN"
+
+#@ gravityforms
+msgid "MM"
+msgstr "MM"
+
+#@ gravityforms
+msgid "MOLDOVA"
+msgstr "MOLDAWIEN"
+
+#@ gravityforms
+msgid "MONACO"
+msgstr "MONACO"
+
+#@ gravityforms
+msgid "MONGOLIA"
+msgstr "MONGOLAI"
+
+#@ gravityforms
+msgid "MONTENEGRO"
+msgstr "MONTENEGRO"
+
+#@ gravityforms
+msgid "MOROCCO"
+msgstr "MAROKKO"
+
+#@ gravityforms
+msgid "MOZAMBIQUE"
+msgstr "MOSAMBIK"
+
+#@ gravityforms
+msgid "MYANMAR"
+msgstr "MYANMAR"
+
+#@ gravityforms
+msgid "Macedonia"
+msgstr "Mazedonien"
+
+#@ gravityforms
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#@ gravityforms
+msgid "Maestro"
+msgstr "Maestro"
+
+#@ gravityforms
+msgid "Maine"
+msgstr "Maine"
+
+#@ gravityforms
+msgid "Malawi"
+msgstr "Malawi"
+
+#@ gravityforms
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#@ gravityforms
+msgid "Malaysian Ringgit"
+msgstr "Malayischer Ringgit"
+
+#@ gravityforms
+msgid "Maldives"
+msgstr "Malediven"
+
+#@ gravityforms
+msgid "Male"
+msgstr "M&auml;nnlich"
+
+#@ gravityforms
+msgid "Mali"
+msgstr "Mali"
+
+#@ gravityforms
+msgid "Malta"
+msgstr "Malta"
+
+#@ gravityforms
+msgid "Management/Executive"
+msgstr "Management / Vorstand"
+
+#@ gravityforms
+msgid "Manitoba"
+msgstr "Manitoba"
+
+#@ gravityforms
+msgid "Manufacturing/Operations"
+msgstr "Produktion"
+
+#@ gravityforms
+msgid "March"
+msgstr "M&auml;rz"
+
+#@ gravityforms
+msgid "Marital Status"
+msgstr "Familienstand"
+
+#@ gravityforms
+msgid "Mark as Read"
+msgstr "Als gelesen markieren"
+
+#@ gravityforms
+msgid "Mark as Spam"
+msgstr "Als Spam kennzeichnen"
+
+#@ gravityforms
+msgid "Mark as Unread"
+msgstr "Als ungelesen markieren"
+
+#@ gravityforms
+msgid "Mark read"
+msgstr "als gelesen markieren"
+
+#@ gravityforms
+msgid "Mark this entry as not spam"
+msgstr "Diesen Eintrag <em>nicht</em> als Spam kennzeichnen"
+
+#@ gravityforms
+msgid "Mark this entry as spam"
+msgstr "Diesen Eintrag als Spam kennzeichnen"
+
+#@ gravityforms
+msgid "Mark this entry as unread"
+msgstr "Diesen Eintrag als ungelesen markieren"
+
+#@ gravityforms
+msgid "Mark unread"
+msgstr "als ungelesen markieren"
+
+#@ gravityforms
+msgid "Marketing"
+msgstr "Marketing"
+
+#@ gravityforms
+msgid "Married"
+msgstr "verheiratet"
+
+#@ gravityforms
+msgid "Marshall Islands"
+msgstr "Marshall-Inseln"
+
+#@ gravityforms
+msgid "Maryland"
+msgstr "Maryland"
+
+#@ gravityforms
+msgid "Mask"
+msgstr "Eingabemaske"
+
+#@ gravityforms
+msgid "Massachusetts"
+msgstr "Massachusetts"
+
+#@ gravityforms
+msgid "MasterCard"
+msgstr "MasterCard"
+
+#@ gravityforms
+msgid "Math Challenge"
+msgstr "Mathe-Aufgabe"
+
+#@ gravityforms
+msgid "Mauritania"
+msgstr "Mauretanien"
+
+#@ gravityforms
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#@ gravityforms
+msgid "Max"
+msgstr "max."
+
+#@ gravityforms
+msgid "Maximum Characters"
+msgstr "Maximale Zeichenanzahl"
+
+#@ gravityforms
+msgid "Maximum Rows"
+msgstr "Maximale Zeilenanzahl"
+
+#@ gravityforms
+msgid "May"
+msgstr "Mai"
+
+#@ gravityforms
+msgid "Medium"
+msgstr "mittel"
+
+#@ gravityforms
+msgid "Medium - Centered"
+msgstr "Mittel - zentriert"
+
+#@ gravityforms
+msgid "Medium - Left Aligned"
+msgstr "Mittel - Links ausgerichtet"
+
+#@ gravityforms
+msgid "Medium - Right Aligned"
+msgstr "Mittel - Rechts ausgerichtet"
+
+#@ gravityforms
+msgid "Message"
+msgstr "Nachricht"
+
+#@ gravityforms
+msgid "Mexican Peso"
+msgstr "Mexikanischer Peso"
+
+#@ gravityforms
+msgid "Mexico"
+msgstr "Mexiko"
+
+#@ gravityforms
+msgid "Michigan"
+msgstr "Michigan"
+
+#@ gravityforms
+msgid "Micronesia"
+msgstr "Mikronesien"
+
+#@ gravityforms
+msgid "Min"
+msgstr "min."
+
+#@ gravityforms
+msgid "Minimum Strength"
+msgstr "Minimale St&auml;rke"
+
+#@ gravityforms
+msgid "Minnesota"
+msgstr "Minnesota"
+
+#@ gravityforms
+msgid "Mismatch"
+msgstr "Passt nicht"
+
+#@ gravityforms
+msgid "Mississippi"
+msgstr "Mississippi"
+
+#@ gravityforms
+msgid "Missouri"
+msgstr "Missouri"
+
+#@ gravityforms
+msgid "Moldova"
+msgstr "Moldawien"
+
+#@ gravityforms
+msgid "Monaco"
+msgstr "Monaco"
+
+#@ gravityforms
+msgid "Monday"
+msgstr "Montag"
+
+#@ gravityforms
+msgid "Mongolia"
+msgstr "Mongolai"
+
+#@ gravityforms
+msgid "Montana"
+msgstr "Montana"
+
+#@ gravityforms
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#@ gravityforms
+msgid "Month"
+msgstr "Monat"
+
+#@ gravityforms
+msgid "Months of the Year"
+msgstr "Monate des Jahres"
+
+#@ gravityforms
+msgid "Morocco"
+msgstr "Marokko"
+
+#@ gravityforms
+msgid "Move this entry to the trash"
+msgstr "Diesen Eintrag in den Papierkorb verschieben"
+
+#@ gravityforms
+msgid "Move to Trash"
+msgstr "In den Papierkorb verschieben"
+
+#@ gravityforms
+msgid "Mozambique"
+msgstr "Mosambik"
+
+#@ gravityforms
+msgid "Much Better"
+msgstr "viel besser"
+
+#@ gravityforms
+msgid "Much Worse"
+msgstr "viel schlechter"
+
+#@ gravityforms
+msgid "Multi Select"
+msgstr "Mehrfachauswahl"
+
+#@ gravityforms
+msgid "MySQL Version"
+msgstr "MySQL-Version"
+
+#@ gravityforms
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#@ gravityforms
+msgid "NAMIBIA"
+msgstr "NAMIBIA"
+
+#@ gravityforms
+msgid "NAURU"
+msgstr "NAURU"
+
+#@ gravityforms
+msgid "NEPAL"
+msgstr "NEPAL"
+
+#@ gravityforms
+msgid "NETHERLANDS"
+msgstr "NIEDERLANDE"
+
+#@ gravityforms
+msgid "NEW ZEALAND"
+msgstr "NEUSEELAND"
+
+#@ gravityforms
+msgid "NICARAGUA"
+msgstr "NICARAGUA"
+
+#@ gravityforms
+msgid "NIGER"
+msgstr "NIGER"
+
+#@ gravityforms
+msgid "NIGERIA"
+msgstr "NIGERIA"
+
+#@ gravityforms
+msgid "NORTH KOREA"
+msgstr "NORDKOREA"
+
+#@ gravityforms
+msgid "NORTHERN MARIANA ISLANDS"
+msgstr "N&Ouml;RDLICHE MARIANEN"
+
+#@ gravityforms
+msgid "NORWAY"
+msgstr "NORWEGEN"
+
+#@ gravityforms
+msgid "Name"
+msgstr "Name"
+
+#@ gravityforms
+msgid "Name Format"
+msgstr "Namens-Format"
+
+#@ gravityforms
+msgid "Name each of the pages on your form.  Page names are displayed with the selected progress indicator"
+msgstr "Bennen Sie jede Seite Ihres Formulars. Seitennamen werden angezeigt mit dem gew&auml;hlten Fortschrittsindikator"
+
+#@ gravityforms
+msgid "Namibia"
+msgstr "Namibia"
+
+#@ gravityforms
+msgid "Nauru"
+msgstr "Nauru"
+
+#@ gravityforms
+msgid "Nebraska"
+msgstr "Nebraska"
+
+#@ gravityforms
+msgid "Nepal"
+msgstr "Nepal"
+
+#@ gravityforms
+msgid "Netherlands"
+msgstr "Niederlande"
+
+#@ gravityforms
+msgid "Neutral"
+msgstr "neutral"
+
+#@ gravityforms
+msgid "Nevada"
+msgstr "Nevada"
+
+#@ gravityforms
+msgid "Never used"
+msgstr "Nie benutzt"
+
+#@ gravityforms
+msgid "New"
+msgstr "neu"
+
+#@ gravityforms
+msgid "New Brunswick"
+msgstr "New Brunswick"
+
+#@ gravityforms
+msgid "New Form"
+msgstr "Neues Formular"
+
+#@ gravityforms
+msgid "New Hampshire"
+msgstr "New Hampshire"
+
+#@ gravityforms
+msgid "New Jersey"
+msgstr "New Jersey"
+
+#@ gravityforms
+msgid "New Mexico"
+msgstr "New Mexico"
+
+#@ gravityforms
+msgid "New York"
+msgstr "New York"
+
+#@ gravityforms
+msgid "New Zealand"
+msgstr "Neuseeland"
+
+#@ gravityforms
+msgid "New Zealand Dollar"
+msgstr "Neuseel&auml;ndischer Dollar"
+
+#@ gravityforms
+msgid "New submission from"
+msgstr "Neues Anmeldeformular"
+
+#@ gravityforms
+msgid "New version %s available. Automatic upgrade available on the %splugins page%s"
+msgstr "Neue Version %s verf&uuml;gbar. Automatische Aktualisierungen sind verf&uuml;gbar &uuml;ber die %sPlugin-Seite%s"
+
+#@ gravityforms
+msgid "Newfoundland & Labrador"
+msgstr "Newfoundland & Labrador"
+
+#@ gravityforms
+msgid "News &amp; Announcements"
+msgstr "Neuigkeiten &amp; Ank&uuml;ndigungen"
+
+#@ gravityforms
+msgid "Next"
+msgstr "Weiter"
+
+#@ gravityforms
+msgid "Next Button"
+msgstr "Weiter-Button"
+
+#@ gravityforms
+msgid "Next Button Conditional Logic"
+msgstr "Weiter-Button Conditional Logic"
+
+#@ gravityforms
+msgid "Next Button Image"
+msgstr "Weiter-Button Bild"
+
+#@ gravityforms
+msgid "Next Button Text"
+msgstr "Weiter-Button Text"
+
+#@ gravityforms
+msgid "Next Page"
+msgstr "N&auml;chste Seite"
+
+#@ gravityforms
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#@ gravityforms
+msgid "Niger"
+msgstr "Niger"
+
+#@ gravityforms
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#@ gravityforms
+msgid "No"
+msgstr "Nein"
+
+#@ gravityforms
+msgid "No Duplicates"
+msgstr "keine Duplikate"
+
+#@ gravityforms
+msgid "No Icon"
+msgstr "Kein Icon"
+
+#@ gravityforms
+msgid "No results matched"
+msgstr "Es gab keine &uuml;bereinstimmenden Treffer."
+
+#@ gravityforms
+msgid "Non-Profit/Volunteer"
+msgstr "Non-Profit / Freiwillige"
+
+#@ gravityforms
+msgid "None"
+msgstr "Keiner"
+
+#@ gravityforms
+msgid "Normal"
+msgstr "normal"
+
+#@ gravityforms
+msgid "North America"
+msgstr "Nordamerika"
+
+#@ gravityforms
+msgid "North Carolina"
+msgstr "North Carolina"
+
+#@ gravityforms
+msgid "North Dakota"
+msgstr "North Dakota"
+
+#@ gravityforms
+msgid "North Korea"
+msgstr "Nordkorea (Volksrepublik)"
+
+#@ gravityforms
+msgid "Northern Mariana Islands"
+msgstr "N&ouml;rdliche Marianen"
+
+#@ gravityforms
+msgid "Northwest Territories"
+msgstr "Northwest Territories"
+
+#@ gravityforms
+msgid "Norway"
+msgstr "Norwegen"
+
+#@ gravityforms
+msgid "Norwegian Krone"
+msgstr "Norwegische Krone"
+
+#@ gravityforms
+msgid "Not Important"
+msgstr "nicht wichtig"
+
+#@ gravityforms
+msgid "Not Spam"
+msgstr "Kein Spam"
+
+#@ gravityforms
+msgid "Not Sure"
+msgstr "nicht sicher"
+
+#@ gravityforms
+msgid "Not employed"
+msgstr "nicht besch&auml;ftigt"
+
+#@ gravityforms
+msgid "Not employed and not looking for work"
+msgstr "nicht besch&auml;ftigt und nicht arbeitssuchend"
+
+#@ gravityforms
+msgid "Note: This is a simple form preview. This form may display differently when added to your page based on inheritance from individual theme styles."
+msgstr "Hinweis: Dies ist eine einfache Formularvorschau. Dieses Formular kann anders angezeigt werden, wenn es in Ihre Webseite eingef&uuml;gt wird, basierend auf individuellen Theme-/ Template-Styles (CSS-Stilen)."
+
+#@ gravityforms
+msgid "Notes"
+msgstr "Notizen"
+
+#@ gravityforms
+msgid "Notification Questions"
+msgstr "Fragen zur Benachrichtigung"
+
+#@ gravityforms
+msgid "Notification Updated."
+msgstr "Benachrichtigung aktualisiert."
+
+#@ gravityforms
+msgid "Notification could not be updated. Please enter all required information below."
+msgstr "Die Benachrichtigung konnte nicht aktualisiert werden. Bitte geben Sie alle erforderlichen Informationen unten ein."
+
+#@ gravityforms
+msgid "Notification to Administrator"
+msgstr "Benachrichtigung an den Administrator"
+
+#@ gravityforms
+msgid "Notification to User"
+msgstr "Benachrichtigung an den Besucher"
+
+#@ gravityforms
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#@ gravityforms
+msgid "Notifications for %s were resent successfully."
+msgstr "Benachrichtigungen f&uuml;r %s wurden erfolgreich erneut gesendet."
+
+#@ gravityforms
+msgid "Notifications were resent successfully."
+msgstr "Benachrichtigungen wurden erfolgreich erneut versandt."
+
+#@ gravityforms
+msgid "Nova Scotia"
+msgstr "Nova Scotia"
+
+#@ gravityforms
+msgid "November"
+msgstr "November"
+
+#@ gravityforms
+msgid "Number"
+msgstr "Nummer"
+
+#@ gravityforms
+msgid "Number Format"
+msgstr "Zahlenformat"
+
+#@ gravityforms
+msgid "Number Range"
+msgstr "Werte- bzw. Zahlen-Bereich"
+
+#@ gravityforms
+msgid "Number of Entries"
+msgstr "Zahl der Eintr&auml;ge"
+
+#@ gravityforms
+msgid "Nunavut"
+msgstr "Nunavut"
+
+#@ gravityforms
+msgid "OMAN"
+msgstr "OMAN"
+
+#@ gravityforms
+msgid "OOps! We couldn't find your lead. Please try again"
+msgstr "OOps! Wir konnten Ihre Sache nicht finden. Bitte versuchen Sie es noch einmal."
+
+#@ gravityforms
+msgid "OR"
+msgstr "ODER"
+
+#@ gravityforms
+msgid "October"
+msgstr "Oktober"
+
+#@ gravityforms
+msgid "Ohio"
+msgstr "Ohio"
+
+#@ gravityforms
+msgid "Oklahoma"
+msgstr "Oklahoma"
+
+#@ gravityforms
+msgid "Oman"
+msgstr "Oman"
+
+#@ gravityforms
+msgid "Once a month"
+msgstr "einmal pro Monat"
+
+#@ gravityforms
+msgid "Once a week"
+msgstr "einmal pro Woche"
+
+#@ gravityforms
+msgid "Only one Post Content field can be added to the form"
+msgstr "Dem Formular kann nur ein Beitrags-Inhaltsfeld hinzugef&uuml;gt werden"
+
+#@ gravityforms
+msgid "Only one Post Excerpt field can be added to the form"
+msgstr "Dem Formular kann nur ein Beitrags-Auszugsfeld (Excerpt) hinzugef&uuml;gt werden"
+
+#@ gravityforms
+msgid "Only one Post Title field can be added to the form"
+msgstr "Dem Formular kann nur ein Beitrags-Titelfeld hinzugef&uuml;gt werden"
+
+#@ gravityforms
+msgid "Only one Shipping field can be added to the form"
+msgstr "Dem Formular kann nur ein Versand-Feld kann hinzugef&uuml;gt werden"
+
+#@ gravityforms
+msgid "Only one reCAPTCHA field can be added to the form."
+msgstr "Nur ein reCAPTCHA-Feld kann dem Formular hinzugef&uuml;gt werden."
+
+#@ gravityforms
+msgid "Ontario"
+msgstr "Ontario"
+
+#@ gravityforms
+msgid "Oops! We could not locate your form."
+msgstr "Oops! Wir konnten Ihr Formular nicht lokalisieren."
+
+#@ gravityforms
+msgid "Oops! We could not locate your form. Please try again."
+msgstr "Oops! Wir konnten Ihr Formular nicht lokalisieren. Bitte versuchen Sie es noch einmal."
+
+#@ gravityforms
+msgid "Oops!! Something went wrong.<br/>Please try again or <a href='http://www.gravityforms.com'>contact us</a>."
+msgstr "Oops!! Etwas lief hier falsch. <br />Bitte versuchen Sie es noch einmal oder <a href='http://www.gravityforms.com'>kontaktieren Sie uns (Gravity Forms)</a>."
+
+#@ gravityforms
+msgid "Option"
+msgstr "Option"
+
+#@ gravityforms
+msgid "Optional form fields"
+msgstr "Optionale Formular-Felder"
+
+#@ gravityforms
+msgid "Orange"
+msgstr "Orange"
+
+#@ gravityforms
+msgid "Order"
+msgstr "Bestellung"
+
+#@ gravityforms
+msgid "Oregon"
+msgstr "Oregon"
+
+#@ gravityforms
+msgid "Other"
+msgstr "Anderes"
+
+#@ gravityforms
+msgid "Output CSS"
+msgstr "CSS ausgeben"
+
+#@ gravityforms
+msgid "Output HTML5"
+msgstr "HTML5-Ausgabe"
+
+#@ gravityforms
+msgid "Over 3 Years"
+msgstr "&Uuml;ber 3 Jahre"
+
+#@ gravityforms
+msgid "Override Notifications"
+msgstr "Benachrichtigungen au&szlig;er Kraft setzen"
+
+#@ gravityforms
+msgid "PAKISTAN"
+msgstr "PAKISTAN"
+
+#@ gravityforms
+msgid "PALAU"
+msgstr "PALAU"
+
+#@ gravityforms
+msgid "PALESTINE"
+msgstr "PAL&Auml;STINA"
+
+#@ gravityforms
+msgid "PANAMA"
+msgstr "PANAMA"
+
+#@ gravityforms
+msgid "PAPUA NEW GUINEA"
+msgstr "PAPUA NEU GUINEA"
+
+#@ gravityforms
+msgid "PARAGUAY"
+msgstr "PARAGUAY"
+
+#@ gravityforms
+msgid "PERU"
+msgstr "PERU"
+
+#@ gravityforms
+msgid "PHILIPPINES"
+msgstr "PHILIPPINEN"
+
+#@ gravityforms
+msgid "PHP Version"
+msgstr "PHP-Version"
+
+#@ gravityforms
+msgid "PM"
+msgstr "PM"
+
+#@ gravityforms
+msgid "POLAND"
+msgstr "POLEN"
+
+#@ gravityforms
+msgid "PORTUGAL"
+msgstr "PORTUGAL"
+
+#@ gravityforms
+msgid "PUERTO RICO"
+msgstr "PUERTO RICO"
+
+#@ gravityforms
+msgid "Page"
+msgstr "Seite"
+
+#@ gravityforms
+msgid "Page Break"
+msgstr "Seitenumbruch"
+
+#@ gravityforms
+msgid "Page Conditional Logic"
+msgstr "Conditional Logic f&uuml;r Seite(n)"
+
+#@ gravityforms
+msgid "Page Names"
+msgstr "Seitennamen"
+
+#@ gravityforms
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#@ gravityforms
+msgid "Palau"
+msgstr "Palau"
+
+#@ gravityforms
+msgid "Palestine"
+msgstr "Pal&auml;stina"
+
+#@ gravityforms
+msgid "Panama"
+msgstr "Panama"
+
+#@ gravityforms
+msgid "Papua New Guinea"
+msgstr "Papua Neu Guinea"
+
+#@ gravityforms
+msgid "Paragraph Text"
+msgstr "Textabsatz"
+
+#@ gravityforms
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#@ gravityforms
+msgid "Parameter Name:"
+msgstr "Parametername:"
+
+#@ gravityforms
+msgid "Part-Time"
+msgstr "teilzeit"
+
+#@ gravityforms
+msgid "Pass Data Via Query String"
+msgstr "Daten via eines Query Strings verarbeiten"
+
+#@ gravityforms
+msgid "Pass Field Data Via Query String"
+msgstr "Passwortfeld-Daten via Such-String"
+
+#@ gravityforms
+msgid "Password"
+msgstr "Passwort"
+
+#@ gravityforms
+msgid "Payment Amount"
+msgstr "Zahlbarer Betrag"
+
+#@ gravityforms
+msgid "Payment Date"
+msgstr "Bezahldatum"
+
+#@ gravityforms
+msgid "Payment Status"
+msgstr "Zahlungsstatus"
+
+#@ gravityforms
+msgid "Pending Review"
+msgstr "Ausstehender Review"
+
+#@ gravityforms
+msgid "Pennsylvania"
+msgstr "Pennsylvania"
+
+#@ gravityforms
+msgid "Per Diem"
+msgstr "per Honorar"
+
+#@ gravityforms
+msgid "Peru"
+msgstr "Peru"
+
+#@ gravityforms
+msgid "Pharmaceutical/Biotech"
+msgstr "Pharma / Biotechnik"
+
+#@ gravityforms
+msgid "Philippine Peso"
+msgstr "Philippinischer Peso"
+
+#@ gravityforms
+msgid "Philippines"
+msgstr "Philippinen"
+
+#@ gravityforms
+msgid "Phone"
+msgstr "Telefon"
+
+#@ gravityforms
+msgid "Phone Format"
+msgstr "Telefon-Format"
+
+#@ gravityforms
+msgid "Phone Number Format"
+msgstr "Telefonnummern-Format"
+
+#@ gravityforms
+msgid "Phone format:"
+msgstr "Telefon-Format:"
+
+#@ gravityforms
+msgid "Placeholder Label"
+msgstr "Platzhalter-Label"
+
+#@ gravityforms
+msgid "Please %scontact our support team%s."
+msgstr "Bitte %skontaktieren Sie unser Support-Team%s."
+
+#@ gravityforms
+msgid "Please enter a Title for this form. When adding the form to a page or post, you will have the option to hide the title."
+msgstr "Bitte geben Sie einen Titel f&uuml;r dieses Formular an. Wenn Sie das Formular in eine Seite oder einen Beitrag (Artikel) einf&uuml;gen, haben Sie dann auch die Option, die Titelanzeige zu verbergen."
+
+#@ gravityforms
+msgid "Please enter a message for the notification email"
+msgstr "Bitte geben Sie einen Nachrichteninhalt f&uuml;r die Benachrichtigungs-E-Mail an."
+
+#@ gravityforms
+msgid "Please enter a message for the user notification email"
+msgstr "Bitte geben Sie eine Nachricht f&uuml;r die Besucher-Benachrichtigungs-E-Mail an."
+
+#@ gravityforms
+msgid "Please enter a subject for the notification email"
+msgstr "Bitte geben Sie einen Betreff f&uuml;r die Benachrichtigungs-E-Mail an."
+
+#@ gravityforms
+msgid "Please enter a subject for the user notification email"
+msgstr "Bitte geben Sie einen Betreff f&uuml;r die Besucher-Benachrichtigungs-E-Mail an."
+
+#@ gravityforms
+msgid "Please enter a valid Website URL (i.e. http://www.gravityforms.com)."
+msgstr "Bitte geben Sie eine g&uuml;ltige Webseiten-Adresse (URL) an (z.B. http://www.gravityforms.com)."
+
+#@ gravityforms
+msgid "Please enter a valid amount."
+msgstr "Bitte geben Sie einen g&uuml;ltigen Betrag ein."
+
+#@ gravityforms
+msgid "Please enter a valid date in the format (%s)."
+msgstr "Bitte geben Sie ein g&uuml;ltiges Datum im Format (%s) ein."
+
+#@ gravityforms
+msgid "Please enter a valid date."
+msgstr "Bitte geben Sie ein g&uuml;ltiges Datum ein."
+
+#@ gravityforms
+msgid "Please enter a valid email address"
+msgstr "Bitte geben Sie eine g&uuml;ltige E-Mail-Adresse an"
+
+#@ gravityforms
+msgid "Please enter a valid email address for all highlighted routing rules above."
+msgstr "Geben Sie bitte eine g&uuml;ltige E-Mail-Adresse f&uuml;r alle oben hervorgehobenen Weiterleitungs-Regeln an."
+
+#@ gravityforms
+msgid "Please enter a valid email address."
+msgstr "Bitte geben Sie eine g&uuml;ltige E-Mail-Adresse an."
+
+#@ gravityforms
+msgid "Please enter a valid number"
+msgstr "Bitte geben Sie eine g&uuml;ltige Zahl ein"
+
+#@ gravityforms
+msgid "Please enter a valid quantity"
+msgstr "Bitte geben Sie eine g&uuml;ltige Menge ein"
+
+#@ gravityforms
+msgid "Please enter a valid time."
+msgstr "Bitte geben Sie eine g&uuml;ltige Zeit ein."
+
+#@ gravityforms
+msgid "Please enter a valid value."
+msgstr "Bitte geben Sie einen g&uuml;ltigen Wert ein."
+
+#@ gravityforms
+msgid "Please enter a value between %s and %s."
+msgstr "Bitte geben Sie einen Wert zwischen %s und %s ein."
+
+#@ gravityforms
+msgid "Please enter a value greater than or equal to %s."
+msgstr "Bitte geben Sie einen Wert gr&ouml;&szlig;er oder gleich %s ein."
+
+#@ gravityforms
+msgid "Please enter a value less than or equal to %s."
+msgstr "Bitte geben Sie einen Wert kleiner oder gleich %s ein."
+
+#@ gravityforms
+msgid "Please enter name."
+msgstr "Bitte den Namen eingeben."
+
+#@ gravityforms
+msgid "Please enter your card's security code."
+msgstr "Bitte geben Sie die Pr&uuml;fziffer (Sicherheitscode) Ihrer Karte ein."
+
+#@ gravityforms
+msgid "Please enter your credit card information."
+msgstr "Bitte geben Sie Ihre Kreditkarteninformationen ein."
+
+#@ gravityforms
+msgid "Please review the plugin documentation and <a href='http://www.gravityhelp.com/frequently-asked-questions/'>frequently asked questions (FAQ)</a> first. If you still can't find the answer you need visit our <a href='http://forum.gravityhelp.com/'>support forums</a> where we will be happy to answer your questions and assist you with any problems. <strong>Please note:</strong> If you have not <a href='http://www.gravityforms.com/purchase-gravity-forms/'>purchased a license</a> from us, you won't have access to these help resources."
+msgstr "Bitte sehen Sie zuerst die <a href='http://www.gravityhelp.com/documentation/'>Dokumentation des Plugins</a> und die <a href='http://www.gravityhelp.com/frequently-asked-questions/'>h&auml;ufigen Fragen (FAQ)</a> ein. Wenn Sie noch immer nicht die Antwort finden, die Sie brauchen, besuchen Sie unsere <a href='http://forum.gravityhelp.com/'>Support-Foren</a>, wo wir gerne Ihre Fragen beantworten und Ihnen helfen bei allen m&ouml;glichen Problemen. <strong>Bitte beachten:</strong> Wenn Sie noch keine <a href='http://www.gravityforms.com/purchase-gravity-forms/'>Lizenz von uns gekauft</a> haben, werden Sie leider keinen Zugang zu diesen hilfreichen Ressourcen haben."
+
+#@ gravityforms
+msgid "Please select a form"
+msgstr "Bitte w&auml;hlen Sie ein Formular"
+
+#@ gravityforms
+msgid "Please select at least one entry."
+msgstr "Bitte w&auml;hlen Sie mindestens einen Eintrag aus."
+
+#@ gravityforms
+msgid "Please select the currency for your location.  Currency is used for pricing fields and price calculations."
+msgstr "Bitte w&auml;hlen Sie die W&auml;hrung f&uuml;r Ihren Ort. Die W&auml;hrung wird benutzt f&uuml;r Preisfelder und Preiskalkulationen."
+
+#@ gravityforms
+msgid "Please select the forms to be exported"
+msgstr "Bitte w&auml;hlen Sie die Formulare, welche exportiert werden sollen"
+
+#@ gravityforms
+msgid "Plugin Support"
+msgstr "Plugin-Support"
+
+#@ gravityforms
+msgid "Poland"
+msgstr "Polen"
+
+#@ gravityforms
+msgid "Polish Zloty"
+msgstr "Polnischer Zloty"
+
+#@ gravityforms
+msgid "Portugal"
+msgstr "Portugal"
+
+#@ gravityforms
+msgid "Portuguese"
+msgstr "Portugiesisch"
+
+#@ gravityforms
+msgid "Post Author"
+msgstr "Beitragsautor"
+
+#@ gravityforms
+msgid "Post Body"
+msgstr "Beitrags-Body"
+
+#@ gravityforms
+msgid "Post Category"
+msgstr "Beitragskategorie"
+
+#@ gravityforms
+msgid "Post Content Template"
+msgstr "Beitrags-Template"
+
+#@ gravityforms
+msgid "Post Custom Field"
+msgstr "Benutzerdef. Feld des Beitrags"
+
+#@ gravityforms
+msgid "Post Edit URL"
+msgstr "Beitrags bearbeiten-URL"
+
+#@ gravityforms
+msgid "Post Excerpt"
+msgstr "Beitrags-Auszug (Excerpt)"
+
+#@ gravityforms
+msgid "Post Fields"
+msgstr "Beitrags-Felder"
+
+#@ gravityforms
+msgid "Post Fields allow you to add fields to your form that create Post Drafts in WordPress from the submitted data."
+msgstr "Beitrags-Felder erlauben es Ihnen, Felder zu Ihrem Formular hinzuzuf&uuml;gen, um Beitragsentw&uuml;rfe in WordPress zu erstellen, direkt aus den abgesendeten Formulardaten."
+
+#@ gravityforms
+msgid "Post Format"
+msgstr "Formatvorlage (Post Format)"
+
+#@ gravityforms
+msgid "Post Id"
+msgstr "Beitrags-ID"
+
+#@ gravityforms
+msgid "Post Image"
+msgstr "Beitragsbild"
+
+#@ gravityforms
+msgid "Post Status"
+msgstr "Beitragsstatus"
+
+#@ gravityforms
+msgid "Post Tags"
+msgstr "Beitrags-Stichworte (Tags)"
+
+#@ gravityforms
+msgid "Post Title"
+msgstr "Beitragstitel"
+
+#@ gravityforms
+msgid "Post Title Template"
+msgstr "Beitragstitel-Template"
+
+#@ gravityforms
+msgid "Postal Code"
+msgstr "L&auml;nderkennziffer"
+
+#@ gravityforms
+msgid "Pound Sterling"
+msgstr "Pfund Sterling"
+
+#@ gravityforms
+msgid "Pre-Sale Questions"
+msgstr "Fragen vor dem Kauf"
+
+#@ gravityforms
+msgid "Prefer Not to Answer"
+msgstr "Lieber nicht beantworten"
+
+#@ gravityforms
+msgid "Prefix"
+msgstr "Vorspann"
+
+#@ gravityforms
+msgid "Preview"
+msgstr "Vorschau"
+
+#@ gravityforms
+msgid "Preview this Form"
+msgstr "Formularvorschau"
+
+#@ gravityforms
+msgid "Preview this form"
+msgstr "Formularvorschau"
+
+#@ gravityforms
+msgid "Preview this form to see your custom icon."
+msgstr "Formularvorschau, um Ihr individuelles Icon zu sehen."
+
+#@ gravityforms
+msgid "Previous"
+msgstr "Zur&uuml;ck"
+
+#@ gravityforms
+msgid "Previous Button"
+msgstr "Zur&uuml;ck-Button"
+
+#@ gravityforms
+msgid "Previous Button Image"
+msgstr "Zur&uuml;ck-Button Bild"
+
+#@ gravityforms
+msgid "Previous Button Text"
+msgstr "Zur&uuml;ck-Button Text"
+
+#@ gravityforms
+msgid "Previous Page"
+msgstr "Vorherige Seite"
+
+#@ gravityforms
+msgid "Price"
+msgstr "Preis"
+
+#@ gravityforms
+msgid "Price:"
+msgstr "Preis:"
+
+#@ gravityforms
+msgid "Price: "
+msgstr "Preis: "
+
+#@ gravityforms
+msgid "Pricing Fields"
+msgstr "Preisfelder"
+
+#@ gravityforms
+msgid "Pricing fields allow you to add fields to your form that calculate pricing for selling goods and services."
+msgstr "Preisfelder erlauben es Ihnen, Felder zu Ihrem Formular hinzuzuf&uuml;gen, die Preise kalkulieren f&uuml;r Waren- und Dienstleistungsverk&auml;ufe."
+
+#@ gravityforms
+msgid "Pricing form fields"
+msgstr "Preis-Formularfelder"
+
+#@ gravityforms
+msgid "Prince Edward Island"
+msgstr "Prince Edward Island"
+
+#@ gravityforms
+msgid "Print"
+msgstr "Drucken"
+
+#@ gravityforms
+msgid "Print Entries"
+msgstr "Eintr&auml;ge drucken"
+
+#@ gravityforms
+msgid "Print Preview"
+msgstr "Druckvorschau"
+
+#@ gravityforms
+msgid "Print all of the selected entries at once."
+msgstr "Alle ausgew&auml;hlten Eintr&auml;ge auf einmal drucken."
+
+#@ gravityforms
+msgid "Probably"
+msgstr "wahrscheinlich"
+
+#@ gravityforms
+msgid "Probably Not"
+msgstr "wahrscheinlich nicht"
+
+#@ gravityforms
+msgid "Product"
+msgstr "Produkt"
+
+#@ gravityforms
+msgid "Product Field"
+msgstr "Produktfeld"
+
+#@ gravityforms
+msgid "Product Name"
+msgstr "Produktname"
+
+#@ gravityforms
+msgid "Product fields are not editable"
+msgstr "Produktfelder k&ouml;nnen nicht bearbeitet werden"
+
+#@ gravityforms
+msgid "Professional Services"
+msgstr "Professionelle Dienstleistungen"
+
+#@ gravityforms
+msgid "Progress Bar"
+msgstr "Fortschrittsbalken"
+
+#@ gravityforms
+msgid "Progress Bar Style"
+msgstr "Stil des Fortschrittsbalkens"
+
+#@ gravityforms
+msgid "Progress Indicator"
+msgstr "Fortschritts-Indikator"
+
+#@ gravityforms
+msgid "Properties"
+msgstr "Eigenschaften"
+
+#@ gravityforms
+msgid "Province"
+msgstr "Provinz"
+
+#@ gravityforms
+msgid "Published"
+msgstr "Ver&ouml;ffentlicht"
+
+#@ gravityforms
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#@ gravityforms
+msgid "QA/Quality Control"
+msgstr "Qualit&auml;tssicherung"
+
+#@ gravityforms
+msgid "QATAR"
+msgstr "KATAR"
+
+#@ gravityforms
+msgid "Qatar"
+msgstr "Katar"
+
+#@ gravityforms
+msgid "Qty"
+msgstr "Menge"
+
+#@ gravityforms
+msgid "Qty: "
+msgstr "Menge: "
+
+#@ gravityforms
+msgid "Quantity"
+msgstr "Menge"
+
+#@ gravityforms
+msgid "Quantity:"
+msgstr "Menge:"
+
+#@ gravityforms
+msgid "Quebec"
+msgstr "Quebec"
+
+#@ gravityforms
+msgid "ROMANIA"
+msgstr "RUM&Auml;NIEN"
+
+#@ gravityforms
+msgid "RUSSIA"
+msgstr "RUSSLAND"
+
+#@ gravityforms
+msgid "RWANDA"
+msgstr "RUANDA"
+
+#@ gravityforms
+msgid "Radio Buttons"
+msgstr "Radio-Buttons"
+
+#@ gravityforms
+msgid "Range"
+msgstr "Rang"
+
+#@ gravityforms
+msgid "Read more about reCAPTCHA"
+msgstr "Lesen Sie mehr &uuml;ber reCAPTCHA"
+
+#@ gravityforms
+msgid "Real Estate"
+msgstr "Immobilien"
+
+#@ gravityforms
+msgid "Really Simple CAPTCHA"
+msgstr "Really Simple CAPTCHA"
+
+#@ gravityforms
+msgid "Recaptcha Theme"
+msgstr "reCAPTCHA-Theme (Template)"
+
+#@ gravityforms
+msgid "Red"
+msgstr "Rot"
+
+#@ gravityforms
+msgid "Redirect"
+msgstr "umleiten"
+
+#@ gravityforms
+msgid "Redirect Form to Page"
+msgstr "Formular an eine Seite weiterleiten"
+
+#@ gravityforms
+msgid "Redirect Form to URL"
+msgstr "Weiterleitungs-URL f&uuml;r das Formular"
+
+#@ gravityforms
+msgid "Remove Star"
+msgstr "Stern entfernen"
+
+#@ gravityforms
+msgid "Remove this row"
+msgstr "Diese Zeile entfernen"
+
+#@ gravityforms
+msgid "Reply To"
+msgstr "Antwort an (Reply To)"
+
+#@ gravityforms
+msgid "Reply To (optional)"
+msgstr "Antwort an (optional)"
+
+#@ gravityforms
+msgid "Reply To Address"
+msgstr "Antwort an-Addresse"
+
+#@ gravityforms
+msgid "Require Login Message"
+msgstr "Mitteilung f&uuml;r die erforderliche Anmeldung"
+
+#@ gravityforms
+msgid "Require user to be logged in"
+msgstr "Erfordert, dass der Benutzer angemeldet ist"
+
+#@ gravityforms
+msgid "Required"
+msgstr "erforderlich"
+
+#@ gravityforms
+msgid "Required Field"
+msgstr "erforderliches Feld"
+
+#@ gravityforms
+msgid "Required form fields"
+msgstr "Erforderliche Formular-Felder"
+
+#@ gravityforms
+msgid "Required only if you decide to use the reCAPTCHA field."
+msgstr "Nur erforderlich, wenn Sie sich entscheiden, das reCAPTCHA-Feld zu nutzen."
+
+#@ gravityforms
+msgid "Resend Notifications"
+msgstr "Benachrichtigungen erneut senden"
+
+#@ gravityforms
+msgid "Resending..."
+msgstr "Sendet erneut ..."
+
+#@ gravityforms
+msgid "Reset Views"
+msgstr "Ansichten zur&uuml;cksetzen"
+
+#@ gravityforms
+msgid "Restaurant/Food Service"
+msgstr "Restaurant / Imbiss"
+
+#@ gravityforms
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#@ gravityforms
+msgid "Restore this entry"
+msgstr "Diesen Eintrag wiederherstellen"
+
+#@ gravityforms
+msgid "Retail"
+msgstr "Handel"
+
+#@ gravityforms
+msgid "Retired"
+msgstr "Im Ruhestand"
+
+#@ gravityforms
+msgid "Return to Form List"
+msgstr "zur&uuml;ck zur Formular-Liste"
+
+#@ gravityforms
+msgid "Rhode Island"
+msgstr "Rhode Island"
+
+#@ gravityforms
+msgid "Right aligned"
+msgstr "rechts ausgerichtet"
+
+#@ gravityforms
+msgid "Romania"
+msgstr "Rum&auml;nien"
+
+#@ gravityforms
+msgid "Routing"
+msgstr "Weiterleiten"
+
+#@ gravityforms
+msgid "Rules"
+msgstr "Regeln"
+
+#@ gravityforms
+msgid "Russia"
+msgstr "Russland"
+
+#@ gravityforms
+msgid "Russian"
+msgstr "Russisch"
+
+#@ gravityforms
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#@ gravityforms
+msgid "SAINT KITTS AND NEVIS"
+msgstr "ST. KITTS UND NEVIS"
+
+#@ gravityforms
+msgid "SAINT LUCIA"
+msgstr "ST. LUCIA"
+
+#@ gravityforms
+msgid "SAINT VINCENT AND THE GRENADINES"
+msgstr "ST. VINCENT UND DIE GRENADINEN"
+
+#@ gravityforms
+msgid "SAMOA"
+msgstr "SAMOA"
+
+#@ gravityforms
+msgid "SAN MARINO"
+msgstr "SAN MARINO"
+
+#@ gravityforms
+msgid "SAO TOME AND PRINCIPE"
+msgstr "SAO TOME UND PRINCIPE"
+
+#@ gravityforms
+msgid "SAUDI ARABIA"
+msgstr "SAUDI-ARABIEN"
+
+#@ gravityforms
+msgid "SENEGAL"
+msgstr "SENEGAL"
+
+#@ gravityforms
+msgid "SERBIA AND MONTENEGRO"
+msgstr "SERBIEN UND MONTENEGRO"
+
+#@ gravityforms
+msgid "SEYCHELLES"
+msgstr "SEYCHELLEN"
+
+#@ gravityforms
+msgid "SIERRA LEONE"
+msgstr "SIERRA LEONE"
+
+#@ gravityforms
+msgid "SINGAPORE"
+msgstr "SINGAPUR"
+
+#@ gravityforms
+msgid "SLOVAKIA"
+msgstr "SLOWAKAI"
+
+#@ gravityforms
+msgid "SLOVENIA"
+msgstr "SLOVENIEN"
+
+#@ gravityforms
+msgid "SOLOMON ISLANDS"
+msgstr "SOLOMONEN"
+
+#@ gravityforms
+msgid "SOMALIA"
+msgstr "SOMALIA"
+
+#@ gravityforms
+msgid "SOUTH AFRICA"
+msgstr "S&Uuml;DAFRIKA"
+
+#@ gravityforms
+msgid "SOUTH KOREA"
+msgstr "S&Uuml;DKOREA"
+
+#@ gravityforms
+msgid "SPAIN"
+msgstr "SPANIEN"
+
+#@ gravityforms
+msgid "SRI LANKA"
+msgstr "SRI LANKA"
+
+#@ gravityforms
+msgid "SUDAN"
+msgstr "SUDAN"
+
+#@ gravityforms
+msgid "SUDAN, SOUTH"
+msgstr "S&Uuml;DSUDAN"
+
+#@ gravityforms
+msgid "SURINAME"
+msgstr "SURINAM"
+
+#@ gravityforms
+msgid "SWAZILAND"
+msgstr "SWASILAND"
+
+#@ gravityforms
+msgid "SWEDEN"
+msgstr "SCHWEDEN"
+
+#@ gravityforms
+msgid "SWITZERLAND"
+msgstr "SCHWEIZ"
+
+#@ gravityforms
+msgid "SYRIA"
+msgstr "SYRIEN"
+
+#@ gravityforms
+msgid "Saint Kitts and Nevis"
+msgstr "St. Kitts und Nevis"
+
+#@ gravityforms
+msgid "Saint Lucia"
+msgstr "St. Lucia"
+
+#@ gravityforms
+msgid "Saint Vincent and the Grenadines"
+msgstr "St. Vincent und die Grenadinen"
+
+#@ gravityforms
+msgid "Sales"
+msgstr "Verkauf"
+
+#@ gravityforms
+msgid "Samoa"
+msgstr "Samoa"
+
+#@ gravityforms
+msgid "Sample: phone={Phone:1}&email{Email:2}"
+msgstr "Beispiel: Telefon={Telefon:1}&email{E-Mail:2}"
+
+#@ gravityforms
+msgid "San Marino"
+msgstr "San Marino"
+
+#@ gravityforms
+msgid "Sao Tome and Principe"
+msgstr "São Tomé und Príncipe"
+
+#@ gravityforms
+msgid "Saskatchewan"
+msgstr "Saskatchewan"
+
+#@ gravityforms
+msgid "Satisfaction"
+msgstr "Zufriedenheit"
+
+#@ gravityforms
+msgid "Satisfied"
+msgstr "zufrieden"
+
+#@ gravityforms
+msgid "Saturday"
+msgstr "Samstag"
+
+#@ gravityforms
+msgid "Saudi Arabia"
+msgstr "Saudi-Arabien"
+
+#@ gravityforms
+msgid "Save"
+msgstr "Speichern"
+
+#@ gravityforms
+msgid "Save Form"
+msgstr "Formular speichern"
+
+#@ gravityforms
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#@ gravityforms
+msgid "Save as"
+msgstr "Speichern unter"
+
+#@ gravityforms
+msgid "Save as new custom choice"
+msgstr "Als neue benutzerdefinierte Auswahl speichern"
+
+#@ gravityforms
+msgid "Schedule Form"
+msgstr "Formular planen"
+
+#@ gravityforms
+msgid "Schedule a time period the form is active."
+msgstr "Zeitraum planen, in welchem das Formular aktiv ist."
+
+#@ gravityforms
+msgid "Schedule form"
+msgstr "Formular zeitlich planen"
+
+#@ gravityforms
+msgid "Science/Research"
+msgstr "Wissenschaft / Forschung"
+
+#@ gravityforms
+msgid "Search"
+msgstr "Suche"
+
+#@ gravityforms
+msgid "Search Entries:"
+msgstr "Sucheintr&auml;ge:"
+
+#@ gravityforms
+msgid "Seasonal"
+msgstr "Saisonkraft"
+
+#@ gravityforms
+msgid "Second Choice"
+msgstr "Zweite Auswahl"
+
+#@ gravityforms
+msgid "Second Option"
+msgstr "Zweite Option"
+
+#@ gravityforms
+msgid "Section Break"
+msgstr "Trennlinie"
+
+#@ gravityforms
+msgid "Security Code"
+msgstr "Pr&uuml;fziffer (Sicherheitscode)"
+
+#@ gravityforms
+msgid "Select A Form"
+msgstr "Ein Formular ausw&auml;hlen"
+
+#@ gravityforms
+msgid "Select All"
+msgstr "Alle ausw&auml;hlen"
+
+#@ gravityforms
+msgid "Select Categories"
+msgstr "Kategorien ausw&auml;hlen"
+
+#@ gravityforms
+msgid "Select Columns"
+msgstr "Spalten ausw&auml;hlen"
+
+#@ gravityforms
+msgid "Select Date Range"
+msgstr "Datumsbereich ausw&auml;hlen"
+
+#@ gravityforms
+msgid "Select Fields"
+msgstr "Felder ausw&auml;hlen"
+
+#@ gravityforms
+msgid "Select File"
+msgstr "Datei w&auml;hlen"
+
+#@ gravityforms
+msgid "Select Forms"
+msgstr "Formulare w&auml;hlen"
+
+#@ gravityforms
+msgid "Select a Form"
+msgstr "Ein Formular ausw&auml;hlen"
+
+#@ gravityforms
+msgid "Select a Mask"
+msgstr "Eine Eingabemaske ausw&auml;hlen"
+
+#@ gravityforms
+msgid "Select a category"
+msgstr "Eine Kategorie ausw&auml;hlen"
+
+#@ gravityforms
+msgid "Select a category and customize the predefined choices or paste your own list to bulk add choices."
+msgstr "W&auml;hlen Sie eine Kategorie und passen Sie die vordefinierte Auswahl an, oder f&uuml;gen Sie Ihre eigene Liste via 'Aktion w&auml;hlen' hinzu."
+
+#@ gravityforms
+msgid "Select a date range. Setting a range will only export entries submitted during that date range. If no range is set, all entries will be exported."
+msgstr "W&auml;hlen Sie einen Datumsbereich. Indem Sie einen Bereich setzen, werden nur Eintr&auml;ge w&auml;hrend dieses Datums-/ Zeitbereiches exportiert. Wird kein Bereich festgelegt, werden <em>alle</em> Eintr&auml;ge exportiert."
+
+#@ gravityforms
+msgid "Select a field"
+msgstr "Feld w&auml;hlen"
+
+#@ gravityforms
+msgid "Select a form"
+msgstr "Ein Formular ausw&auml;hlen"
+
+#@ gravityforms
+msgid "Select a form below to add it to your post or page."
+msgstr "W&auml;hlen Sie ein Formular unten, um es zu einem Beitrag oder einer Seite hinzuzuf&uuml;gen."
+
+#@ gravityforms
+msgid "Select a form below to export entries. Once you have selected a form you may select the fields you would like to export and an optional date range. When you click the download button below, Gravity Forms will create a CSV file for you to save to your computer."
+msgstr "W&auml;hlen Sie ein Formular, um die Eintr&auml;ge zu exportieren. Wenn Sie ein Formular ausgew&auml;hlt haben, k&auml;nnen Sie danach die gew&uuml;nschten Felder selektieren und anschlie&szlig;end einen - optionalen - Datumsbereich. Wenn Sie den Download-Button unten klicken, wird Gravity Forms eine CSV-Datei erstellen, die Sie auf Ihrem Computer speichern k&ouml;nnen."
+
+#@ gravityforms
+msgid "Select a form field size from the available options.  This will set the width of the field."
+msgstr "W&auml;hlen Sie eine Formularfeldgr&ouml;&szlig;e f&uuml;r die verf&uuml;gbaren Optionen. Dies setzt die entsprechende Breite f&uuml;r das Feld."
+
+#@ gravityforms
+msgid "Select a format"
+msgstr "W&auml;hlen Sie ein Format"
+
+#@ gravityforms
+msgid "Select a name field"
+msgstr "W&auml;hlen Sie ein Namensfeld"
+
+#@ gravityforms
+msgid "Select a page"
+msgstr "Eine Seite ausw&auml;hlen"
+
+#@ gravityforms
+msgid "Select an email field"
+msgstr "W&auml;hlen Sie ein E-Mail-Feld"
+
+#@ gravityforms
+msgid "Select an existing custom field"
+msgstr "Existierendes benutzerdefiniertes Feld ausw&auml;hlen"
+
+#@ gravityforms
+msgid "Select image size"
+msgstr "Bildgr&ouml;&szlig;e ausw&auml;hlen"
+
+#@ gravityforms
+msgid "Select one or more image metadata field to be displayed along with the image upload field. They enable users to enter additional information about the uploaded image."
+msgstr "W&auml;hlen Sie ein oder mehrere Bild-Metadatenfelder, die zusammen mit Feld zum Hochladen des Bildes angezeigt werden. Sie bef&auml;higen den Besucher, zus&auml;tzliche Informationen zum hochgeladenen Bild einzugeben."
+
+#@ gravityforms
+msgid "Select the Gravity Forms XML file you would like to import. When you click the import button below, Gravity Forms will import the forms."
+msgstr "W&auml;hlen Sie die Gravity Forms-XML-Datei, die Sie importieren m&ouml;chten. Wenn Sie den Import-Button unten klicken, wird Gravity Forms die Formulare importieren."
+
+#@ gravityforms
+msgid "Select the author that will be used for the post that is created by the form entry."
+msgstr "W&auml;hlen Sie den Autor, der f&uuml;r den Beitrag verwendet wird, welcher durch diesen Formulareintrag erzeugt wird."
+
+#@ gravityforms
+msgid "Select the category that will be used for the post that is created by the form entry."
+msgstr "W&auml;hlen Sie die Kategorie, die f&uuml;r den Beitrag verwendet wird, welcher durch diesen Formulareintrag erzeugt wird."
+
+#@ gravityforms
+msgid "Select the country you would like to be selected by default when the form gets displayed."
+msgstr "W&auml;hlen Sie das Land, das als Standard ausgew&auml;hlt sein soll, wenn das Formular angezeigt wird."
+
+#@ gravityforms
+msgid "Select the custom field name from available existing custom fields, or enter a new custom field name."
+msgstr "W&auml;hlen Sie das benutzerdefinierte Feld von den verf&uuml;gbaren benutzerdefinierten Feldern, oder geben Sie einen neuen individuellen Feldname ein."
+
+#@ gravityforms
+msgid "Select the description placement.  Descriptions can be placed above the field inputs or below the field inputs."
+msgstr "W&auml;hlen Sie Platzierung der Beschreibung. Beschreibungen k&ouml;nnen &uuml;ber oder unter den Feldeingaben platziert werden."
+
+#@ gravityforms
+msgid "Select the email form field that the user notification email should be sent to."
+msgstr "W&auml;hlen Sie das E-Mail-Formularfeld, an die die Besucher-Benachrichtigungs-E-Mail gesendet werden soll."
+
+#@ gravityforms
+msgid "Select the fields from the select form you would like to export data from."
+msgstr "W&auml;hlen Sie diese Felder des ausgew&auml;hlten Formulars, von denen Sie Daten exportieren wollen."
+
+#@ gravityforms
+msgid "Select the form you would like to export entry data from. You may only export data from one form at a time."
+msgstr "W&auml;hlen Sie das Formular, von dem Sie Eintragsdaten exportieren wollen. Hinweis: Sie k&ouml;nnen jeweils nur Daten von einem Formular auf einmal exportieren."
+
+#@ gravityforms
+msgid "Select the format of numbers that are allowed in this field. You have the option to use a comma or a dot as the decimal separator."
+msgstr "W&auml;hlen Sie das Format der Zahlen, welche in diesem Feld erlaubt sind. Sie haben die Option, ein Komma oder einen Punkt als Dezimal-Trennzeichen zu verwenden."
+
+#@ gravityforms
+msgid "Select the format you would like to use for the Name field.  There are 3 options, Normal which includes First and Last Name, Extended which adds Prefix and Suffix, or Simple which is a single input field."
+msgstr "W&auml;hlen Sie das Format, in dem das Namensfeld angezeigt werden soll. Es gibt drei Optionen: normal, mit Vor- und Nachname - erweitert, zus&auml;tzlich mit Vor- und Nachsilbe - oder einfach, welches lediglich ein einzeiliges Eingabefeld ist."
+
+#@ gravityforms
+msgid "Select the format you would like to use for the date input.  Available options are MM/DD/YYYY and DD/MM/YYYY."
+msgstr "W&auml;hlen Sie das Format, welches Sie f&uuml;r die Datumseingabe verwenden wollen. W&auml;hlbare Optionen sind MM/TT/JJJJ und TT/MM/JJJJ."
+
+#@ gravityforms
+msgid "Select the format you would like to use for the phone input.  Available options are domestic US/CANADA style phone number and international long format phone number."
+msgstr "W&auml;hlen Sie das Format f&uuml;r die Eingabe der Telefonnummer. W&auml;hlbare Optionen sind das Inlandformat wie in den USA bzw. Kanada sowie das internationale, lange Telefonnummern-Format."
+
+#@ gravityforms
+msgid "Select the format you would like to use for the time field.  Available options are 12 hour (i.e. 8:30 pm) and 24 hour (i.e. 20:30)."
+msgstr "W&auml;hlen Sie das Format, welches Sie f&uuml;r das Zeitfeld verwenden m&ouml;chten. Verf&uuml;gbare Optionen sind 12 Stunden (z.B. 8:30 p.m.) und 24 Stunden (z.B. 20:30)."
+
+#@ gravityforms
+msgid "Select the forms you would like to export."
+msgstr "W&auml;hlen Sie die Formulare aus, die Sie exportieren m&ouml;chten."
+
+#@ gravityforms
+msgid "Select the forms you would like to export. When you click the download button below, Gravity Forms will create a XML file for you to save to your computer. Once you've saved the download file, you can use the Import tool to import the forms."
+msgstr "W&auml;hlen Sie die Formulare, die Sie exportieren m&ouml;chten. Wenn Sie den Download-Button unten klicken, wird Gravity Forms eine XML-Datei erstellen, die Sie auf Ihrem Computer speichern k&ouml;nnen. Wenn Sie die Datei abgespeichert haben, sind Sie in der Lage das Importwerkzeug zu nutzen, um damit Formulare zu importieren."
+
+#@ gravityforms
+msgid "Select the label placement.  Labels can be top aligned above a field, left aligned to the left of a field, or right aligned to the left of a field."
+msgstr "W&auml;hlen Sie die Label-Platzierung. Label k&ouml;nnen oben ausgerichtet sein, &uuml;ber dem Feld - links ausgerichtet, links von einem Feld, oder rechts ausgerichtet, links neben dem Feld."
+
+#@ gravityforms
+msgid "Select the language you would like to use for the reCAPTCHA display from the available options."
+msgstr "W&auml;hlen Sie die Sprache, in der das reCAPTCHA angezeigt werden soll."
+
+#@ gravityforms
+msgid "Select the page you would like the user to be redirected to after they have submitted the form."
+msgstr "W&auml;hlen Sie die (WordPress-) Seite aus, an die der Besucher weitergeleitet werden soll, nachdem das Formular abgesendet wurde."
+
+#@ gravityforms
+msgid "Select the post format that will be used for the post that is created by the form entry."
+msgstr "W&auml;hlen Sie die Formatvorlage (Post Format), die f&uuml;r diesen Artikel/ Beitrag benutzt wird, welcher dann durch den Formulareintrag erstellt wird."
+
+#@ gravityforms
+msgid "Select the post status that will be used for the post that is created by the form entry."
+msgstr "W&auml;hlen Sie den Beitragsstatus (Entwurf/ Ausstehend/ Ver&ouml;ffentlicht), der f&uuml;r den Beitrag verwendet werden soll, der durch den Formulareintrag entsteht."
+
+#@ gravityforms
+msgid "Select the province you would like to be selected by default when the form gets displayed."
+msgstr "W&auml;hlen Sie die Provinz, die als Standard ausgew&auml;hlt sein soll, wenn das Formular angezeigt wird."
+
+#@ gravityforms
+msgid "Select the state you would like to be selected by default when the form gets displayed."
+msgstr "W&auml;hlen Sie den Bundesstaat, der als Standard ausgew&auml;hlt sein soll, wenn das Formular angezeigt wird."
+
+#@ gravityforms
+msgid "Select the type of CAPTCHA you would like to use."
+msgstr "W&auml;hlen Sie den Typ des CAPTCHAS, den Sie benutzen m&ouml;chten."
+
+#@ gravityforms
+msgid "Select the type of address you would like to use."
+msgstr "W&auml;hlen Sie Ihren gew&uuml;nschten Addresstyp."
+
+#@ gravityforms
+msgid "Select the type of field from the available form fields."
+msgstr "W&auml;hlen Sie den Typ des Feldes von den verf&uuml;gbaren Feldtypen."
+
+#@ gravityforms
+msgid "Select the type of inputs you would like to use for the date field. Date Picker will let users select a date from a calendar. Date Field will let users free type the date."
+msgstr "W&auml;hlen Sie den Typ der Eingabe, den Sie f&uuml;r das Datumsfeld benutzen wollen. Der Datumsw&auml;hler l&auml;&szlig;t den Besucher ein Datum aus dem Kalender w&auml;hlen. Das 'Datumsfeld' l&auml;&szlig;t den Besucher das Datum frei eingeben."
+
+#@ gravityforms
+msgid "Select the visibility for this field. Field visibility set to Everyone will be visible by the user submitting the form. Form field visibility set to Admin Only will only be visible within the Gravity Forms administration tool.<br /><br />Setting a field to Admin Only is useful for creating fields that can be used to set a status or priority level on submitted entries."
+msgstr "W&auml;hlen Sie die Sichtbarkeit f&uuml;r dieses Feld. Wird die Feldsichtbarkeit auf 'Jeder' gesetzt, kann jeder Besucher es sehen bzw. absenden. Wird die Formularfeldsichtbarkeit auf 'Nur Admin' gesetzt, wird es nur innerhalb der Gravity Forms-Administrationswerkzeuge sichtbar sein.<br /><br />Ein Feld auf 'Nur Admin' zu setzen, ist n&uuml;tzlich, um Felder zu erstellen, die daf&uuml;r eingesetzt werden, einen Status oder ein Priorit&auml;tslabel bei abgesendeten Eintr&auml;gen mit zu setzen."
+
+#@ gravityforms
+msgid "Select the visual theme for the reCAPTCHA field the available options to better match your site design."
+msgstr "W&auml;hlen Sie das optische Erscheinungsbild f&uuml;r das reCAPTCHA-Feld, um es mit den verf&uuml;gbaren Optionen besser in Ihr Seitendesign zu integrieren."
+
+#@ gravityforms
+msgid "Select this option to limit user input to unique values only.  This will require that a value entered in a field does not currently exist in the entry database for that field."
+msgstr "W&auml;hlen Sie diese Option, um die Besuchereingaben auf einzigartige Werte zu begrenzen. Dies erfordert es, dass ein Wert, der in ein Feld eingetragen wird, nicht bereits in der Eintrags-Datenbank f&uuml;r dieses Feld exisiert!"
+
+#@ gravityforms
+msgid "Select this option to make the form field required.  A required field will prevent the form from being submitted if it is not filled out or selected."
+msgstr "W&auml;hlen Sie diese Option, um das Formularfeld zur Pflicht zu machen. Ein erforderliches Feld (Pflichtfeld) sorgt daf&uuml;r, dass das Formular erst dann erfolgreich abgesendet werden kann, wenn dieses Feld ausgef&uuml;llt bzw. ausgew&auml;hlt wurde."
+
+#@ gravityforms
+msgid "Select which Product this field is tied to."
+msgstr "W&auml;hlen Sie mit welchem Produkt dieses Feld verbunden ist."
+
+#@ gravityforms
+msgid "Select which categories are displayed. You can choose to display all of them or select individual ones."
+msgstr "W&auml;hlen Sie, welche Kategorien angezeigt werden. Sie k&ouml;nnen alle anzeigen oder individuelle Kategorien ausw&auml;hlen."
+
+#@ gravityforms
+msgid "Select which progress bar style you would like to use.  Select custom to choose your own text and background color"
+msgstr "W&auml;hlen Sie, welchen Stil des Fortschrittsbalkens Sie benutzen m&ouml;chten. W&auml;hlen Sie Benutzerdefiniert, um Ihren eigenen Text und die Hintergrundfarbe zu bestimmen"
+
+#@ gravityforms
+msgid "Select which type of visual progress indicator you would like to display.  Progress Bar, Steps or None"
+msgstr "W&auml;hlen Sie, welche Art von visuellem Fortschrittsindikator Sie anzeigen m&ouml;chten. Fortschrittsbalken, Schritte oder Keinen"
+
+#@ gravityforms
+msgid "Select yes or no to enable or disable CSS output.  Setting this to no will disable the standard Gravity Forms CSS from being included in your theme."
+msgstr "W&auml;hlen Sie Ja oder Nein, um die CSS-Ausgabe zu aktiveren oder zu deaktivieren. Bei der Einstellung Nein wird das Standard-CSS von Gravity Forms nicht an Ihr WordPress-Theme (Template) angeh&auml;ngt!"
+
+#@ gravityforms
+msgid "Select yes or no to enable or disable HTML5 output. Setting this to no will disable the standard Gravity Forms HTML5 form field output."
+msgstr "W&auml;hlen Sie Ja oder Nein, um die HTML5-Ausgabe zu aktivieren oder deaktivieren. Wenn dies auf Nein gesetzt wird, wird damit die standardm&auml;&szlig;ige HMTL5-Formularfeldausgabe von Gravity Forms deaktiviert."
+
+#@ gravityforms
+msgid "Selecting this option will set the post author to the WordPress user that submitted the form."
+msgstr "Wenn Sie diese Option w&auml;hlen, wird der gerade angemeldete WordPress-Benutzer zum Autor des Beitrages, welcher durch diesen Formulareintrag erzeugt wird."
+
+#@ gravityforms
+msgid "Self-employed"
+msgstr "selbst&auml;ndig"
+
+#@ gravityforms
+msgid "Send To"
+msgstr "Senden an"
+
+#@ gravityforms
+msgid "Send To Email"
+msgstr "Sende an E-Mail"
+
+#@ gravityforms
+msgid "Send To Email Address"
+msgstr "Sende an E-Mail-Adresse"
+
+#@ gravityforms
+msgid "Send To Field"
+msgstr "Sende an-Feld (to)"
+
+#@ gravityforms
+msgid "Send to"
+msgstr "Sende an"
+
+#@ gravityforms
+msgid "Sending notifications to users require that the form has at least one email field. %sEdit your form%s"
+msgstr "Benachrichtigungen an Benutzer zu versenden, erfordert mindestens ein E-Mail-Feld im Formular. %sFormular bearbeiten%s"
+
+#@ gravityforms
+msgid "Senegal"
+msgstr "Senegal"
+
+#@ gravityforms
+msgid "Separated with commas (i.e. jpg, gif, png, pdf)"
+msgstr "Getrennt mit Komma (z.B. jpg, gif, png, pdf)"
+
+#@ gravityforms
+msgid "September"
+msgstr "September"
+
+#@ gravityforms
+msgid "Serbia and Montenegro"
+msgstr "Serbien und Montenegro"
+
+#@ gravityforms
+msgid "Set as Featured Image"
+msgstr "Als Artikelbild festlegen"
+
+#@ gravityforms
+msgid "Set this to No if you would like to disable the plugin from outputting HTML5 form fields."
+msgstr "Setzen Sie dies auf 'Nein', wenn Sie wollen, dass das Plugin <em>keine</em> HTML5-formatierte Formularfelder ausgibt."
+
+#@ gravityforms
+msgid "Set this to No if you would like to disable the plugin from outputting the form CSS."
+msgstr "W&auml;hlen Sie Nein, wenn Sie die CSS-Ausgabe des Formulars deaktivieren wollen."
+
+#@ gravityforms
+msgid "Settings"
+msgstr "Einstellungen"
+
+#@ gravityforms
+msgid "Settings License Key"
+msgstr "Einstellungen Lizenzschl&uuml;ssel"
+
+#@ gravityforms
+msgid "Settings Updated"
+msgstr "Einstellungen aktualisiert"
+
+#@ gravityforms
+msgid "Setup Email Notifications for this Form"
+msgstr "E-Mail-Benachrichtigungen f&uuml;r dieses Formular einrichten"
+
+#@ gravityforms
+msgid "Setup email notifications for this form"
+msgstr "E-Mail-Benachrichtigungen f&uuml;r dieses Formular einrichten"
+
+#@ gravityforms
+msgid "Seychelles"
+msgstr "Seychellen"
+
+#@ gravityforms
+msgid "Shipping"
+msgstr "Versand"
+
+#@ gravityforms
+msgid "Short"
+msgstr "Zu kurz"
+
+#@ gravityforms
+msgid "Show"
+msgstr "zeige"
+
+#@ gravityforms
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#@ gravityforms
+msgid "Sign up%s for a free reCAPTCHA account"
+msgstr "Registrieren Sie%s ein kostenloses reCAPTCHA-Konto"
+
+#@ gravityforms
+msgid "Simple"
+msgstr "einfach"
+
+#@ gravityforms
+msgid "Singapore"
+msgstr "Singapur"
+
+#@ gravityforms
+msgid "Singapore Dollar"
+msgstr "Singapur-Dollar"
+
+#@ gravityforms
+msgid "Single"
+msgstr "Single"
+
+#@ gravityforms
+msgid "Single Line Text"
+msgstr "Einzeiliger Text"
+
+#@ gravityforms
+msgid "Single Method"
+msgstr "Einzelne Methode"
+
+#@ gravityforms
+msgid "Single Product"
+msgstr "Einzelnes Produkt"
+
+#@ gravityforms
+msgid "Single line text"
+msgstr "Einzeiliger Text"
+
+#@ gravityforms
+msgid "Size"
+msgstr "Gr&ouml;&szlig;e"
+
+#@ gravityforms
+msgid "Skilled Labor"
+msgstr "Fachlabor"
+
+#@ gravityforms
+msgid "Slovakia"
+msgstr "Slowakei"
+
+#@ gravityforms
+msgid "Slovenia"
+msgstr "Slovenien"
+
+#@ gravityforms
+msgid "Small"
+msgstr "klein"
+
+#@ gravityforms
+msgid "Social Security Number"
+msgstr "Sozialversicherungsnummer"
+
+#@ gravityforms
+msgid "Solomon Islands"
+msgstr "Salomonen"
+
+#@ gravityforms
+msgid "Somalia"
+msgstr "Somalia"
+
+#@ gravityforms
+msgid "Some College"
+msgstr "Einige Colleges"
+
+#@ gravityforms
+msgid "Somewhat Better"
+msgstr "irgendwie besser"
+
+#@ gravityforms
+msgid "Somewhat Important"
+msgstr "irgendwie wichtig"
+
+#@ gravityforms
+msgid "Somewhat Worse"
+msgstr "etwas schlechter"
+
+#@ gravityforms
+msgid "Sorry. This form is no longer accepting new submissions."
+msgstr "Entschuldigung. Dieses Formular akzeptiert keine neuen Eintr&auml;ge mehr."
+
+#@ gravityforms
+msgid "Sorry. This form is no longer available."
+msgstr "Entschuldigung. Dieses Formular ist nicht l&auml;nger verf&uuml;gbar."
+
+#@ gravityforms
+msgid "Sorry. You must be logged in to view this form."
+msgstr "Entschuldigung, aber Sie m&uuml;ssen angemeldet sein, um dieses Formular sehen zu k&ouml;nnen."
+
+#@ gravityforms
+msgid "Source Url"
+msgstr "URL der Quelle"
+
+#@ gravityforms
+msgid "South Africa"
+msgstr "S&uuml;dafrika"
+
+#@ gravityforms
+msgid "South America"
+msgstr "S&uuml;damerika"
+
+#@ gravityforms
+msgid "South Carolina"
+msgstr "South Carolina"
+
+#@ gravityforms
+msgid "South Dakota"
+msgstr "South Dakota"
+
+#@ gravityforms
+msgid "South Korea"
+msgstr "S&uuml;dkorea"
+
+#@ gravityforms
+msgid "Spain"
+msgstr "Spanien"
+
+#@ gravityforms
+msgid "Spam"
+msgstr "Spam"
+
+#@ gravityforms
+msgid "Spanish"
+msgstr "Spanisch"
+
+#@ gravityforms
+msgid "Specify which notifications you would like to resend for the selected entries."
+msgstr "Legen Sie f&uuml;r die ausgew&auml;hlten Eintr&auml;ge fest, welche Benachrichtigungen Sie erneut senden m&ouml;chten."
+
+#@ gravityforms
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#@ gravityforms
+msgid "Standard"
+msgstr "Standard"
+
+#@ gravityforms
+msgid "Standard Fields"
+msgstr "Standardfelder"
+
+#@ gravityforms
+msgid "Standard Fields provide basic form functionality."
+msgstr "Standardfelder bieten eine standardm&auml;&szlig;ige Formularfunktionalit&auml;t."
+
+#@ gravityforms
+msgid "Starred"
+msgstr "gekennzeichnet"
+
+#@ gravityforms
+msgid "Start"
+msgstr "Beginn"
+
+#@ gravityforms
+msgid "Start Date"
+msgstr "Anfangsdatum"
+
+#@ gravityforms
+msgid "Start Date/Time"
+msgstr "Beginn Datum/ Zeit"
+
+#@ gravityforms
+msgid "State"
+msgstr "Bundesstaat"
+
+#@ gravityforms
+msgid "State / Province"
+msgstr "Bundesstaat / Provinz"
+
+#@ gravityforms
+msgid "State / Province / Region"
+msgstr "Bundesstaat / Provinz / Region"
+
+#@ gravityforms
+msgid "Step"
+msgstr "Schritt"
+
+#@ gravityforms
+msgid "Steps"
+msgstr "Schritte"
+
+#@ gravityforms
+msgid "Street Address"
+msgstr "Anschrift"
+
+#@ gravityforms
+msgid "Strength indicator"
+msgstr "St&auml;rke-Indikator"
+
+#@ gravityforms
+msgid "Strong"
+msgstr "Stark"
+
+#@ gravityforms
+msgid "Strongly Agree"
+msgstr "stark zustimmend"
+
+#@ gravityforms
+msgid "Strongly Disagree"
+msgstr "sehr abneigend"
+
+#@ gravityforms
+msgid "Student"
+msgstr "Sch&uuml;ler/ Student"
+
+#@ gravityforms
+msgid "Style"
+msgstr "Stil"
+
+#@ gravityforms
+msgid "Subject"
+msgstr "Betreff (subject)"
+
+#@ gravityforms
+msgid "Subject:"
+msgstr "Betreff:"
+
+#@ gravityforms
+msgid "Submit"
+msgstr "Absenden"
+
+#@ gravityforms
+msgid "Submitted on"
+msgstr "Abgesendet am"
+
+#@ gravityforms
+msgid "Subscriber Id"
+msgstr "Abonnenten-ID"
+
+#@ gravityforms
+msgid "Subscription Amount"
+msgstr "Betrag des Abonnements"
+
+#@ gravityforms
+msgid "Subscription Status"
+msgstr "Abonnent-Status"
+
+#@ gravityforms
+msgid "Sudan"
+msgstr "Sudan"
+
+#@ gravityforms
+msgid "Sudan, South"
+msgstr "S&uuml;dsudan"
+
+#@ gravityforms
+msgid "Suffix"
+msgstr "Nachspann"
+
+#@ gravityforms
+msgid "Sunday"
+msgstr "Sonntag"
+
+#@ gravityforms
+msgid "Support License Key"
+msgstr "Support-Lizenzschl&uuml;ssel (Support License Key)"
+
+#@ gravityforms
+msgid "Suriname"
+msgstr "Surinam"
+
+#@ gravityforms
+msgid "Swaziland"
+msgstr "Swasiland"
+
+#@ gravityforms
+msgid "Sweden"
+msgstr "Schweden"
+
+#@ gravityforms
+msgid "Swedish Krona"
+msgstr "Schwedische Krone"
+
+#@ gravityforms
+msgid "Swiss Franc"
+msgstr "Schweizer Franken"
+
+#@ gravityforms
+msgid "Switch"
+msgstr "Switch"
+
+#@ gravityforms
+msgid "Switch Form"
+msgstr "Formular wechseln"
+
+#@ gravityforms
+msgid "Switzerland"
+msgstr "Schweiz"
+
+#@ gravityforms
+msgid "Syria"
+msgstr "Syrien"
+
+#@ gravityforms
+msgid "TAIWAN"
+msgstr "TAIWAN"
+
+#@ gravityforms
+msgid "TAJIKISTAN"
+msgstr "TADSCHIKISTAN"
+
+#@ gravityforms
+msgid "TANZANIA"
+msgstr "TANZANIA"
+
+#@ gravityforms
+msgid "THAILAND"
+msgstr "THAILAND"
+
+#@ gravityforms
+msgid "TOGO"
+msgstr "TOGO"
+
+#@ gravityforms
+msgid "TONGA"
+msgstr "TONGA"
+
+#@ gravityforms
+msgid "TRINIDAD AND TOBAGO"
+msgstr "TRINIDAD UND TOBAGO"
+
+#@ gravityforms
+msgid "TUNISIA"
+msgstr "TUNISIEN"
+
+#@ gravityforms
+msgid "TURKEY"
+msgstr "T&Uuml;RKEI"
+
+#@ gravityforms
+msgid "TURKMENISTAN"
+msgstr "TURKMENISTAN"
+
+#@ gravityforms
+msgid "TUVALU"
+msgstr "TUVALU"
+
+#@ gravityforms
+msgid "Tab Index Start"
+msgstr "Tab-Index Start"
+
+#@ gravityforms
+msgid "Tab Index Start Value"
+msgstr "Tab-Index Startwert"
+
+#@ gravityforms
+msgid "Tags"
+msgstr "Stichworte (Tags)"
+
+#@ gravityforms
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#@ gravityforms
+msgid "Taiwan New Dollar"
+msgstr "Taiwanischer Dollar"
+
+#@ gravityforms
+msgid "Tajikistan"
+msgstr "Tadschikistan"
+
+#@ gravityforms
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#@ gravityforms
+msgid "Technology"
+msgstr "Technologie"
+
+#@ gravityforms
+msgid "Telecommunications"
+msgstr "Telekommunikation"
+
+#@ gravityforms
+msgid "Temporary"
+msgstr "befristet"
+
+#@ gravityforms
+msgid "Tennessee"
+msgstr "Tennessee"
+
+#@ gravityforms
+msgid "Testimonials"
+msgstr "Erfahrungen von Kunden"
+
+#@ gravityforms
+msgid "Texas"
+msgstr "Texas"
+
+#@ gravityforms
+msgid "Text"
+msgstr "Text"
+
+#@ gravityforms
+msgid "Text Color"
+msgstr "Textfarbe"
+
+#@ gravityforms
+msgid "Text:"
+msgstr "Text:"
+
+#@ gravityforms
+msgid "Thai Baht"
+msgstr "Thail&auml;ndischer Baht"
+
+#@ gravityforms
+msgid "Thailand"
+msgstr "Thailand"
+
+#@ gravityforms
+msgid "The <strong>Send To</strong> email address provided is not valid."
+msgstr "Die als <strong>Senden an</strong> angegebene E-Mail-Adresse ist ung&uuml;ltig."
+
+#@ gravityforms
+msgid "The CAPTCHA wasn't entered correctly. Go back and try it again."
+msgstr "Das CAPTCHA wurde nicht korrekt eingegeben. Gehen Sie bitte zur&uuml;ck und versuchen Sie es noch einmal. Danke!"
+
+#@ gravityforms
+msgid "The form title you have entered is already taken. Please enter an unique form title"
+msgstr "Der eingegebene Formulartitel wird bereits verwendet. Bitte geben Sie einen einzigartigen Formulartitel ein"
+
+#@ gravityforms
+msgid "The form title you have entered is already taken. Please enter an unique form title."
+msgstr "Der Formulartitel, den Sie eingegeben haben, wird bereits verwendet. Bitte geben Sie einen einzigartigen Formulartitel ein."
+
+#@ gravityforms
+msgid "The license key is used for access to automatic upgrades and support."
+msgstr "Der Lizenzschl&uuml;ssel wird gebraucht, um auf automatische Aktualisierungen (Upgrades) sowie den Support (Foren etc.) zugreifen zu k&ouml;nnen."
+
+#@ gravityforms
+msgid "The reCAPTCHA wasn't entered correctly. Go back and try it again."
+msgstr "Der Spamschutz reCAPTCHA wurde nicht korrekt eingegeben. Bitte gehen Sie zur&uuml;ck und versuchen Sie es noch einmal."
+
+#@ gravityforms
+msgid "The uploaded file type is not allowed."
+msgstr "Der hochgeladene Dateityp ist nicht erlaubt."
+
+#@ gravityforms
+msgid "The uploaded file type is not allowed. Must be one of the following: %s"
+msgstr "Der hochgeladene Dateityp ist nicht zugelassen. Es sind nur folgende Dateitypen erlaubt: %s"
+
+#@ gravityforms
+msgid "Theme"
+msgstr "Template"
+
+#@ gravityforms
+msgid "There is a new version of Gravity Forms available."
+msgstr "Eine neue Version von Gravity Forms ist erh&auml;ltlich."
+
+#@ gravityforms
+msgid "There is an update available for Gravity Forms. %sView Details%s %s"
+msgstr "Es ist eine Aktualisierung (Update) f&uuml;r Gravity Forms verf&uuml;gbar. %sDetails ansehen%s %s"
+
+#@ gravityforms
+msgid "There was a problem with your submission."
+msgstr "Es gab ein Problem mit Ihrer Eingabe."
+
+#@ gravityforms
+msgid "There was an error while resending the notifications."
+msgstr "Es trat ein Fehler auf beim erneuten Senden der Benachrichtigungen."
+
+#@ gravityforms
+msgid "There was an error while saving your form."
+msgstr "Es trat ein Fehler auf beim Speichern Ihres Formulars."
+
+#@ gravityforms
+msgid "Third Choice"
+msgstr "Dritte Auswahl"
+
+#@ gravityforms
+msgid "Third Option"
+msgstr "Dritte Option"
+
+#@ gravityforms
+msgid "This custom choice name is already in use. Please enter another name."
+msgstr "Dieser Name f&uuml;r die benutzerdefinierte Auswahl wird bereits benutzt. Bitte geben Sie einen anderen Namen ein."
+
+#@ gravityforms
+msgid "This field is required."
+msgstr "Dieses Feld ist erforderlich."
+
+#@ gravityforms
+msgid "This field is required. Please enter a complete address."
+msgstr "Dieses Feld ist erforderlich. Bitte geben Sie eine vollst&auml;ndige Anschrift ein."
+
+#@ gravityforms
+msgid "This field is required. Please enter the first and last name."
+msgstr "Dieses Feld ist erforderlich. Bitte geben Sie Ihren Vor- und Nachname ein."
+
+#@ gravityforms
+msgid "This field requires an unique entry and '%s' has already been used"
+msgstr "Dieses Feld erfordert eine einzigartige Eingabe und '%s' wurde schon benutzt"
+
+#@ gravityforms
+msgid "This field requires an unique entry and the values you entered have been already been used"
+msgstr "Dieses Feld erfordert eine einzigartige Eingabe - Ihre eingegebenen Werte wurden bereits benutzt"
+
+#@ gravityforms
+msgid "This form does not have any entries in the trash."
+msgstr "Dieses Formular hat keine Eintr&auml;ge im Papierkorb."
+
+#@ gravityforms
+msgid "This form does not have any entries yet."
+msgstr "Dieses Formular hat bisher keine Eintr&auml;ge."
+
+#@ gravityforms
+msgid "This form does not have any spam."
+msgstr "Dieses Formular hat keinen Spam - erfreulich :)"
+
+#@ gravityforms
+msgid "This form does not have any starred entries."
+msgstr "Dieses Formular verf&uuml;gt &uuml;ber keine gekennzeichneten Eintr&auml;ge."
+
+#@ gravityforms
+msgid "This form does not have any unread entries."
+msgstr "Dieses Formular verf&uuml;gt &uuml;ber keine ungelesenen Eintr&auml;ge."
+
+#@ gravityforms
+msgid "This operation deletes ALL Gravity Forms data. If you continue, You will not be able to retrieve or restore your forms or entries."
+msgstr "Diese Operation l&ouml;scht ALLE Daten von Gravity Forms. Wenn Sie fortsetzen, werden Sie NICHT in der Lage sein, Formulare oder Eintr&auml;ge wieder herzustellen bzw. auszulesen!"
+
+#@ gravityforms
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#@ gravityforms
+msgid "Thumbnail - Centered"
+msgstr "Vorschaubild - zentriert"
+
+#@ gravityforms
+msgid "Thumbnail - Left Aligned"
+msgstr "Vorschaubild - Links ausgerichtet"
+
+#@ gravityforms
+msgid "Thumbnail - Right Aligned"
+msgstr "Vorschaubild - Rechts ausgerichtet"
+
+#@ gravityforms
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#@ gravityforms
+msgid "Time"
+msgstr "Zeit"
+
+#@ gravityforms
+msgid "Time Format"
+msgstr "Zeitformat"
+
+#@ gravityforms
+msgid "Title"
+msgstr "Titel"
+
+#@ gravityforms
+msgid "To pass field data to the confirmation page, build a Query String using the 'Insert form field' drop down. <a href='http://en.wikipedia.org/wiki/Query_string' target='_blank'>..more info on querystrings &raquo;</a>"
+msgstr "Um Feld-Daten zur Best&auml;tigungsseite zu bringen, erstellen Sie einen Query String indem Sie das 'Insert form field' drop down benutzen. <a href='http://en.wikipedia.org/wiki/Query_string' target='_blank'>... mehr Informatuinen zu Query Strings &raquo;</a>"
+
+#@ gravityforms
+msgid "To use conditional logic, please create a drop down, checkbox or radio button field."
+msgstr "Um Conditional Logic benutzen zu k&ouml;nnen, erstellen Sie bitte ein Auswahlmen&uuml;-, Checkbox- oder Radio-Button-Feld."
+
+#@ gravityforms
+msgid "To use notification routing, your form must have a drop down, checkbox or radio button field."
+msgstr "Um das Benachrichtigungs-Routing verwenden zu k&ouml;nnen, muss Ihr Formular ein Auswahlmen&uuml;-, Checkbox- oder Radio-Button-Feld haben."
+
+#@ gravityforms
+msgid "To use the reCaptcha field you must first do the following:"
+msgstr "Um das reCaptcha-Feld benutzen zu k&ouml;nnen, m&uuml;ssen Sie erst Folgendes tun:"
+
+#@ gravityforms
+msgid "Togo"
+msgstr "Togo"
+
+#@ gravityforms
+msgid "Tonga"
+msgstr "Tonga"
+
+#@ gravityforms
+msgid "Top aligned"
+msgstr "oben ausgerichtet"
+
+#@ gravityforms
+msgid "Total"
+msgstr "Summe"
+
+#@ gravityforms
+msgid "Total:"
+msgstr "Summe:"
+
+#@ gravityforms
+msgid "Transaction Id"
+msgstr "Transaktions-ID"
+
+#@ gravityforms
+msgid "Transportation/Logistics"
+msgstr "Transport / Logistik"
+
+#@ gravityforms
+msgid "Trash"
+msgstr "Papierkorb"
+
+#@ gravityforms
+msgid "Trinidad and Tobago"
+msgstr "Trinidad und Tobago"
+
+#@ gravityforms
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#@ gravityforms
+msgid "Tunisia"
+msgstr "Tunesien"
+
+#@ gravityforms
+msgid "Turkey"
+msgstr "T&uuml;rkei"
+
+#@ gravityforms
+msgid "Turkish"
+msgstr "T&uuml;rkisch"
+
+#@ gravityforms
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#@ gravityforms
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#@ gravityforms
+msgid "Type"
+msgstr "Typ"
+
+#@ gravityforms
+msgid "U.S. Dollar"
+msgstr "U.S. Dollar"
+
+#@ gravityforms
+msgid "U.S. States"
+msgstr "U.S.-Bundesstaaten"
+
+#@ gravityforms
+msgid "UGANDA"
+msgstr "UGANDA"
+
+#@ gravityforms
+msgid "UKRAINE"
+msgstr "UKRAINE"
+
+#@ gravityforms
+msgid "UNITED ARAB EMIRATES"
+msgstr "VEREINIGTE ARABISCHE EMIRATE"
+
+#@ gravityforms
+msgid "UNITED KINGDOM"
+msgstr "GROSSBRITANNIEN"
+
+#@ gravityforms
+msgid "UNITED STATES"
+msgstr "U.S.A."
+
+#@ gravityforms
+msgid "URUGUAY"
+msgstr "URUGUAY"
+
+#@ gravityforms
+msgid "UZBEKISTAN"
+msgstr "USBEKISTAN"
+
+#@ gravityforms
+msgid "Uganda"
+msgstr "Uganda"
+
+#@ gravityforms
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#@ gravityforms
+msgid "Under $20,000"
+msgstr "Unter EUR 20.000"
+
+#@ gravityforms
+msgid "Under 18"
+msgstr "Unter 18 J."
+
+#@ gravityforms
+msgid "Uninstall Gravity Forms"
+msgstr "Gravity Forms deinstallieren"
+
+#@ gravityforms
+msgid "Unit Price"
+msgstr "St&uuml;ckpreis"
+
+#@ gravityforms
+msgid "United Arab Emirates"
+msgstr "Vereinigte Arabische Emirate"
+
+#@ gravityforms
+msgid "United Kingdom"
+msgstr "Gro&szlig;britannien"
+
+#@ gravityforms
+msgid "United States"
+msgstr "U.S.A."
+
+#@ gravityforms
+msgid "Unread"
+msgstr "Ungelesen"
+
+#@ gravityforms
+msgid "Unread Entries"
+msgstr "Ungelesene Eintr&auml;ge"
+
+#@ gravityforms
+msgid "Unsatisfied"
+msgstr "unzufrieden"
+
+#@ gravityforms
+msgid "Untitled"
+msgstr "Ohne Titel"
+
+#@ gravityforms
+msgid "Update"
+msgstr "Aktualisieren"
+
+#@ gravityforms
+msgid "Update Available"
+msgstr "Aktualisierung (Update) verf&uuml;gbar"
+
+#@ gravityforms
+msgid "Update Form"
+msgstr "Formular aktualisieren"
+
+#@ gravityforms
+msgid "Updates"
+msgstr "Aktualisierungen"
+
+#@ gravityforms
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#@ gravityforms
+msgid "Usage"
+msgstr "Gebrauch"
+
+#@ gravityforms
+msgid "Use Current User as Author"
+msgstr "Verwenden Sie den angemeldeten Benutzer als Autor"
+
+#@ gravityforms
+msgid "Use a <em>'9'</em> to indicate a numerical character."
+msgstr "Benutzen Sie eine <em>'9'</em>, um ein Zahlensymbol auszugeben."
+
+#@ gravityforms
+msgid "Use a lower case <em>'a'</em> to indicate an alphabetical character."
+msgstr "Benutzen Sie ein kleines <em>'a'</em>, um einen Buchstaben auszugeben."
+
+#@ gravityforms
+msgid "Use a question mark <em>'?'</em> to indicate optional characters. <em>Note:</em> All characters after the question mark will be optional."
+msgstr "Benutzen Sie ein Fragezeichen <em>'?'</em>, um optionale Zeichen auszugeben. <em>Hinweis:</em> Alle Zeichen nach dem Fragezeichen sind optional."
+
+#@ gravityforms
+msgid "Use an asterick <em>'*'</em> to indicate any alphanumeric character."
+msgstr "Benutzen Sie ein Sternchen <em>'*'</em>, um ein beliebiges alphanumerisches Zeichen auszugeben."
+
+#@ gravityforms
+msgid "Use logged in user as author"
+msgstr "Angemeldeten Benutzer als Autor w&auml;hlen"
+
+#@ gravityforms
+msgid "User"
+msgstr "Benutzer"
+
+#@ gravityforms
+msgid "User Defined Price"
+msgstr "Benutzerdefinierter Preis"
+
+#@ gravityforms
+msgid "User Display Name"
+msgstr "Benutzer Anzeige-Name"
+
+#@ gravityforms
+msgid "User Email"
+msgstr "Benutzer E-Mail"
+
+#@ gravityforms
+msgid "User IP"
+msgstr "Benutzer-IP-Adresse"
+
+#@ gravityforms
+msgid "User IP Address"
+msgstr "Benutzer-IP-Adresse"
+
+#@ gravityforms
+msgid "User Login"
+msgstr "Benutzername"
+
+#@ gravityforms
+msgid "User Notification"
+msgstr "Benutzer-Benachrichtigung"
+
+#@ gravityforms
+msgid "Using Gravity Forms"
+msgstr "Gravity Forms benutzen"
+
+#@ gravityforms
+msgid "Utah"
+msgstr "Utah"
+
+#@ gravityforms
+msgid "Uzbekistan"
+msgstr "Usbekistan"
+
+#@ gravityforms
+msgid "VANUATU"
+msgstr "VANUATU"
+
+#@ gravityforms
+msgid "VATICAN CITY"
+msgstr "VATIKANSTADT"
+
+#@ gravityforms
+msgid "VENEZUELA"
+msgstr "VENEZUELA"
+
+#@ gravityforms
+msgid "VIETNAM"
+msgstr "VIETNAM"
+
+#@ gravityforms
+msgid "VIRGIN ISLANDS, BRITISH"
+msgstr "BRITISCHE JUNGFERNINSELN"
+
+#@ gravityforms
+msgid "VIRGIN ISLANDS, U.S."
+msgstr "AMERIKANISCHE JUNGFERNINSELN"
+
+#@ gravityforms
+msgid "Valid Input"
+msgstr "G&uuml;ltige Eingabe"
+
+#@ gravityforms
+msgid "Validation Message"
+msgstr "Pr&uuml;fnachricht"
+
+#@ gravityforms
+msgid "Value"
+msgstr "Wert"
+
+#@ gravityforms
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#@ gravityforms
+msgid "Vatican City"
+msgstr "Vatikanstadt"
+
+#@ gravityforms
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#@ gravityforms
+msgid "Vermont"
+msgstr "Vermont"
+
+#@ gravityforms
+msgid "Very Important"
+msgstr "sehr wichtig"
+
+#@ gravityforms
+msgid "Very Satisfied"
+msgstr "sehr zufrieden"
+
+#@ gravityforms
+msgid "Very Unsatisfied"
+msgstr "sehr unzufrieden"
+
+#@ gravityforms
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#@ gravityforms
+msgid "View"
+msgstr "Ansehen"
+
+#@ gravityforms
+msgid "View All Entries"
+msgstr "Alle Eintr&auml;ge ansehen"
+
+#@ gravityforms
+msgid "View All Forms"
+msgstr "Alle Formulare ansehen"
+
+#@ gravityforms
+msgid "View Unread Entries"
+msgstr "Ungelesene Eintr&auml;ge ansehen"
+
+#@ gravityforms
+msgid "View entries generated by this form"
+msgstr "Eintr&auml;ge ansehen, die durch dieses Formular erzeugt wurden"
+
+#@ gravityforms
+msgid "View this entry"
+msgstr "Diesen Eintrag ansehen"
+
+#@ gravityforms
+msgid "View user profile"
+msgstr "Benutzerprofil ansehen"
+
+#@ gravityforms
+msgid "View version %s Details"
+msgstr "Version %s Details anzeigen"
+
+#@ gravityforms
+msgid "Views"
+msgstr "Aufrufe"
+
+#@ gravityforms
+msgid "Virgin Islands, British"
+msgstr "Britische Jungferninseln"
+
+#@ gravityforms
+msgid "Virgin Islands, U.S."
+msgstr "Amerikanische Jungferninseln"
+
+#@ gravityforms
+msgid "Virginia"
+msgstr "Virginia"
+
+#@ gravityforms
+msgid "Visa"
+msgstr "Visa"
+
+#@ gravityforms
+msgid "Visibility"
+msgstr "Sichtbarkeit"
+
+#@ gravityforms
+msgid "WARNING! This operation cannot be undone. Empty trash? \\'Ok\\' to empty trash. \\'Cancel\\' to abort."
+msgstr "WARNUNG! Diese Operation kann nicht r&uuml;ckg&auml;ngig gemacht werden. Papierkorb leeren? \"OK\" um zu leeren. \"Abbrechen\" f&uuml;r Abbruch."
+
+#@ gravityforms
+msgid "WARNING! This operation cannot be undone. Permanently delete all spam? \\'Ok\\' to delete. \\'Cancel\\' to abort."
+msgstr "WARNUNG! Diese Operation kann nicht r&uuml;ckg&auml;ngig gemacht werden. Allen Spam dauerhaft l&ouml;schen? \"OK\" um zu l&ouml;schen. \"Abbrechen\" f&uuml;r Abbruch."
+
+#@ gravityforms
+msgid "WARNING: You are about to delete ALL entries associated with the selected forms. "
+msgstr "WARNUNG: Sie sind dabei, ALLE Eintr&auml;ge zu l&ouml;schen, die mit den ausgew&auml;hlten Formularen verbunden sind. "
+
+#@ gravityforms
+msgid "WARNING: You are about to delete this form and ALL entries associated with it. "
+msgstr "WARNUNG: Sie sind dabei dieses Formular und alle damit verbundenen Eintr&auml;ge zu l&ouml;schen. "
+
+#@ gravityforms
+msgid "Warning"
+msgstr "Warnung"
+
+#@ gravityforms
+msgid "Warning! ALL Gravity Forms data, including form entries will be deleted. This cannot be undone. \\'OK\\' to delete, \\'Cancel\\' to stop"
+msgstr "Warnung! ALLE Daten von Gravity Forms, inklusive aller Formulareintr&auml;ge, werden gel&ouml;scht. Dies kann nicht r&uuml;ckg&auml;ngig gemacht werden. \\'OK\\' zum l&ouml;schen, \\'Abbrechen\\' um zu stoppen"
+
+#@ gravityforms
+msgid "Warning! Deleting this field will also delete all entry data associated with it. \\'Cancel\\' to stop. \\'OK\\' to delete"
+msgstr "Warnung! L&ouml;schen dieses Feldes wird ebenso alle Eintr&auml;ge l&ouml;schen, die mit ihm verbunden sind. \\'Abbrechen\\', um zu stoppen. \\'OK\\', um zu l&ouml;schen."
+
+#@ gravityforms
+msgid "Washington"
+msgstr "Washington"
+
+#@ gravityforms
+msgid "Website"
+msgstr "Webseite"
+
+#@ gravityforms
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#@ gravityforms
+msgid "West Virginia"
+msgstr "West Virginia"
+
+#@ gravityforms
+msgid "What do you want to do next?"
+msgstr "Was wollen Sie als n&auml;chstes tun?"
+
+#@ gravityforms
+msgid "When enabled, auto-formatting will insert paragraph breaks automatically. Disable auto-formatting when using HTML to create email notification content."
+msgstr "Falls aktiviert, wird Auto-Formatierung Absatzumbr&uuml;che automatisch einf&uuml;gen. Deaktivieren Sie Auto-Formatierung wenn Sie HTML benutzen, um den Inhalt von Benachrichtigungs-E-Mails zu formatieren."
+
+#@ gravityforms
+msgid "When enabled, auto-formatting will insert paragraph breaks automatically. Disable auto-formatting when using HTML to create the confirmation content."
+msgstr "Wenn aktiviert, wird die Autoformatierung automatisch Absatzumbr&uuml;che einf&uuml;gen. Deaktiveren Sie die Autoformatierung, wenn Sie HTML benutzen, um Inhalte zu erstellen."
+
+#@ gravityforms
+msgid "When enabled, margins are added to properly align the HTML content with other form fields."
+msgstr "Falls aktiviert, werden Margins hinzugef&uuml;gt, um den HTML-formatierten Inhalt richtig mit den anderen Formularfeldern anzuordnen."
+
+#@ gravityforms
+msgid "White"
+msgstr "Wei&szlig;"
+
+#@ gravityforms
+msgid "Widowed"
+msgstr "verwitwet"
+
+#@ gravityforms
+msgid "Wisconsin"
+msgstr "Wisconsin"
+
+#@ gravityforms
+msgid "WordPress Version"
+msgstr "WordPress Version"
+
+#@ gravityforms
+msgid "Would You"
+msgstr "M&ouml;chten Sie"
+
+#@ gravityforms
+msgid "Would you like to delete this form and ALL entries associated with it? \\'Cancel\\' to stop. \\'OK\\' to delete"
+msgstr "M&ouml;chten Sie dieses Formular und ALLE damit verbundenen Eintr&auml;ge l&ouml;schen? \\'Abbrechen\\' um zu stoppen. \\'OK\\' um zu l&ouml;schen"
+
+#@ gravityforms
+msgid "Wyoming"
+msgstr "Wyoming"
+
+#@ gravityforms
+msgid "YEMEN"
+msgstr "JEMEN"
+
+#@ gravityforms
+msgid "YYYY"
+msgstr "JJJJ"
+
+#@ gravityforms
+msgid "Year"
+msgstr "Jahr"
+
+#@ gravityforms
+msgid "Yemen"
+msgstr "Jemen"
+
+#@ gravityforms
+msgid "Yes"
+msgstr "Ja"
+
+#@ gravityforms
+msgid "You are about to delete this entry. \\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr "Sie sind dabei, diesen Eintrag zu l&ouml;schen. \\'Abbrechen\\' um zu stoppen, \\'OK\\' um zu l&ouml;schen."
+
+#@ gravityforms
+msgid "You don't have adequate permission to create forms."
+msgstr "Sie haben nicht ausreichende Rechte, um Formulare zu erstellen."
+
+#@ gravityforms
+msgid "You don't have adequate permission to delete entries."
+msgstr "Sie haben nicht ausreichende Rechte, um Eintr&auml;ge zu l&ouml;schen."
+
+#@ gravityforms
+msgid "You don't have adequate permission to delete forms."
+msgstr "Sie haben nicht ausreichende Rechte, um Formulare zu l&ouml;schen."
+
+#@ gravityforms
+msgid "You don't have adequate permission to delete notes."
+msgstr "Sie haben nicht ausreichende Rechte, um Antworten/ Notizen zu l&ouml;schen."
+
+#@ gravityforms
+msgid "You don't have adequate permission to edit entries."
+msgstr "Sie haben nicht ausreichende Rechte, um Eintr&auml;ge zu bearbeiten."
+
+#@ gravityforms
+msgid "You don't have adequate permission to edit settings."
+msgstr "Sie haben nicht die erforderlichen Rechte, um die Einstellungen zu bearbeiten."
+
+#@ gravityforms
+msgid "You don't have adequate permission to preview forms."
+msgstr "Sie haben nicht ausreichende Rechte f&uuml;r eine Formularvorschau."
+
+#@ gravityforms
+msgid "You don't have adequate permission to uninstall Gravity Forms."
+msgstr "Sie haben nicht die erforderlichen Rechte, um Gravity Forms zu deinstallieren."
+
+#@ gravityforms
+msgid "You don't have adequate permission to view entries."
+msgstr "Sie haben nicht ausreichende Rechte, um Eintr&auml;ge anzusehen."
+
+#@ gravityforms
+msgid "You don't have any active forms. Let's go %screate one%s"
+msgstr "Sie haben keine aktiven Formulare. %sErstellen%s Sie einfach eins."
+
+#@ gravityforms
+msgid "You don't have any forms. Let's go %s create one %s!"
+msgstr "Sie haben keine Formulare anlegt. %sErstellen%s Sie einfach eins!"
+
+#@ gravityforms
+msgid "You don't have any forms. Let's go %screate one%s!"
+msgstr "Sie haben keine Formulare anlegt. %sErstellen%s Sie einfach eins!"
+
+#@ gravityforms
+msgid "You don't have permission to download a file"
+msgstr "Sie haben nicht ausreichende Rechte, um eine Datei herunterzuladen"
+
+#@ gravityforms
+msgid "You don't have permissions to view this page"
+msgstr "Sie haben keine ausreichenden Rechte, um diese Seite zu sehen."
+
+#@ gravityforms
+msgid "You have successfully saved your form!"
+msgstr "Ihr Formular wurde erfolgreich gespeichert!"
+
+#@ gravityforms
+msgid "You must select at least one type of notification to resend."
+msgstr "Sie m&uuml;ssen mindestens eine Art der Benachrichtigung ausw&auml;hlen, um neu senden zu k&ouml;nnen."
+
+#@ gravityforms
+msgid "Your Gravity Forms support license key is used to verify your support package, enable automatic updates and receive support."
+msgstr "Ihr Gravity Forms Support-Lizenzschl&uuml;ssel wird benutzt, um Ihr Support-Paket zu verifizieren, die automatischen Aktualisierungen (Upgrades) zu aktivieren und den Support-Zugang freizuschalten."
+
+#@ gravityforms
+msgid "Your emails do not match."
+msgstr "Ihre E-Mail-Adressen stimmen nicht &uuml;berein."
+
+#@ gravityforms
+msgid ""
+"Your form currently has a product field with a blank label. \\\n"
+"Please enter a label for all product fields."
+msgstr ""
+"Ihr Formular enth&auml;lt derzeit ein Produktfeld mit einem leeren Label. \\\n"
+"Bitte geben Sie ein Label (Beschriftung) f&uuml;r alle Produktfelder an."
+
+#@ gravityforms
+msgid ""
+"Your form currently has an option field without a product field.\\\n"
+"You must add a product field to your form."
+msgstr "Ihr Formular enth&auml;lt derzeit ein Optionsfeld ohne ein Produktfeld.<br />Sie m&uuml;ssen Ihrem Formular ein Produktfeld hinzf&uuml;gen."
+
+#@ gravityforms
+msgid "Your form currently has one ore more pages without any fields in it. Blank pages are a result of Page Breaks that are positioned as the first or last field in the form or right after to each other. Please adjust your Page Breaks and try again."
+msgstr "Ihr Formular enth&auml;lt derzeit eine oder mehrere Seiten ohne jegliche Felder darin. Leere Seiten sind ein Ergebnis von Seitenumbr&uuml;chen, die als erstes oder letztes Feld im Formular oder direkt nacheinander positioniert sind. Bitte justieren Sie Ihre Seitenumbr&uuml;che korrekt und versuchen Sie es noch einmal."
+
+#@ gravityforms
+msgid "Your form does not have any %semail%s field."
+msgstr "Ihr Formular hat kein %sE-Mail%s-Feld."
+
+#@ gravityforms
+msgid "Your password does not meet the required strength. <br/>Hint: To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ & )."
+msgstr "Ihr Passwort entspricht nicht der erforderlichen St&auml;rke. <br />Tipp: Um das Passwort st&auml;rker zu machen, benutzen Sie am besten Gro&szlig;- und Kleinbuchstaben, Nummern und Symbole wie ! \" ? $ % ^ & )."
+
+#@ gravityforms
+msgid "Your passwords do not match."
+msgstr "Ihre Passw&ouml;rter stimmen nicht &uuml;berein."
+
+#@ gravityforms
+msgid "Your version of Gravity Forms is up to date."
+msgstr "Ihre Version von Gravity Forms ist auf dem aktuellsten Stand."
+
+#@ gravityforms
+msgid "Yukon"
+msgstr "Yukon"
+
+#@ gravityforms
+msgid "ZAMBIA"
+msgstr "SAMBIA"
+
+#@ gravityforms
+msgid "ZIMBABWE"
+msgstr "SIMBABWE"
+
+#@ gravityforms
+msgid "Zambia"
+msgstr "Sambia"
+
+#@ gravityforms
+msgid "Zimbabwe"
+msgstr "Simbabwe"
+
+#@ gravityforms
+msgid "Zip / Postal Code"
+msgstr "Postleitzahl (PLZ)"
+
+#@ gravityforms
+msgid "Zip Code"
+msgstr "Postleitzahl"
+
+#@ gravityforms
+msgid "Zip Code w/ Optional Plus Four"
+msgstr "US-PLZ mit 4 optinalen Zusatzziffern"
+
+#@ gravityforms
+msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr "\\'Abbrechen\\' um zu stoppen, \\OK\\' um zu l&ouml;schen."
+
+#@ gravityforms
+msgid "\\'Cancel\\' to stop, \\'OK\\' to reset."
+msgstr "\\'Abbrechen\\' um zu stoppen, \\'OK\\' um zu zur&uuml;ckzusetzen."
+
+#@ gravityforms
+msgid "add another choice"
+msgstr "weitere Auswahl hinzuf&uuml;gen"
+
+#@ gravityforms
+msgid "added on"
+msgstr "hinzugef&uuml;gt am"
+
+#@ gravityforms
+msgid "advanced options"
+msgstr "erweiterte Optionen"
+
+#@ gravityforms
+msgid "click to delete this field"
+msgstr "klicken, um dieses Feld zu l&ouml;schen"
+
+#@ gravityforms
+msgid "click to duplicate this field"
+msgstr "klicken, um das Feld zu duplizieren"
+
+#@ gravityforms
+msgid "click to edit this field"
+msgstr "klicken, um das Feld zu bearbeiten"
+
+#@ gravityforms
+msgid "close window"
+msgstr "Fenster schlie&szlig;en"
+
+#@ gravityforms
+msgid "delete"
+msgstr "l&ouml;schen"
+
+#@ gravityforms
+msgid "enable values"
+msgstr "Werte aktivieren"
+
+#@ gravityforms
+msgid "enter name"
+msgstr "Name eingeben"
+
+#@ gravityforms
+msgid "entries"
+msgstr "Eintr&auml;ge"
+
+#@ gravityforms
+msgid "entry"
+msgstr "Eintrag"
+
+#@ gravityforms
+msgid "form"
+msgstr "Formular"
+
+#@ gravityforms
+msgid "forms"
+msgstr "Formulare"
+
+#@ gravityforms
+msgid "if"
+msgstr "wenn"
+
+#@ gravityforms
+msgid "include notes"
+msgstr "Notizen einschlie&szlig;en"
+
+#@ gravityforms
+msgid "is"
+msgstr "ist"
+
+#@ gravityforms
+msgid "is not"
+msgstr "ist nicht"
+
+#@ gravityforms
+msgid "max characters"
+msgstr "Max. Zeichenanzahl"
+
+#@ gravityforms
+msgid "of"
+msgstr "von"
+
+#@ gravityforms
+msgid "of the following match:"
+msgstr "des folgenden zutrifft"
+
+#@ gravityforms
+msgid "per day"
+msgstr "pro Tag"
+
+#@ gravityforms
+msgid "per month"
+msgstr "pro Monat"
+
+#@ gravityforms
+msgid "per week"
+msgstr "pro Woche"
+
+#@ gravityforms
+msgid "per year"
+msgstr "pro Jahr"
+
+#@ gravityforms
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#@ gravityforms
+msgid "reCAPTCHA Private Key"
+msgstr "reCAPTCHA Privater Schl&uuml;ssel (Private Key)"
+
+#@ gravityforms
+msgid "reCAPTCHA Public Key"
+msgstr "reCAPTCHA &Ouml;ffentlicher Schl&uuml;ssel (Public Key)"
+
+#@ gravityforms
+msgid "reCAPTCHA Settings"
+msgstr "reCAPTCHA Einstellungen"
+
+#@ gravityforms
+msgid "reCaptcha Language"
+msgstr "reCAPTCHA-Sprache"
+
+#@ gravityforms
+msgid "reCaptcha Private Key"
+msgstr "reCaptcha Privater Schl&uuml;ssel (Private Key)"
+
+#@ gravityforms
+msgid "reCaptcha Public Key"
+msgstr "reCaptcha &Ouml;ffentlicher Schl&uuml;ssel (Public Key)"
+
+#@ gravityforms
+msgid "remove this choice"
+msgstr "diese Auswahl entfernen"
+
+#@ gravityforms
+msgid "show empty fields"
+msgstr "leere Felder anzeigen"
+
+#@ gravityforms
+msgid "this field if"
+msgstr "dieses Feld, wenn"
+
+#@ gravityforms
+msgid "this form button"
+msgstr "dieser Formularbutton"
+
+#@ gravityforms
+msgid "this page"
+msgstr "diese Seite"
+
+#@ gravityforms
+msgid "total entries"
+msgstr "Gesamte Eintr&auml;ge"
+
