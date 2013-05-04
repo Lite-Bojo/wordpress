@@ -1707,29 +1707,29 @@ class GFCommon{
 
                 switch ($riverside[2]) {
                     case "'1'":
-                        $queryy = "SELECT * FROM ".$choicess['text']." WHERE ".$riverside[0]." IN ( ".$riverside[1]." ) OR ID = 1 ORDER BY CASE WHEN Name = ".$riverside[3]." THEN 0 ELSE 1 END, ".$choicess['text']." DESC";
+                        $queryy = "SELECT * FROM ".$choicess['text']." WHERE ".$riverside[0]." IN ( ".$riverside[1]." ) OR ID = 1 ORDER BY CASE WHEN Meno = ".$riverside[3]." THEN 0 ELSE 1 END, Type DESC";
                         break;
                     case "'0'":
-                        $queryy = "SELECT * FROM ".$choicess['text']." WHERE ".$riverside[0]." IN ( ".$riverside[1]." ) ORDER BY CASE WHEN Name = ".$riverside[3]." THEN 0 ELSE 1 END, ".$choicess['text']." DESC";
+                        $queryy = "SELECT * FROM ".$choicess['text']." WHERE ".$riverside[0]." IN ( ".$riverside[1]." ) ORDER BY CASE WHEN Meno = ".$riverside[3]." THEN 0 ELSE 1 END, Type DESC";
                         break;
                     
                     default:
-                        $queryy = "SELECT * FROM ".$choicess['text']." WHERE ".$riverside[0]." IN ( ".$riverside[1]." ) ORDER BY CASE WHEN Name = ".$riverside[3]." THEN 0 ELSE 1 END, ".$choicess['text']." DESC";
+                        $queryy = "SELECT * FROM ".$choicess['text']." WHERE ".$riverside[0]." IN ( ".$riverside[1]." ) ORDER BY CASE WHEN Meno = ".$riverside[3]." THEN 0 ELSE 1 END, Type DESC";
                         break;
                 }
                  
                 $konoha = $wpdb->get_results($queryy, ARRAY_N);
-
+                
                 foreach ( $konoha as $k=>$v )
                 {
                   $konoha[$k] ['text'] = $konoha[$k] [1];
                   $konoha[$k] ['value'] = $konoha[$k] [1];
                   unset($konoha[$k][1]);
-                  $konoha[$k] ['price'] = $konoha[$k] [6];
+                  $konoha[$k] ['price'] = $konoha[$k] [3];
                   unset($konoha[$k][6]);
                   $konoha[$k] ['ID'] = $konoha[$k] [0];
                   unset($konoha[$k][0]);
-                  $konoha[$k] ['obr'] = $konoha[$k] [7];
+                  $konoha[$k] ['obr'] = $konoha[$k] [4];
                   unset($konoha[$k][7]);
                   $konoha[$k] ['Type'] = $konoha[$k] [2];
                   unset($konoha[$k][2]);
@@ -1740,6 +1740,7 @@ class GFCommon{
                 $field["choices"]=$konoha;
                 
             }
+            
                           
                           
 

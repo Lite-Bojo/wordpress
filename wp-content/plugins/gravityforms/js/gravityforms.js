@@ -244,8 +244,9 @@ function gformCalculateProductPrice(formId, productFieldId){
             
             var label = gformGetOptionLabel(this, jQuery(this).val(), selected_price);
             jQuery(this).html(label);
-             jQuery(this).trigger("liszt:updated"); //toto musim zavolat aby sa mi updatla choosen forma
+
         });
+        jQuery(this).trigger("liszt:updated"); //toto musim zavolat aby sa mi updatla choosen forma
     });
 
     //Checkboxes labels with prices
