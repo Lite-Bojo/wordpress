@@ -36,13 +36,20 @@ if (!defined('ABSPATH')) exit; ?>
 					$i++;
 					?><tr>
 						<th scope="row" colspan="2" style="text-align:left; border: 1px solid #eee; <?php if ( $i == 1 ) echo 'border-top-width: 4px;'; ?>"><?php echo $total['label']; ?></th>
-						<td style="text-align:left; border: 1px solid #eee; <?php if ( $i == 1 ) echo 'border-top-width: 4px;'; ?>"><?php echo $total['value']; ?></td>
+						<td style="text-align:left; border: 1px solid #eee; <?php if ( $i == 1 ) echo 'border-top-width: 4px;'; ?>"><?php echo $total['value']; $hello = $total['value'];?></td>
 					</tr><?php
 				}
 			}
 		?>
 	</tfoot>
 </table>
+<?php $total_int = (int)$hello;?>
+<p>Z dôvodu že poskitujeme počitače presne podla požiadaviek zakaznika potrebujeme aby bola vopred zaplatená záloha vo výške 20% z celkovej sumi produktu.</p><br>
+<p>Prosim pošlite <?php echo $total_int; ?> € pre potvrdenie objednávky.</p>
+<ul class="order_details bacs_details"><li class="account_name">Názov účtu: <strong>Mbank</strong></li><li class="account_number">Číslo účtu: <strong>520700-4203411377</strong></li><li class="sort_code">Sort Code (len zahraničie): <strong>8360</strong></li><li class="bank_name">Názov banky: <strong>BRE Bank SA</strong></li><li class="iban">IBAN: <strong>SK10 8360 5207 0042 0341 1377</strong></li><li class="bic">BIC: <strong>BREXSKBX</strong></li></ul>
+
+<br>
+
 
 <?php do_action('woocommerce_email_after_order_table', $order, true); ?>
 

@@ -36,11 +36,22 @@ if (!defined('ABSPATH')) exit; ?>
 					$i++;
 					?><tr>
 						<th scope="row" colspan="2" style="text-align:left; border: 1px solid #eee; <?php if ( $i == 1 ) echo 'border-top-width: 4px;'; ?>"><?php echo $total['label']; ?></th>
-						<td style="text-align:left; border: 1px solid #eee; <?php if ( $i == 1 ) echo 'border-top-width: 4px;'; ?>"><?php echo $total['value']; ?></td>
+						<td style="text-align:left; border: 1px solid #eee; <?php if ( $i == 1 ) echo 'border-top-width: 4px;'; ?>"><?php echo $total['value'];?></td>
 					</tr><?php
 				}
 			}
 		?>
+		<tr> <!-- Bojo Zaloha -->
+						<th scope="row" colspan="2" style="text-align:left; border: 1px solid #eee; 'border-top-width: 4px; ?>">Záloha</th>
+						<td style="text-align:left; border: 1px solid #eee;"><?php 
+						$bojo_total = $order->get_order_total();
+						$precent_total = ($bojo_total/100) * 30;
+							echo round($precent_total, 2) . ' €';
+						?>
+						
+						</td>
+		</tr>
+				
 	</tfoot>
 </table>
 

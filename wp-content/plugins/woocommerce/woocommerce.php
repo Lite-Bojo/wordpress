@@ -180,6 +180,7 @@ class Woocommerce {
 		include( 'classes/gateways/class-wc-payment-gateways.php' );
 		include( 'classes/gateways/class-wc-payment-gateway.php' );
 		include( 'classes/gateways/bacs/class-wc-bacs.php' );
+		include( 'classes/gateways/bacs2/class-wc-bacs2.php' );
 		include( 'classes/gateways/cheque/class-wc-cheque.php' );
 		include( 'classes/gateways/paypal/class-wc-paypal.php' );
 		include( 'classes/gateways/cod/class-wc-cod.php' );

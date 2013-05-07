@@ -683,12 +683,13 @@ add_action('wp_ajax_nopriv_custom_pc_filter', 'custom_pc_filter_function');
 function description_part_function(){
 	global $wpdb;
 	$id_productu = $_POST['selected_id'];
+	$table = $_POST['selected_table'];
 	if (!is_numeric ($id_productu)){
-		$informacie = array('obr' => '', 'popis' => 'Nič ste si nezvolili');
+		$informacie = array('Imagelink' => '', 'LongDesc' => '', 'ShortDesc' => 'Nič ste si nezvolili');
 		echo json_encode($informacie);
 		die();
 	};
-		$informacie = $wpdb->get_results("SELECT * FROM gpu WHERE ID=" . $id_productu . "", ARRAY_A);
+		$informacie = $wpdb->get_results("SELECT * FROM " . $table . " WHERE ID=" . $id_productu . "", ARRAY_A);
 			foreach($informacie as $v) {
     		$informacie2 = $v;
 		}

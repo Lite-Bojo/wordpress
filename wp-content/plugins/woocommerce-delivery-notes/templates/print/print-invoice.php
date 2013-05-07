@@ -1,1 +1,1 @@
-<?php wcdn_get_template( 'print-delivery-note.php' ); ?>
+<?php wcdn_get_template( 'print-invoice-template.php' ); ?>

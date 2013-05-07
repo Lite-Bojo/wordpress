@@ -1703,7 +1703,7 @@ class GFCommon{
              
             foreach($field["choices"] as $choicess){
                	$riverside = explode("-.-", $choicess['value']);
-               
+                $table_name = $choicess['text'];
 
                 switch ($riverside[2]) {
                     case "'1'":
@@ -1734,9 +1734,9 @@ class GFCommon{
                   $konoha[$k] ['Type'] = $konoha[$k] [2];
                   unset($konoha[$k][2]);
                   $konoha[$k] ['isSelected'] = $konoha[$k] [''];
+                  $konoha[$k] ['table'] = $table_name;
                   
                 }
-
                 $field["choices"]=$konoha;
                 
             }
@@ -1746,6 +1746,7 @@ class GFCommon{
 
                             foreach($field["choices"] as $choice){
                 //needed for users upgrading from 1.0 choises display bojo
+                $field_data_bojo = !empty($choice["table"]) ? $choice["table"] : "";
 				$field_data_id = !empty($choice["ID"]) ? $choice["ID"] : "";
 				$field_data_type = !empty($choice["Type"]) ? $choice["Type"] : "";
                 $field_value = !empty($choice["value"]) || rgget("enableChoiceValue", $field) ? $choice["value"] : $choice["text"];
@@ -1771,7 +1772,7 @@ class GFCommon{
                     }
                 }
 
-                $choices.= sprintf("<option data-type='%s' data-id='%s' value='%s' %s>%s</option>", $field_data_type, $field_data_id, esc_attr($field_value), $selected,  esc_html($choice["text"]));
+                $choices.= sprintf("<option data-bojo='%s' data-type='%s' data-id='%s' value='%s' %s>%s</option>", $field_data_bojo, $field_data_type, $field_data_id, esc_attr($field_value), $selected,  esc_html($choice["text"]));
             }
         }
         return $choices;

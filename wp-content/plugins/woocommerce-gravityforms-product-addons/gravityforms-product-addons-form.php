@@ -196,7 +196,10 @@ class woocommerce_gravityforms_product_form {
                     });
                 };
                     //chosen script
-                    $('select.gfield_select').chosen();
+                    $('select.gfield_select').chosen({ 
+                        search_contains: true, 
+                        results_showing: 10,
+                         });
 
                         //OPTION GROUPS
                 $("form.cart").attr('action', '');

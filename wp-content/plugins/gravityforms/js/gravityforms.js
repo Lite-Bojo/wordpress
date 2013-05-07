@@ -373,7 +373,7 @@ function gformGetOptionLabel(element, selected_value, current_price){
     var label = element.html().replace(/<span(.*)<\/span>/i, "").replace(current_diff, "");
 
     var diff = gformGetPriceDifference(current_price, price);
-    diff = gformToNumber(diff) == 0 ? "" : " " + diff;
+    diff = gformToNumber(diff) == 0 ? "" : " <span class='price_bojo'>" + diff + "</span>"; //bojo cena je span aby si tam mohol dat style
     element.attr('price', diff);
 
     //don't add <span> for drop down items (not supported)

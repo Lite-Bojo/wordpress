@@ -28,20 +28,7 @@ if (!defined('ABSPATH')) exit; ?>
 	<tbody>
 		<?php echo $order->email_order_items_table( true, false, true ); ?>
 	</tbody>
-	<tfoot>
-		<?php
-			if ( $totals = $order->get_order_item_totals() ) {
-				$i = 0;
-				foreach ( $totals as $total ) {
-					$i++;
-					?><tr>
-						<th scope="row" colspan="2" style="text-align:left; border: 1px solid #eee; <?php if ( $i == 1 ) echo 'border-top-width: 4px;'; ?>"><?php echo $total['label']; ?></th>
-						<td style="text-align:left; border: 1px solid #eee; <?php if ( $i == 1 ) echo 'border-top-width: 4px;'; ?>"><?php echo $total['value']; ?></td>
-					</tr><?php
-				}
-			}
-		?>
-	</tfoot>
+	
 </table>
 
 <?php do_action('woocommerce_email_after_order_table', $order, false); ?>

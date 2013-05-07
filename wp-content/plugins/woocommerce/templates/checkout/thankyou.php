@@ -50,10 +50,20 @@ global $woocommerce;
 				<strong><?php echo $order->get_formatted_order_total(); ?></strong>
 			</li>
 			<?php if ($order->payment_method_title) : ?>
-			<li class="method">
+			<li class="total">
 				<?php _e('Payment method:', 'woocommerce'); ?>
 				<strong><?php
 					echo $order->payment_method_title;
+				?></strong>
+			</li>
+			<?php endif; ?>
+			<?php if ($order->payment_method == "bacs2") : ?>
+			<li class="method">
+				<?php _e('Veľkosť zálohy:', 'woocommerce'); ?>
+				<strong><?php
+					$bojo_total = $order->get_order_total();
+						$precent_total = ($bojo_total/100) * 30;
+							echo round($precent_total, 2) . ' €';							
 				?></strong>
 			</li>
 			<?php endif; ?>

@@ -1408,7 +1408,8 @@ body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html dl dd {
 	list-style: none
 }
 .gform_wrapper .chzn-container .chzn-results .active-result {
-	cursor: pointer
+	cursor: pointer;
+	display:list-item!important;
 }
 .gform_wrapper .chzn-container .chzn-results .highlighted {
 	background-color: #F0F0F0;
@@ -1429,7 +1430,8 @@ body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html dl dd {
 	font-weight: bold
 }
 .gform_wrapper .chzn-container .chzn-results .group-option {
-	padding-left: 20px
+	padding-left: 20px;
+	display:none;
 }
 .gform_wrapper .chzn-container-multi .chzn-drop .result-selected {
 	display: none

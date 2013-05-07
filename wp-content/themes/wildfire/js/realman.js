@@ -104,21 +104,45 @@ var this_form_id = $('input#gform_form_id').val();
       */
 
     /*ORANGE EYE PREVIEW SELECTED ITEM*/
-$('form.cart').find('select').on('change', function () {
+$('form.cart').find('select').on('change', function() {
   var identifikator = $(this).attr('name');
-  var selected_name = $(this).find(":selected").text().replace(/\s+[-+]\$[0-9]+(\.[0-9]+)?/g,'');
   var selected_id = $(this).find(":selected").data('id');
+  var selected_table = $(this).find(":selected").data('bojo');
   $.ajax({
       url: 'http://192.168.0.127/wordpress/wp-admin/admin-ajax.php',
       type: 'post',
       dataType: 'json',
       data: {
         action: 'description_part',
-        selected_id: selected_id
+        selected_id: selected_id, 
+        selected_table: selected_table
       },
       success: function (data) {
+        if ($('div.'+identifikator).hasClass('product_desc-red')) {$('div.'+identifikator).removeClass('product_desc-red')};
+        $('div.'+identifikator).html('<a href="#" class="href_desc"></a><div class="product_tooltip"><div class="product_tooltip_image"><img src="'+data.Imagelink+'" alt=""></div><div class="product_tooltip_popis"><b>'+data.ShortDesc+'</b><br><br>'+data.LongDesc+'</div></div>');
+      }
+    });
+});
 
-        $('div.'+identifikator).html('<a href="#" class="href_desc"></a><div class="product_tooltip"><div class="product_tooltip_image" data-power="'+data.Power+'"><img src="'+data.Picture+'" alt=""></div><div class="product_tooltip_popis">'+data.popis+'</div></div>');
+$('div.product_desc').click(function() {
+  if ($(this).hasClass('product_desc-red')) {$(this).removeClass('product_desc-red')} else{$('div.product_desc').removeClass('product_desc-red');$(this).addClass('product_desc-red')};
+});
+
+$('form.cart').find('select').each(function() {
+  var identifikator = $(this).attr('name');
+  var selected_id = $(this).find(":selected").data('id');
+  var selected_table = $(this).find(":selected").data('bojo');
+  $.ajax({
+      url: 'http://192.168.0.127/wordpress/wp-admin/admin-ajax.php',
+      type: 'post',
+      dataType: 'json',
+      data: {
+        action: 'description_part',
+        selected_id: selected_id, 
+        selected_table: selected_table
+      },
+      success: function (data) {
+        $('div.'+identifikator).html('<a href="#" class="href_desc"></a><div class="product_tooltip"><div class="product_tooltip_image"><img src="'+data.Imagelink+'" alt=""></div><div class="product_tooltip_popis"><b>'+data.ShortDesc+'</b><br><br>'+data.LongDesc+'</div></div>');
       }
     });
 });
